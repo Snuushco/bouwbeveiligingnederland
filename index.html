@@ -1,7 +1,258 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging.">
+    <meta name="keywords" content="bouwbeveiliging, bouwplaatsbeveiliging, beveiliging Limburg, portiersdiensten, camera- en lichtmasten, mobiele surveillance, alarmopvolging">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bouwbeveiligingnederland.nl">
+    <title>Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging</title>
+    <style>
+        :root {
+            --primary: #FFD700;
+            --secondary: #333333;
+            --text: #1a1a1a;
+            --light: #ffffff;
+            --gray: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+        }
+
+        header {
+            background: var(--secondary);
+            color: var(--light);
+            padding: 1rem;
+            position: relative;
+        }
+
+        .location-banner {
+            background: var(--primary);
+            padding: 0.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--light);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: none;
+        }
+
+        .cta-button {
+            background: var(--primary);
+            color: var(--secondary);
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--light);
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .services {
+            padding: 4rem 1rem;
+            background: var(--gray);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: var(--light);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .service-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background: var(--secondary);
+            color: var(--light);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+            }
+
+            .nav-links a {
+                color: var(--light);
+                text-decoration: none;
+            }
+
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Bouwbeveiliging Nederland</h1>
-<p>Dé specialist in bouwplaats beveiliging.</p>
+    <div class="location-banner" id="locationBanner">
+        Dichtstbijzijnde vestiging: <span id="userLocation">Laden...</span>
+    </div>
+
+    <header>
+        <nav>
+            <a href="/" class="logo">Bouwbeveiliging Nederland</a>
+            <div class="nav-links">
+                <a href="#diensten">Diensten</a>
+                <a href="#over-ons">Over Ons</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="tel:+31201234567" class="cta-button">Bel Direct</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Professionele Bouwplaatsbeveiliging</h1>
+        <p>Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland</p>
+        <a href="#contact" class="cta-button" style="margin-top: 2rem;">Vraag Vrijblijvend Voorstel</a>
+    </section>
+
+    <section class="services" id="diensten">
+        <h2>Onze Diensten</h2>
+        <div class="services-grid">
+            <article class="service-card">
+                <h3>Bouwplaatsbeveiliging</h3>
+                <p>Gediplomeerde beveiligers voor optimale beveiliging van uw bouwplaats.</p>
+            </article>
+            <article class="service-card">
+                <h3>Portiersdiensten</h3>
+                <p>Professionele portiers voor toegangscontrole en bezoekersregistratie.</p>
+            </article>
+            <article class="service-card">
+                <h3>Camera- en Lichtmasten</h3>
+                <p>Moderne surveillance-oplossingen voor 24/7 toezicht.</p>
+            </article>
+            <article class="service-card">
+                <h3>Mobiele Surveillance</h3>
+                <p>Flexibele beveiligingsoplossingen voor uw project.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Neem Contact Op</h2>
+        <p>Vraag vrijblijvend een beveiligingsvoorstel aan voor uw project</p>
+        <a href="tel:+31201234567" class="cta-button" style="margin-top: 1rem;">Bel Direct</a>
+    </section>
+
+    <footer>
+        <p>Bouwbeveiliging Nederland is een dienst van Praesidion Security.</p>
+        <p>&copy; 2024 Bouwbeveiliging Nederland. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bouwbeveiliging Nederland",
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "Praesidion Security"
+        },
+        "description": "Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland",
+        "areaServed": {
+            "@type": "State",
+            "name": "Limburg"
+        },
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Netherlands"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Beveiligingsdiensten",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Bouwplaatsbeveiliging",
+                        "description": "Gediplomeerde beveiligers voor bouwplaatsbeveiliging"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Portiersdiensten",
+                        "description": "Professionele portiers voor toegangscontrole"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <script>
+        // Geolocation functionality
+        function updateLocation() {
+            const locationElement = document.getElementById('userLocation');
+            const cities = ['Maastricht', 'Sittard', 'Roermond', 'Heerlen'];
+            
+            // Simulate location detection (in real implementation, use actual geolocation)
+            const randomCity = cities[Math.floor(Math.random() * cities.length)];
+            locationElement.textContent = randomCity;
+        }
+
+        // Update location on page load
+        document.addEventListener('DOMContentLoaded', updateLocation);
+    </script>
 </body>
 </html>

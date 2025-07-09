@@ -1,462 +1,561 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging.">
-    <meta name="keywords" content="bouwbeveiliging, bouwplaatsbeveiliging, beveiliging Limburg, portiersdiensten, camera- en lichtmasten, mobiele surveillance, alarmopvolging">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://bouwbeveiligingnederland.nl">
-    <title>Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging</title>
-    <link rel="icon" type="image/png" href="/favicon_png.png">
-    <style>
-        :root {
-            --primary: #FFD700;
-            --secondary: #333333;
-            --text: #1a1a1a;
-            --light: #ffffff;
-            --gray: #f5f5f5;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
-        }
-
-        header {
-            background: var(--secondary);
-            color: var(--light);
-            padding: 1rem;
-            position: relative;
-        }
-
-        .location-banner {
-            background: var(--primary);
-            padding: 0.5rem;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--light);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .logo img {
-            height: 40px;
-            width: auto;
-        }
-
-        .nav-links {
-            display: none;
-        }
-
-        .cta-button {
-            background: var(--primary);
-            color: var(--secondary);
-            padding: 0.8rem 1.5rem;
-            border: none;
-            border-radius: 4px;
-            font-weight: bold;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
-            background-size: cover;
-            background-position: center;
-            color: var(--light);
-            padding: 4rem 1rem;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .services {
-            padding: 4rem 1rem;
-            background: var(--gray);
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .service-card {
-            background: var(--light);
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .service-card h3 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-        }
-
-        .about {
-            padding: 4rem 1rem;
-            background: var(--light);
-        }
-
-        .contact {
-            padding: 4rem 1rem;
-            text-align: center;
-        }
-
-        .intake-form {
-            max-width: 600px;
-            margin: 2rem auto;
-            background: var(--gray);
-            padding: 2rem;
-            border-radius: 8px;
-            text-align: left;
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-            color: var(--secondary);
-        }
-
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-            font-family: inherit;
-        }
-
-        .form-group textarea {
-            height: 100px;
-            resize: vertical;
-        }
-
-        .submit-btn {
-            background: var(--primary);
-            color: var(--secondary);
-            padding: 1rem 2rem;
-            border: none;
-            border-radius: 4px;
-            font-weight: bold;
-            cursor: pointer;
-            font-size: 1rem;
-            width: 100%;
-        }
-
-        .submit-btn:hover {
-            background: #e6c200;
-        }
-
-        footer {
-            background: var(--secondary);
-            color: var(--light);
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        @media (min-width: 768px) {
-            .nav-links {
-                display: flex;
-                gap: 2rem;
-            }
-
-            .nav-links a {
-                color: var(--light);
-                text-decoration: none;
-            }
-
-            .hero h1 {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging.">
+  <meta name="keywords" content="bouwbeveiliging, bouwplaatsbeveiliging, beveiliging Limburg, portiersdiensten, camera- en lichtmasten, mobiele surveillance, alarmopvolging">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bouwbeveiligingnederland.nl">
+  <title>Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging</title>
+  <link rel="icon" type="image/png" href="favicon_png.png">
+  <style>
+    :root {
+      --primary: #FFD700;
+      --secondary: #333333;
+      --text: #1a1a1a;
+      --light: #ffffff;
+      --gray: #f5f5f5;
+      --accent: #e0e0e0;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--secondary);
+      color: var(--light);
+      padding: 0.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--light);
+    }
+    .logo img {
+      height: 44px;
+      width: 44px;
+      display: block;
+    }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo-text span:first-child {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--light);
+    }
+    .logo-text span:last-child {
+      font-size: 0.8rem;
+      color: var(--accent);
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+    .nav-links a {
+      color: var(--light);
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+    .cta-header {
+      background: var(--primary);
+      color: var(--secondary);
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 1rem;
+      transition: background 0.2s;
+    }
+    .cta-header:hover {
+      background: #e6c200;
+    }
+    /* Hero */
+    .hero {
+      position: relative;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--secondary);
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: blur(2px) brightness(0.7);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: var(--light);
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    .hero-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .hero-logo img {
+      height: 64px;
+      width: 64px;
+      margin-bottom: 0.5rem;
+    }
+    .hero-location {
+      color: var(--primary);
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .hero-sub {
+      font-size: 1.25rem;
+      margin-bottom: 1.2rem;
+      color: #fffbe6;
+    }
+    .hero-sub2 {
+      font-size: 1rem;
+      color: var(--primary);
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .trust-indicators {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .trust-indicator {
+      display: flex;
+      align-items: center;
+      color: var(--light);
+      font-size: 1rem;
+      gap: 0.5rem;
+    }
+    .trust-indicator .check {
+      color: #4caf50;
+      font-size: 1.2rem;
+    }
+    .hero-cta-row {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.2rem;
+    }
+    @media (min-width: 600px) {
+      .hero-cta-row {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+    .cta-main {
+      background: var(--primary);
+      color: var(--secondary);
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: background 0.2s;
+    }
+    .cta-main:hover {
+      background: #e6c200;
+    }
+    .cta-outline {
+      background: var(--light);
+      color: var(--secondary);
+      border: 2px solid var(--primary);
+      padding: 1rem 2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-decoration: none;
+      margin-left: 0;
+      transition: background 0.2s, color 0.2s;
+    }
+    .cta-outline:hover {
+      background: var(--primary);
+      color: var(--secondary);
+    }
+    .urgency {
+      background: #fffbe6;
+      color: #bfa100;
+      display: inline-block;
+      padding: 0.5rem 1.2rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-top: 0.5rem;
+      border: 1px solid #ffe066;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .urgency:hover {
+      background: #fff3bf;
+    }
+    /* Secties */
+    section {
+      padding: 4rem 1rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      color: var(--secondary);
+    }
+    .problem, .solution {
+      background: var(--gray);
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .problem p, .solution p {
+      font-size: 1.15rem;
+      margin-bottom: 1rem;
+    }
+    .solution-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .solution-list li {
+      margin-bottom: 0.75rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .solution-list li:before {
+      content: '✓';
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    /* Testimonials */
+    .testimonials {
+      background: var(--light);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      margin-bottom: 2rem;
+    }
+    .testimonial-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .testimonial {
+      background: var(--gray);
+      border-radius: 8px;
+      padding: 2rem;
+      max-width: 340px;
+      min-width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      font-size: 1rem;
+      color: var(--secondary);
+    }
+    .testimonial .author {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: var(--primary);
+      font-size: 1rem;
+    }
+    /* Contact & Form */
+    .contact {
+      background: var(--gray);
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .contact-info {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .intake-form {
+      max-width: 600px;
+      margin: 2rem auto 0 auto;
+      background: var(--light);
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: left;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: var(--secondary);
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+    .form-group textarea {
+      height: 100px;
+      resize: vertical;
+    }
+    .submit-btn {
+      background: var(--primary);
+      color: var(--secondary);
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      width: 100%;
+      transition: background 0.2s;
+    }
+    .submit-btn:hover {
+      background: #e6c200;
+    }
+    /* Footer */
+    footer {
+      background: var(--secondary);
+      color: var(--light);
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+      font-size: 1rem;
+      margin-top: 3rem;
+    }
+    .footer-link {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="location-banner" id="locationBanner">
-        Dichtstbijzijnde vestiging: <span id="userLocation">Laden...</span>
+  <header>
+    <div class="nav">
+      <a href="/" class="logo">
+        <img src="logo-bouwbeveiliging.svg" alt="Bouwbeveiliging Nederland Logo">
+        <span class="logo-text">
+          <span>Bouwbeveiliging Nederland</span>
+          <span>Onderdeel van Praesidion Security B.V.</span>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="#diensten">Diensten</a>
+        <a href="#over-ons">Over Ons</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="tel:+31462402401" class="cta-header">Bel direct</a>
     </div>
-
-    <header>
-        <nav>
-            <a href="/" class="logo">
-                <img src="logo-bouwbeveiliging.svg" alt="Bouwbeveiliging Nederland Logo">
-                <span style="display: flex; flex-direction: column;">
-                  <span>Bouwbeveiliging Nederland</span>
-                  <span style="font-size: 0.75rem; color: #e0e0e0; font-weight: 400; line-height: 1.2;">Onderdeel van Praesidion Security B.V.</span>
-                </span>
-            </a>
-            <div class="nav-links">
-                <a href="#diensten">Diensten</a>
-                <a href="#over-ons">Over Ons</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <a href="tel:+31462402401" class="cta-button">Bel Direct</a>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h1>Professionele Bouwplaatsbeveiliging</h1>
-        <p>Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland</p>
-        <p style="margin-top: 0.5rem; color: #FFD700; font-weight: bold;">Onderdeel van Praesidion Security B.V.</p>
-        <a href="#contact" class="cta-button" style="margin-top: 2rem;">Vraag Vrijblijvend Voorstel</a>
-    </section>
-
-    <section class="services" id="diensten">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Onze Diensten</h2>
-        <div class="services-grid">
-            <article class="service-card">
-                <h3>Bouwplaatsbeveiliging</h3>
-                <p>Gediplomeerde beveiligers voor optimale beveiliging van uw bouwplaats.</p>
-            </article>
-            <article class="service-card">
-                <h3>Portiersdiensten</h3>
-                <p>Professionele portiers voor toegangscontrole, poortinstructies en bezoekersregistratie.</p>
-            </article>
-            <article class="service-card">
-                <h3>Camera- en Lichtmasten</h3>
-                <p>Flexibele beveiligingsoplossingen voor 24/7 toezicht.</p>
-            </article>
-            <article class="service-card">
-                <h3>Mobiele Surveillance</h3>
-                <p>Moderne surveillance- en alarmopvolgingsdiensten voor uw project.</p>
-            </article>
-        </div>
-    </section>
-
-    <section class="about" id="over-ons" style="padding: 4rem 1rem; background: var(--light);">
-        <div style="max-width: 1200px; margin: 0 auto;">
-            <h2 style="text-align: center; margin-bottom: 2rem;">Over Ons</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-                <article style="background: var(--gray); padding: 2rem; border-radius: 8px;">
-                    <h3 style="color: var(--secondary); margin-bottom: 1rem;">Onze Expertise</h3>
-                    <p>Als specialist in bouwplaatsbeveiliging in Limburg en heel Nederland, bieden wij al jaren professionele beveiligingsdiensten aan de bouwsector. Onze focus ligt op het waarborgen van veiligheid en het voorkomen van diefstal en vandalisme op bouwplaatsen om de continuïteit van het project te waarborgen.</p>
-                </article>
-                <article style="background: var(--gray); padding: 2rem; border-radius: 8px;">
-                    <h3 style="color: var(--secondary); margin-bottom: 1rem;">Certificeringen</h3>
-                    <ul style="list-style-position: inside; margin-top: 1rem;">
-                        <li>Beveiligingsdiploma</li>
-                        <li>Vergunning Korpschef</li>
-                        <li>VCA-certificering</li>
-                        <li>BHV-diploma</li>
-                        <li>Project-specifieke certificeringen op aanvraag</li>
-                    </ul>
-                </article>
-                <article style="background: var(--gray); padding: 2rem; border-radius: 8px;">
-                    <h3 style="color: var(--secondary); margin-bottom: 1rem;">Ervaring</h3>
-                    <p>Wij zijn trots op onze samenwerkingen met toonaangevende bedrijven zoals:</p>
-                    <ul style="list-style-position: inside; margin-top: 1rem;">
-                        <li>SPIE</li>
-                        <li>Heijmans</li>
-                        <li>TenneT</li>
-                        <li>Diverse lokale aannemers</li>
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2>Neem Contact Op</h2>
-        <p>Vraag vrijblijvend een beveiligingsvoorstel aan voor uw project</p>
-        <a href="tel:+31462402401" class="cta-button" style="margin-top: 1rem;">Bel Direct</a>
-        <p style="margin-top: 1rem;">Of stuur een e-mail naar: <a href="mailto:bouw@praesidion.nl">bouw@praesidion.nl</a></p>
-        
-        <div class="intake-form">
-            <h3 style="text-align: center; margin-bottom: 2rem; color: var(--secondary);">Intakeformulier</h3>
-            <form id="intakeForm" onsubmit="sendEmail(event)">
-                <div class="form-group">
-                    <label for="naam">Naam *</label>
-                    <input type="text" id="naam" name="naam" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="bedrijf">Bedrijf *</label>
-                    <input type="text" id="bedrijf" name="bedrijf" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">E-mailadres *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="telefoon">Telefoonnummer</label>
-                    <input type="tel" id="telefoon" name="telefoon">
-                </div>
-                
-                <div class="form-group">
-                    <label for="locatie">Projectlocatie *</label>
-                    <input type="text" id="locatie" name="locatie" placeholder="Bijv. Maastricht, Limburg" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="dienst">Gewenste Dienst *</label>
-                    <select id="dienst" name="dienst" required>
-                        <option value="">Selecteer een dienst</option>
-                        <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
-                        <option value="portiersdiensten">Portiersdiensten</option>
-                        <option value="camera-lichtmasten">Camera- en Lichtmasten</option>
-                        <option value="mobiele-surveillance">Mobiele Surveillance</option>
-                        <option value="alarmopvolging">Alarmopvolging</option>
-                        <option value="meerdere-diensten">Meerdere diensten</option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="projectduur">Geschatte Projectduur</label>
-                    <select id="projectduur" name="projectduur">
-                        <option value="">Selecteer duur</option>
-                        <option value="1-4-weken">1-4 weken</option>
-                        <option value="1-3-maanden">1-3 maanden</option>
-                        <option value="3-6-maanden">3-6 maanden</option>
-                        <option value="6-maanden-plus">6+ maanden</option>
-                        <option value="onbekend">Nog onbekend</option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="bericht">Extra Informatie</label>
-                    <textarea id="bericht" name="bericht" placeholder="Beschrijf uw project, specifieke wensen of vragen..."></textarea>
-                </div>
-                
-                <button type="submit" class="submit-btn">Verstuur Intake</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <p>Bouwbeveiliging Nederland is een dienst van <a href="https://www.praesidion.nl" style="color: var(--light); text-decoration: underline;">Praesidion Security</a>.</p>
-        <p>KvK: 75321718</p>
-        <p>&copy; 2025 Bouwbeveiliging Nederland. Alle rechten voorbehouden.</p>
-    </footer>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bouwbeveiliging Nederland",
-        "parentOrganization": {
-            "@type": "Organization",
-            "name": "Praesidion Security"
-        },
-        "description": "Specialist in bouwplaatsbeveiliging in Limburg (en heel Nederland)",
-        "areaServed": {
-            "@type": "State",
-            "name": "Limburg"
-        },
-        "serviceArea": {
-            "@type": "Country",
-            "name": "Netherlands"
-        },
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Beveiligingsdiensten",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Bouwplaatsbeveiliging",
-                        "description": "Gediplomeerde beveiligers voor bouwplaatsbeveiliging"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Portiersdiensten",
-                        "description": "Professionele portiers voor toegangscontrole"
-                    }
-                }
-            ]
-        }
+  </header>
+  <section class="hero">
+    <img src="hero.jpg" alt="Bouwplaats beveiliging" class="hero-bg">
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="logo-bouwbeveiliging.svg" alt="Logo Bouwbeveiliging Nederland">
+      </div>
+      <div class="hero-location" id="locationBanner">
+        Dichtstbijzijnde vestiging: <span id="userLocation">Laden...</span>
+      </div>
+      <h1 class="hero-title">Professionele bouwplaatsbeveiliging</h1>
+      <div class="hero-sub">Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland</div>
+      <div class="hero-sub2">Onderdeel van Praesidion Security B.V.</div>
+      <div class="trust-indicators">
+        <div class="trust-indicator"><span class="check">✓</span> Vergunning Korpschef</div>
+        <div class="trust-indicator"><span class="check">✓</span> VCA-gecertificeerd</div>
+        <div class="trust-indicator"><span class="check">✓</span> 24/7 inzetbaar</div>
+        <div class="trust-indicator"><span class="check">✓</span> Gratis beveiligingsvoorstel</div>
+      </div>
+      <div class="hero-cta-row">
+        <a href="#intake-form" class="cta-main">Vraag vrijblijvend beveiligingsvoorstel aan</a>
+        <a href="tel:+31462402401" class="cta-outline">Bel direct met onze adviseur</a>
+      </div>
+      <div class="urgency" onclick="document.getElementById('intake-form').scrollIntoView({behavior: 'smooth'})">
+        ⏰ Beperkte beschikbaarheid – Vraag nu uw gratis beveiligingsvoorstel aan
+      </div>
+    </div>
+  </section>
+  <section class="problem">
+    <h2 class="section-title">Waarom bouwplaatsbeveiliging?</h2>
+    <p>
+      Diefstal, vandalisme en onbevoegde toegang zijn grote risico’s op bouwplaatsen. Dit leidt tot vertragingen, schade en extra kosten. Bouwbeveiliging Nederland voorkomt incidenten en zorgt voor rust en continuïteit op uw project.
+    </p>
+  </section>
+  <section class="solution" id="diensten">
+    <h2 class="section-title">Onze oplossingen</h2>
+    <ul class="solution-list">
+      <li>Bouwplaatsbeveiliging met gediplomeerde beveiligers</li>
+      <li>Portiersdiensten voor toegangscontrole</li>
+      <li>Camera- en lichtmasten voor 24/7 toezicht</li>
+      <li>Mobiele surveillance en alarmopvolging</li>
+      <li>Flexibele inzet in Limburg en heel Nederland</li>
+      <li>Certificering: beveiligingsdiploma, vergunning Korpschef, VCA</li>
+    </ul>
+  </section>
+  <section class="testimonials">
+    <h2 class="section-title">Wat onze klanten zeggen</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        “Sinds Bouwbeveiliging Nederland onze bouwplaatsen beveiligt, zijn incidenten verleden tijd. Professioneel en betrouwbaar!”
+        <div class="author">– Projectleider</div>
+      </div>
+      <div class="testimonial">
+        “Snelle service, duidelijke communicatie en altijd een passende oplossing. Aanrader voor elk bouwproject.”
+        <div class="author">– Uitvoerder</div>
+      </div>
+      <div class="testimonial">
+        “De mobiele surveillance en camera’s geven ons 24/7 een veilig gevoel. Topbedrijf!”
+        <div class="author">– Projectmanager</div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact & Advies</h2>
+    <div class="contact-info">
+      <p>Heeft u vragen of wilt u direct een beveiligingsvoorstel? Neem contact op:</p>
+      <p><strong>Telefoon:</strong> <a href="tel:+31462402401" style="color:var(--secondary);text-decoration:underline;">+31 46 240 2401</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:bouw@praesidion.nl" style="color:var(--secondary);text-decoration:underline;">bouw@praesidion.nl</a></p>
+      <p><strong>KvK:</strong> 97640794</p>
+    </div>
+  </section>
+  <section class="intake-form" id="intake-form">
+    <h2 class="section-title">Vrijblijvend beveiligingsvoorstel aanvragen</h2>
+    <form id="intakeForm" onsubmit="sendEmail(event)">
+      <div class="form-group">
+        <label for="naam">Naam *</label>
+        <input type="text" id="naam" name="naam" required>
+      </div>
+      <div class="form-group">
+        <label for="bedrijf">Bedrijf *</label>
+        <input type="text" id="bedrijf" name="bedrijf" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mailadres *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefoon">Telefoonnummer</label>
+        <input type="tel" id="telefoon" name="telefoon">
+      </div>
+      <div class="form-group">
+        <label for="locatie">Projectlocatie *</label>
+        <input type="text" id="locatie" name="locatie" placeholder="Bijv. Maastricht, Limburg" required>
+      </div>
+      <div class="form-group">
+        <label for="dienst">Gewenste Dienst *</label>
+        <select id="dienst" name="dienst" required>
+          <option value="">Selecteer een dienst</option>
+          <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
+          <option value="portiersdiensten">Portiersdiensten</option>
+          <option value="camera-lichtmasten">Camera- en Lichtmasten</option>
+          <option value="mobiele-surveillance">Mobiele Surveillance</option>
+          <option value="alarmopvolging">Alarmopvolging</option>
+          <option value="meerdere-diensten">Meerdere diensten</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="projectduur">Geschatte Projectduur</label>
+        <select id="projectduur" name="projectduur">
+          <option value="">Selecteer duur</option>
+          <option value="1-4-weken">1-4 weken</option>
+          <option value="1-3-maanden">1-3 maanden</option>
+          <option value="3-6-maanden">3-6 maanden</option>
+          <option value="6-maanden-plus">6+ maanden</option>
+          <option value="onbekend">Nog onbekend</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="bericht">Extra Informatie</label>
+        <textarea id="bericht" name="bericht" placeholder="Beschrijf uw project, specifieke wensen of vragen..."></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Verstuur Intake</button>
+    </form>
+  </section>
+  <footer>
+    <p>Bouwbeveiliging Nederland is een dienst van <a href="https://www.praesidion.nl" class="footer-link">Praesidion Security</a>.</p>
+    <p>KvK: 97640794</p>
+    <p>&copy; 2025 Bouwbeveiliging Nederland. Alle rechten voorbehouden.</p>
+  </footer>
+  <script>
+    // Geolocation functionaliteit
+    function updateLocation() {
+      const locationElement = document.getElementById('userLocation');
+      const cities = ['Maastricht', 'Sittard', 'Roermond', 'Heerlen'];
+      // Simuleer locatie (voor demo); in productie: gebruik echte geolocatie
+      const randomCity = cities[Math.floor(Math.random() * cities.length)];
+      locationElement.textContent = randomCity;
     }
-    </script>
-
-    <script>
-        // Geolocation functionality
-        function updateLocation() {
-            const locationElement = document.getElementById('userLocation');
-            const cities = ['Maastricht', 'Sittard', 'Roermond', 'Heerlen'];
-            
-            // Simulate location detection (in real implementation, use actual geolocation)
-            const randomCity = cities[Math.floor(Math.random() * cities.length)];
-            locationElement.textContent = randomCity;
-        }
-
-        // Email form functionality
-        function sendEmail(event) {
-            event.preventDefault();
-            
-            const formData = new FormData(event.target);
-            const data = Object.fromEntries(formData);
-            
-            // Create email body
-            const subject = 'Intakeformulier Bouwbeveiliging Nederland';
-            const body = `
-Nieuwe intake aanvraag van de website:
-
-Naam: ${data.naam}
-Bedrijf: ${data.bedrijf}
-E-mail: ${data.email}
-Telefoon: ${data.telefoon || 'Niet opgegeven'}
-Projectlocatie: ${data.locatie}
-Gewenste Dienst: ${data.dienst}
-Projectduur: ${data.projectduur || 'Niet opgegeven'}
-Extra Informatie: ${data.bericht || 'Geen extra informatie'}
-
----
-Dit bericht is automatisch gegenereerd via het intakeformulier op bouwbeveiligingnederland.nl
-            `.trim();
-            
-            // Create mailto link
-            const mailtoLink = `mailto:bouw@praesidion.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-            
-            // Open default email client
-            window.location.href = mailtoLink;
-            
-            // Show success message
-            alert('Uw intakeformulier is klaar om te versturen. Uw e-mailclient wordt geopend.');
-        }
-
-        // Update location on page load
-        document.addEventListener('DOMContentLoaded', updateLocation);
-    </script>
+    document.addEventListener('DOMContentLoaded', updateLocation);
+    // Intakeformulier mailto functionaliteit
+    function sendEmail(event) {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+      const data = Object.fromEntries(formData);
+      const subject = 'Intakeformulier Bouwbeveiliging Nederland';
+      const body = `\nNieuwe intake aanvraag van de website:\n\nNaam: ${data.naam}\nBedrijf: ${data.bedrijf}\nE-mail: ${data.email}\nTelefoon: ${data.telefoon || 'Niet opgegeven'}\nProjectlocatie: ${data.locatie}\nGewenste Dienst: ${data.dienst}\nProjectduur: ${data.projectduur || 'Niet opgegeven'}\nExtra Informatie: ${data.bericht || 'Geen extra informatie'}\n\n---\nDit bericht is automatisch gegenereerd via het intakeformulier op bouwbeveiligingnederland.nl`;
+      const mailtoLink = `mailto:bouw@praesidion.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink;
+      alert('Uw intakeformulier is klaar om te versturen. Uw e-mailclient wordt geopend.');
+    }
+  </script>
 </body>
 </html>

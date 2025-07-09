@@ -56,6 +56,14 @@
             font-weight: bold;
             color: var(--light);
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
         }
 
         .nav-links {
@@ -123,6 +131,58 @@
             text-align: center;
         }
 
+        .intake-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: var(--gray);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: var(--primary);
+            color: var(--secondary);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background: #e6c200;
+        }
+
         footer {
             background: var(--secondary);
             color: var(--light);
@@ -154,7 +214,10 @@
 
     <header>
         <nav>
-            <a href="/" class="logo">Bouwbeveiliging Nederland</a>
+            <a href="/" class="logo">
+                <img src="/logo-bouwbeveiliging.svg" alt="Bouwbeveiliging Nederland Logo">
+                <span>Bouwbeveiliging Nederland</span>
+            </a>
             <div class="nav-links">
                 <a href="#diensten">Diensten</a>
                 <a href="#over-ons">Over Ons</a>
@@ -229,6 +292,68 @@
         <p>Vraag vrijblijvend een beveiligingsvoorstel aan voor uw project</p>
         <a href="tel:+31462402401" class="cta-button" style="margin-top: 1rem;">Bel Direct</a>
         <p style="margin-top: 1rem;">Of stuur een e-mail naar: <a href="mailto:bouw@praesidion.nl">bouw@praesidion.nl</a></p>
+        
+        <div class="intake-form">
+            <h3 style="text-align: center; margin-bottom: 2rem; color: var(--secondary);">Intakeformulier</h3>
+            <form id="intakeForm" onsubmit="sendEmail(event)">
+                <div class="form-group">
+                    <label for="naam">Naam *</label>
+                    <input type="text" id="naam" name="naam" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="bedrijf">Bedrijf *</label>
+                    <input type="text" id="bedrijf" name="bedrijf" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mailadres *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefoon">Telefoonnummer</label>
+                    <input type="tel" id="telefoon" name="telefoon">
+                </div>
+                
+                <div class="form-group">
+                    <label for="locatie">Projectlocatie *</label>
+                    <input type="text" id="locatie" name="locatie" placeholder="Bijv. Maastricht, Limburg" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="dienst">Gewenste Dienst *</label>
+                    <select id="dienst" name="dienst" required>
+                        <option value="">Selecteer een dienst</option>
+                        <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
+                        <option value="portiersdiensten">Portiersdiensten</option>
+                        <option value="camera-lichtmasten">Camera- en Lichtmasten</option>
+                        <option value="mobiele-surveillance">Mobiele Surveillance</option>
+                        <option value="alarmopvolging">Alarmopvolging</option>
+                        <option value="meerdere-diensten">Meerdere diensten</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="projectduur">Geschatte Projectduur</label>
+                    <select id="projectduur" name="projectduur">
+                        <option value="">Selecteer duur</option>
+                        <option value="1-4-weken">1-4 weken</option>
+                        <option value="1-3-maanden">1-3 maanden</option>
+                        <option value="3-6-maanden">3-6 maanden</option>
+                        <option value="6-maanden-plus">6+ maanden</option>
+                        <option value="onbekend">Nog onbekend</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="bericht">Extra Informatie</label>
+                    <textarea id="bericht" name="bericht" placeholder="Beschrijf uw project, specifieke wensen of vragen..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Verstuur Intake</button>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -289,6 +414,41 @@
             // Simulate location detection (in real implementation, use actual geolocation)
             const randomCity = cities[Math.floor(Math.random() * cities.length)];
             locationElement.textContent = randomCity;
+        }
+
+        // Email form functionality
+        function sendEmail(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData);
+            
+            // Create email body
+            const subject = 'Intakeformulier Bouwbeveiliging Nederland';
+            const body = `
+Nieuwe intake aanvraag van de website:
+
+Naam: ${data.naam}
+Bedrijf: ${data.bedrijf}
+E-mail: ${data.email}
+Telefoon: ${data.telefoon || 'Niet opgegeven'}
+Projectlocatie: ${data.locatie}
+Gewenste Dienst: ${data.dienst}
+Projectduur: ${data.projectduur || 'Niet opgegeven'}
+Extra Informatie: ${data.bericht || 'Geen extra informatie'}
+
+---
+Dit bericht is automatisch gegenereerd via het intakeformulier op bouwbeveiligingnederland.nl
+            `.trim();
+            
+            // Create mailto link
+            const mailtoLink = `mailto:bouw@praesidion.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Open default email client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            alert('Uw intakeformulier is klaar om te versturen. Uw e-mailclient wordt geopend.');
         }
 
         // Update location on page load

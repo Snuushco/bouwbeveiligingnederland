@@ -7,7 +7,7 @@ export default function TestimonialsSection() {
         <div style={{background:'#fff',borderRadius:'12px',padding:'2rem',maxWidth:'340px',minWidth:'220px',boxShadow:'0 4px 16px rgba(0,0,0,0.07)',fontSize:'1rem',color:'#222',display:'flex',flexDirection:'column',justifyContent:'space-between',border:'1px solid #e6eaf1'}}>
           <div style={{color:'#FFD700',fontSize:'1.2rem',marginBottom:'0.5rem'}}>★★★★★</div>
           <div style={{fontStyle:'italic',color:'#222',marginBottom:'1.2rem'}}>
-            "De beveiligers van bouwbeveiligingnederland.nl zijn een verrijking voor onze bouwplaats. Discreet, professioneel en altijd alert."
+            &quot;De beveiligers van bouwbeveiligingnederland.nl zijn een verrijking voor onze bouwplaats. Discreet, professioneel en altijd alert.&quot;
           </div>
           <div style={{borderTop:'1px solid #e6eaf1',paddingTop:'1rem'}}>
             <div style={{fontWeight:'bold'}}>Mevr. Jansen</div>
@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
         <div style={{background:'#fff',borderRadius:'12px',padding:'2rem',maxWidth:'340px',minWidth:'220px',boxShadow:'0 4px 16px rgba(0,0,0,0.07)',fontSize:'1rem',color:'#222',display:'flex',flexDirection:'column',justifyContent:'space-between',border:'1px solid #e6eaf1'}}>
           <div style={{color:'#FFD700',fontSize:'1.2rem',marginBottom:'0.5rem'}}>★★★★★</div>
           <div style={{fontStyle:'italic',color:'#222',marginBottom:'1.2rem'}}>
-            "Sinds de komst van bouwbeveiligingnederland.nl voelen onze medewerkers zich veiliger. Altijd bereikbaar en betrouwbaar."
+            &quot;Sinds de komst van bouwbeveiligingnederland.nl voelen onze medewerkers zich veiliger. Altijd bereikbaar en betrouwbaar.&quot;
           </div>
           <div style={{borderTop:'1px solid #e6eaf1',paddingTop:'1rem'}}>
             <div style={{fontWeight:'bold'}}>Dhr. Bakker</div>
@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
         <div style={{background:'#fff',borderRadius:'12px',padding:'2rem',maxWidth:'340px',minWidth:'220px',boxShadow:'0 4px 16px rgba(0,0,0,0.07)',fontSize:'1rem',color:'#222',display:'flex',flexDirection:'column',justifyContent:'space-between',border:'1px solid #e6eaf1'}}>
           <div style={{color:'#FFD700',fontSize:'1.2rem',marginBottom:'0.5rem'}}>★★★★★</div>
           <div style={{fontStyle:'italic',color:'#222',marginBottom:'1.2rem'}}>
-            "Professionele service, snelle reactietijden en beveiligers die echt oog hebben voor de bouwplaats."
+            &quot;Professionele service, snelle reactietijden en beveiligers die echt oog hebben voor de bouwplaats.&quot;
           </div>
           <div style={{borderTop:'1px solid #e6eaf1',paddingTop:'1rem'}}>
             <div style={{fontWeight:'bold'}}>Mevr. de Vries</div>

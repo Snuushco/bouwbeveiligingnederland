@@ -33,7 +33,7 @@ export default function Footer() {
         <div style={{borderTop:'1px solid #333',marginTop:'2.5rem',paddingTop:'2rem',textAlign:'center',color:'#aaa'}}>
           <p style={{fontSize:'1.1rem',fontWeight:'bold',color:'#fff',marginBottom:'0.2rem'}}>bouwbeveiligingnederland.nl</p>
           <span style={{fontSize:'1rem'}}>
-            &copy; {new Date().getFullYear()} bouwbeveiligingnederland.nl | Onderdeel van <a href="https://praesidion.nl" target="_blank" rel="noopener noreferrer" style={{color:'#FFD700',textDecoration:'underline'}}>Praesidion Security B.V.</a> 'Uw veiligheid, onze zorg'
+            &copy; {new Date().getFullYear()} bouwbeveiligingnederland.nl | Onderdeel van <a href="https://praesidion.nl" target="_blank" rel="noopener noreferrer" style={{color:'#FFD700',textDecoration:'underline'}}>Praesidion Security B.V.</a> &#39;Uw veiligheid, onze zorg&#39;
           </span>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Link from 'next/link';
 
 const sectors = [
   {
@@ -56,7 +56,7 @@ export default function DienstenPage() {
               <h1 style={{fontSize:'2.2rem',fontWeight:'bold'}}>Overige diensten & sectoren</h1>
               <p style={{color:'#fff',marginTop:'0.5rem'}}>bouwbeveiligingnederland.nl - Onderdeel van Praesidion Security B.V.</p>
             </div>
-            <a href="/" style={{background:'#FFD700',color:'#222',padding:'0.7rem 1.5rem',borderRadius:'4px',fontWeight:'bold',textDecoration:'none',fontSize:'1rem'}}>← Terug naar home</a>
+            <Link href="/" style={{background:'#FFD700',color:'#222',padding:'0.7rem 1.5rem',borderRadius:'4px',fontWeight:'bold',textDecoration:'none',fontSize:'1rem'}}>← Terug naar home</Link>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function DienstenPage() {
         {/* Sectors Grid */}
         <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:'2rem'}}>
           {sectors.map((sector, index) => (
-            <a
+            <Link
               key={index}
               href={sector.url}
               target={sector.current ? undefined : '_blank'}
@@ -110,7 +110,7 @@ export default function DienstenPage() {
                   <li key={featureIndex} style={{marginBottom:'0.3rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>•</span>{feature}</li>
                 ))}
               </ul>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

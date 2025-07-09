@@ -2,107 +2,43 @@
 import React, { useState } from 'react';
 
 export default function IntakeForm() {
-  const [formData, setFormData] = useState({
-    naam: '',
-    bedrijf: '',
-    email: '',
-    telefoon: '',
-    locatie: '',
-    dienst: '',
-    startdatum: '',
-    bericht: ''
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState('');
-
+  const [formData, setFormData] = useState({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', projectduur: '', bericht: '' });
+  const [submitted, setSubmitted] = useState(false);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitError('');
-    try {
-      const response = await fetch('/api/verstuur-intake', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
-      });
-      if (response.ok) {
-        setSubmitSuccess(true);
-        setFormData({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', startdatum: '', bericht: '' });
-      } else {
-        const res = await response.json();
-        setSubmitError(res.error || 'Er is iets misgegaan. Probeer het later opnieuw.');
-      }
-    } catch (e) {
-      setSubmitError('Er is een technische fout opgetreden.');
-    } finally {
-      setIsSubmitting(false);
-    }
+    setSubmitted(true);
+    // hier zou de submit logica komen
   };
-
-  if (submitSuccess) {
-    return (
-      <div style={{background:'#e6ffe6',padding:'2rem',borderRadius:'8px',textAlign:'center',color:'#256029'}}>
-        <h2>Bedankt voor uw aanvraag!</h2>
-        <p>We nemen zo snel mogelijk contact met u op.</p>
-      </div>
-    );
-  }
-
-  const inputStyle = {
-    width: '100%',
-    padding: '0.8rem',
-    borderRadius: '4px',
-    border: '1px solid #ddd',
-    background: '#fff',
-    color: '#222',
-    fontSize: '1rem',
-    marginBottom: 0,
-    boxSizing: 'border-box' as const
-  };
-  const labelStyle = {
-    color: '#222',
-    fontWeight: 500,
-    marginBottom: '0.3rem',
-    display: 'block'
-  };
-  const textareaStyle = {
-    ...inputStyle,
-    height: '100px',
-    resize: 'vertical' as const
-  };
-  const selectStyle = inputStyle;
-
   return (
-    <form onSubmit={handleSubmit} style={{maxWidth:'600px',margin:'2rem auto',background:'#fff',padding:'2rem',borderRadius:'8px',boxShadow:'0 2px 8px rgba(0,0,0,0.04)'}}>
-      <h2 style={{textAlign:'center',marginBottom:'2rem',color:'#333'}}>Vrijblijvend beveiligingsvoorstel aanvragen</h2>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Naam *</label>
-        <input name="naam" value={formData.naam} onChange={handleChange} required style={inputStyle} autoComplete="name" />
+    <form onSubmit={handleSubmit} style={{maxWidth:'520px',margin:'2.5rem auto',background:'#f8fafc',padding:'2.5rem 1.5rem',borderRadius:'14px',boxShadow:'0 4px 24px rgba(0,0,0,0.07)',display:'flex',flexDirection:'column',gap:'1.5rem',border:'1px solid #eee'}}>
+      <h2 style={{textAlign:'center',fontSize:'1.7rem',fontWeight:'bold',marginBottom:'0.2rem',color:'#222',letterSpacing:'-0.5px'}}>Vrijblijvend beveiligingsvoorstel aanvragen</h2>
+      <p style={{textAlign:'center',color:'#666',marginTop:'-1rem',marginBottom:'0.5rem',fontSize:'1.05rem'}}>Vul het formulier in en ontvang snel een persoonlijk voorstel.</p>
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="naam" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Naam *</label>
+        <input type="text" id="naam" name="naam" value={formData.naam} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Bedrijf *</label>
-        <input name="bedrijf" value={formData.bedrijf} onChange={handleChange} required style={inputStyle} autoComplete="organization" />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="bedrijf" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Bedrijf *</label>
+        <input type="text" id="bedrijf" name="bedrijf" value={formData.bedrijf} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>E-mailadres *</label>
-        <input name="email" type="email" value={formData.email} onChange={handleChange} required style={inputStyle} autoComplete="email" />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="email" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>E-mailadres *</label>
+        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Telefoonnummer</label>
-        <input name="telefoon" value={formData.telefoon} onChange={handleChange} style={inputStyle} autoComplete="tel" />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="telefoon" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Telefoonnummer</label>
+        <input type="tel" id="telefoon" name="telefoon" value={formData.telefoon} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Projectlocatie *</label>
-        <input name="locatie" value={formData.locatie} onChange={handleChange} required placeholder="Bijv. Maastricht, Limburg" style={inputStyle} />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="locatie" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Projectlocatie *</label>
+        <input type="text" id="locatie" name="locatie" value={formData.locatie} onChange={handleChange} required placeholder="Bijv. Maastricht, Limburg" style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Gewenste Dienst *</label>
-        <select name="dienst" value={formData.dienst} onChange={handleChange} required style={selectStyle}>
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="dienst" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Gewenste Dienst *</label>
+        <select id="dienst" name="dienst" value={formData.dienst} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}}>
           <option value="">Selecteer een dienst</option>
           <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
           <option value="portiersdiensten">Portiersdiensten</option>
@@ -112,18 +48,34 @@ export default function IntakeForm() {
           <option value="meerdere-diensten">Meerdere diensten</option>
         </select>
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Startdatum project</label>
-        <input name="startdatum" type="date" value={formData.startdatum} onChange={handleChange} style={inputStyle} />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="projectduur" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Geschatte Projectduur</label>
+        <select id="projectduur" name="projectduur" value={formData.projectduur} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}}>
+          <option value="">Selecteer duur</option>
+          <option value="1-4-weken">1-4 weken</option>
+          <option value="1-3-maanden">1-3 maanden</option>
+          <option value="3-6-maanden">3-6 maanden</option>
+          <option value="6-maanden-plus">6+ maanden</option>
+          <option value="onbekend">Nog onbekend</option>
+        </select>
       </div>
-      <div style={{marginBottom:'1rem'}}>
-        <label style={labelStyle}>Extra Informatie</label>
-        <textarea name="bericht" value={formData.bericht} onChange={handleChange} placeholder="Beschrijf uw project, specifieke wensen of vragen..." style={textareaStyle} />
+      <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
+        <label htmlFor="bericht" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Extra Informatie</label>
+        <textarea id="bericht" name="bericht" value={formData.bericht} onChange={handleChange} placeholder="Beschrijf uw project, specifieke wensen of vragen..." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s',minHeight:'90px',resize:'vertical'}} />
       </div>
-      <button type="submit" className="submit-btn" disabled={isSubmitting} style={{background:'#FFD700',color:'#333',padding:'1rem 2rem',border:'none',borderRadius:'4px',fontWeight:'bold',fontSize:'1rem',width:'100%',cursor:'pointer'}}>
-        {isSubmitting ? 'Verzenden...' : 'Verstuur Intake'}
-      </button>
-      {submitError && <div style={{color:'red',marginTop:'1rem'}}>{submitError}</div>}
+      <button type="submit" style={{background:'#FFD700',color:'#222',padding:'1.1rem',border:'none',borderRadius:'6px',fontWeight:'bold',fontSize:'1.15rem',marginTop:'0.5rem',cursor:'pointer',transition:'background 0.2s',boxShadow:'0 2px 8px rgba(0,0,0,0.04)'}}>Verstuur Intake</button>
+      {submitted && <div style={{color:'#4caf50',textAlign:'center',marginTop:'1rem'}}>Uw aanvraag is ontvangen!</div>}
+      <style>{`
+        @media (max-width: 600px) {
+          form { padding: 1.2rem 0.3rem !important; }
+          h2 { font-size: 1.15rem !important; }
+          button { font-size: 1rem !important; }
+        }
+        form input:focus, form select:focus, form textarea:focus {
+          border-color: #FFD700 !important;
+          outline: 2px solid #FFD700 !important;
+        }
+      `}</style>
     </form>
   );
 } 

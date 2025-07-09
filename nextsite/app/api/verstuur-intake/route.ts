@@ -33,7 +33,6 @@ export async function POST(request: NextRequest) {
         <tr><td><b>Dienst:</b></td><td>${data.dienst}</td></tr>
         <tr><td><b>Startdatum project:</b></td><td>${data.startdatum || 'Niet opgegeven'}</td></tr>
         <tr><td><b>Extra info:</b></td><td>${data.bericht || 'Geen'}</td></tr>
-        <tr><td><b>KvK:</b></td><td>97640794</td></tr>
       </table>
       <p style="color:#888;font-size:12px;">Deze aanvraag is automatisch gegenereerd via bouwbeveiligingnederland.nl</p>
     `
@@ -44,7 +43,7 @@ export async function POST(request: NextRequest) {
       html: htmlContent,
     })
     return NextResponse.json({ success: true })
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
   }
 } 

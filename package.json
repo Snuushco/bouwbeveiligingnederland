@@ -1,13 +1,5 @@
 {
   "name": "bouwbeveiligingnederland",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "cd nextsite && npm run build",
-    "dev": "cd nextsite && npm run dev",
-    "start": "cd nextsite && npm run start"
-  },
-  "workspaces": [
-    "nextsite"
-  ]
+  "private": true
 } 

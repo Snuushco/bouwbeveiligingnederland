@@ -1,6 +1,9 @@
-# Include only the nextsite directory and essential files
-!nextsite/
-!package.json
-!vercel.json
-# Exclude everything else
-* 
+# Exclude unnecessary files
+node_modules/
+.git/
+*.log
+.env.local
+.env.example
+.DS_Store
+Thumbs.db
+README.md 

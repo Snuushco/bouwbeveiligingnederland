@@ -1,4 +1,6 @@
-# Only include the nextsite directory
+# Include only the nextsite directory and essential files
 !nextsite/
+!package.json
+!vercel.json
 # Exclude everything else
 * 

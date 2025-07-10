@@ -1,3 +1,6 @@
 {
-  "rootDirectory": "nextsite"
+  "buildCommand": "cd nextsite && npm run build",
+  "installCommand": "cd nextsite && npm install",
+  "outputDirectory": "nextsite/.next",
+  "framework": "nextjs"
 } 

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 export default function IntakeForm() {
-  const [formData, setFormData] = useState({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', projectduur: '', bericht: '' });
+  const [formData, setFormData] = useState({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', startdatum: '', bericht: '' });
   const [submitted, setSubmitted] = useState(false);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -49,8 +49,8 @@ export default function IntakeForm() {
         </select>
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
-        <label htmlFor="projectduur" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Geschatte Projectduur</label>
-        <input type="text" id="projectduur" name="projectduur" value={formData.projectduur} onChange={handleChange} placeholder="Bijv. 3 maanden, 6 weken, etc." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <label htmlFor="startdatum" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Startdatum Project</label>
+        <input type="date" id="startdatum" name="startdatum" value={formData.startdatum} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="bericht" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Extra Informatie</label>

@@ -1,0 +1,9 @@
+# Exclude unnecessary files
+node_modules/
+.git/
+*.log
+.env.local
+.env.example
+.DS_Store
+Thumbs.db
+README.md 

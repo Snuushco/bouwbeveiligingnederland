@@ -1,9 +1,10 @@
-# Exclude unnecessary files
+# Exclude unnecessary files from deployment
 node_modules/
 .git/
+.gitignore
+README.md
 *.log
 .env.local
 .env.example
 .DS_Store
-Thumbs.db
-README.md 
+Thumbs.db 

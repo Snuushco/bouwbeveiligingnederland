@@ -18,50 +18,43 @@ export default function IntakeForm() {
       <p style={{textAlign:'center',color:'#666',marginTop:'-1rem',marginBottom:'0.5rem',fontSize:'1.05rem'}}>Vul het formulier in en ontvang snel een persoonlijk voorstel.</p>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="naam" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Naam *</label>
-        <input type="text" id="naam" name="naam" value={formData.naam} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <input type="text" id="naam" name="naam" value={formData.naam} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="bedrijf" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Bedrijf *</label>
-        <input type="text" id="bedrijf" name="bedrijf" value={formData.bedrijf} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <input type="text" id="bedrijf" name="bedrijf" value={formData.bedrijf} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="email" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>E-mailadres *</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="telefoon" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Telefoonnummer</label>
-        <input type="tel" id="telefoon" name="telefoon" value={formData.telefoon} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <input type="tel" id="telefoon" name="telefoon" value={formData.telefoon} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="locatie" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Projectlocatie *</label>
-        <input type="text" id="locatie" name="locatie" value={formData.locatie} onChange={handleChange} required placeholder="Bijv. Maastricht, Limburg" style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}} />
+        <input type="text" id="locatie" name="locatie" value={formData.locatie} onChange={handleChange} required placeholder="Bijv. Maastricht, Limburg" style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="dienst" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Gewenste Dienst *</label>
-        <select id="dienst" name="dienst" value={formData.dienst} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}}>
-          <option value="">Selecteer een dienst</option>
-          <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
-          <option value="portiersdiensten">Portiersdiensten</option>
-          <option value="camera-lichtmasten">Camera- en Lichtmasten</option>
-          <option value="mobiele-surveillance">Mobiele Surveillance</option>
-          <option value="alarmopvolging">Alarmopvolging</option>
-          <option value="meerdere-diensten">Meerdere diensten</option>
+        <select id="dienst" name="dienst" value={formData.dienst} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}}>
+          <option value="" style={{color:'#666'}}>Selecteer een dienst</option>
+          <option value="bouwplaatsbeveiliging" style={{color:'#333'}}>Bouwplaatsbeveiliging</option>
+          <option value="portiersdiensten" style={{color:'#333'}}>Portiersdiensten</option>
+          <option value="camera-lichtmasten" style={{color:'#333'}}>Camera- en Lichtmasten</option>
+          <option value="mobiele-surveillance" style={{color:'#333'}}>Mobiele Surveillance</option>
+          <option value="alarmopvolging" style={{color:'#333'}}>Alarmopvolging</option>
+          <option value="meerdere-diensten" style={{color:'#333'}}>Meerdere diensten</option>
         </select>
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="projectduur" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Geschatte Projectduur</label>
-        <select id="projectduur" name="projectduur" value={formData.projectduur} onChange={handleChange} style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s'}}>
-          <option value="">Selecteer duur</option>
-          <option value="1-4-weken">1-4 weken</option>
-          <option value="1-3-maanden">1-3 maanden</option>
-          <option value="3-6-maanden">3-6 maanden</option>
-          <option value="6-maanden-plus">6+ maanden</option>
-          <option value="onbekend">Nog onbekend</option>
-        </select>
+        <input type="text" id="projectduur" name="projectduur" value={formData.projectduur} onChange={handleChange} placeholder="Bijv. 3 maanden, 6 weken, etc." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
       </div>
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="bericht" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Extra Informatie</label>
-        <textarea id="bericht" name="bericht" value={formData.bericht} onChange={handleChange} placeholder="Beschrijf uw project, specifieke wensen of vragen..." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',outlineColor:'#FFD700',transition:'border 0.2s',minHeight:'90px',resize:'vertical'}} />
+        <textarea id="bericht" name="bericht" value={formData.bericht} onChange={handleChange} placeholder="Beschrijf uw project, specifieke wensen of vragen..." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s',minHeight:'90px',resize:'vertical'}} />
       </div>
       <button type="submit" style={{background:'#FFD700',color:'#222',padding:'1.1rem',border:'none',borderRadius:'6px',fontWeight:'bold',fontSize:'1.15rem',marginTop:'0.5rem',cursor:'pointer',transition:'background 0.2s',boxShadow:'0 2px 8px rgba(0,0,0,0.04)'}}>Verstuur Intake</button>
       {submitted && <div style={{color:'#4caf50',textAlign:'center',marginTop:'1rem'}}>Uw aanvraag is ontvangen!</div>}
@@ -74,6 +67,13 @@ export default function IntakeForm() {
         form input:focus, form select:focus, form textarea:focus {
           border-color: #FFD700 !important;
           outline: 2px solid #FFD700 !important;
+        }
+        form input::placeholder, form textarea::placeholder {
+          color: #999 !important;
+        }
+        form select option {
+          color: #333 !important;
+          background: #fff !important;
         }
       `}</style>
     </form>

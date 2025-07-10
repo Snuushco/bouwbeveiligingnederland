@@ -1,0 +1,4 @@
+# Only include the nextsite directory
+!nextsite/
+# Exclude everything else
+* 

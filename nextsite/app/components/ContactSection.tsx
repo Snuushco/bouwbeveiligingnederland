@@ -7,7 +7,7 @@ const LIGHT = '#fff';
 
 export default function ContactSection() {
   return (
-    <section style={{background:PRIMARY,padding:'3.5rem 0 3rem 0',borderRadius:'0',margin:'0 0 2rem 0',boxShadow:'0 2px 8px rgba(0,0,0,0.03)'}}>
+    <section id="contact" style={{background:PRIMARY,padding:'3.5rem 0 3rem 0',borderRadius:'0',margin:'0 0 2rem 0',boxShadow:'0 2px 8px rgba(0,0,0,0.03)'}}>
       <div style={{maxWidth:'1100px',margin:'0 auto',padding:'0 1rem'}}>
         <h2 style={{textAlign:'center',fontSize:'2.2rem',fontWeight:'bold',color:SECONDARY,marginBottom:'0.7rem'}}>Neem direct contact op</h2>
         <p style={{textAlign:'center',color:SECONDARY,opacity:0.85,fontSize:'1.15rem',marginBottom:'2.5rem'}}>Klaar om uw bouwproject veiliger te maken? Neem contact op voor een vrijblijvend gesprek.</p>

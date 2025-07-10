@@ -56,6 +56,9 @@ export default function TestimonialsSection() {
           <div style={{color:'#7a8ca3',fontSize:'1.05rem'}}>Vergunningnummer</div>
         </div>
       </div>
+      <div style={{textAlign:'center',paddingBottom:'2rem'}}>
+        <a href="#intakeform" style={{display:'inline-block',background:'#FFD700',color:'#333',fontWeight:'bold',padding:'1rem 2rem',borderRadius:'8px',textDecoration:'none',fontSize:'1.2rem',boxShadow:'0 4px 12px rgba(255,215,0,0.3)',border:'2px solid #FFD700',transition:'all 0.3s ease'}}>Word ook klant</a>
+      </div>
     </section>
   );
 } 

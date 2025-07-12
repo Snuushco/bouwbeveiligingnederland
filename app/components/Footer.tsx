@@ -16,8 +16,7 @@ export default function Footer() {
             <div style={{fontSize:'1rem',color:'#ccc',lineHeight:'1.7'}}>
               <p style={{margin:'0'}}>Vergunningnummer: ND 6250</p>
               <p style={{margin:'0'}}>KvK: 97640794</p>
-              <p style={{margin:'0'}}>BTW: NL002280171B48</p>
-              <p style={{margin:'0'}}>IBAN: NL23 KNAB 0616 6155 90</p>
+              <p style={{margin:'0'}}>BTW: NL868152237B01</p>
             </div>
           </div>
           {/* Links */}

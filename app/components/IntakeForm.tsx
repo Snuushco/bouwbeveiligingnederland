@@ -4,18 +4,53 @@ import React, { useState } from 'react';
 export default function IntakeForm() {
   const [formData, setFormData] = useState({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', startdatum: '', bericht: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    // hier zou de submit logica komen
+    setLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/verstuur-intake', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({ naam: '', bedrijf: '', email: '', telefoon: '', locatie: '', dienst: '', startdatum: '', bericht: '' });
+      } else {
+        setError(result.error || 'Er is een fout opgetreden bij het versturen van het formulier.');
+      }
+    } catch (err) {
+      setError('Er is een fout opgetreden bij het versturen van het formulier.');
+    } finally {
+      setLoading(false);
+    }
   };
+
   return (
     <form onSubmit={handleSubmit} style={{maxWidth:'520px',margin:'2.5rem auto',background:'#f8fafc',padding:'2.5rem 1.5rem',borderRadius:'14px',boxShadow:'0 4px 24px rgba(0,0,0,0.07)',display:'flex',flexDirection:'column',gap:'1.5rem',border:'1px solid #eee'}}>
       <h2 style={{textAlign:'center',fontSize:'1.7rem',fontWeight:'bold',marginBottom:'0.2rem',color:'#222',letterSpacing:'-0.5px'}}>Vrijblijvend beveiligingsvoorstel aanvragen</h2>
       <p style={{textAlign:'center',color:'#666',marginTop:'-1rem',marginBottom:'0.5rem',fontSize:'1.05rem'}}>Vul het formulier in en ontvang snel een persoonlijk voorstel.</p>
+      
+      {error && (
+        <div style={{background:'#fee',color:'#c33',padding:'1rem',borderRadius:'6px',border:'1px solid #fcc',textAlign:'center'}}>
+          {error}
+        </div>
+      )}
+
       <div style={{display:'flex',flexDirection:'column',gap:'0.5rem'}}>
         <label htmlFor="naam" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Naam *</label>
         <input type="text" id="naam" name="naam" value={formData.naam} onChange={handleChange} required style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s'}} />
@@ -56,8 +91,26 @@ export default function IntakeForm() {
         <label htmlFor="bericht" style={{fontWeight:'bold',color:'#222',fontSize:'1.05rem'}}>Extra Informatie</label>
         <textarea id="bericht" name="bericht" value={formData.bericht} onChange={handleChange} placeholder="Beschrijf uw project, specifieke wensen of vragen..." style={{padding:'1rem',fontSize:'1.05rem',borderRadius:'6px',border:'1.5px solid #ddd',background:'#fff',color:'#333',outlineColor:'#FFD700',transition:'border 0.2s',minHeight:'90px',resize:'vertical'}} />
       </div>
-      <button type="submit" style={{background:'#FFD700',color:'#222',padding:'1.1rem',border:'none',borderRadius:'6px',fontWeight:'bold',fontSize:'1.15rem',marginTop:'0.5rem',cursor:'pointer',transition:'background 0.2s',boxShadow:'0 2px 8px rgba(0,0,0,0.04)'}}>Verstuur Intake</button>
-      {submitted && <div style={{color:'#4caf50',textAlign:'center',marginTop:'1rem'}}>Uw aanvraag is ontvangen!</div>}
+      <button 
+        type="submit" 
+        disabled={loading}
+        style={{
+          background: loading ? '#ccc' : '#FFD700',
+          color:'#222',
+          padding:'1.1rem',
+          border:'none',
+          borderRadius:'6px',
+          fontWeight:'bold',
+          fontSize:'1.15rem',
+          marginTop:'0.5rem',
+          cursor: loading ? 'not-allowed' : 'pointer',
+          transition:'background 0.2s',
+          boxShadow:'0 2px 8px rgba(0,0,0,0.04)'
+        }}
+      >
+        {loading ? 'Versturen...' : 'Verstuur Intake'}
+      </button>
+      {submitted && <div style={{color:'#4caf50',textAlign:'center',marginTop:'1rem'}}>Uw aanvraag is ontvangen! We nemen binnen 2 uur contact met u op.</div>}
       <style>{`
         @media (max-width: 600px) {
           form { padding: 1.2rem 0.3rem !important; }

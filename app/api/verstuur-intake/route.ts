@@ -43,7 +43,13 @@ export async function POST(request: NextRequest) {
       html: htmlContent,
     })
     return NextResponse.json({ success: true })
-  } catch {
+  } catch (err) {
+    // Uitgebreide logging voor debuggen op Vercel
+    console.error('Fout bij versturen intake:', err)
+    console.error('SMTP_HOST:', process.env.SMTP_HOST)
+    console.error('SMTP_PORT:', process.env.SMTP_PORT)
+    console.error('SMTP_USER:', process.env.SMTP_USER)
+    // Let op: wachtwoord niet loggen!
     return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
   }
 } 

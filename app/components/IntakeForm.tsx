@@ -33,7 +33,7 @@ export default function IntakeForm() {
       } else {
         setError(result.error || 'Er is een fout opgetreden bij het versturen van het formulier.');
       }
-    } catch (err) {
+    } catch {
       setError('Er is een fout opgetreden bij het versturen van het formulier.');
     } finally {
       setLoading(false);

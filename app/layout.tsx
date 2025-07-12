@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: 'Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging',
@@ -16,16 +17,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
         <meta name="robots" content="index, follow" />
+      </head>
+      <body>
+        {children}
         {/* Google Analytics 4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `window.dataLayer = window.dataLayer || [];
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');`
-        }} />
-      </head>
-      <body>{children}</body>
+            gtag('config', 'G-XXXXXXXXXX');
+          `}
+        </Script>
+      </body>
     </html>
   );
 }

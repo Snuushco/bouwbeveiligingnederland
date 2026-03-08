@@ -15,7 +15,7 @@ export default function Footer() {
             <small style={{ color: '#FFD700' }}>Bouwbeveiliging Nederland is een onderdeel van</small>
             <h3 style={{ fontSize: '1.15rem', fontWeight: 'bold', margin: '0.5rem 0 1rem 0' }}>Praesidion Security B.V.</h3>
             <div style={{ fontSize: '1rem', color: '#ccc', lineHeight: '1.7' }}>
-              <p style={{ margin: '0' }}>Vergunningnummer: ND 8969</p>
+              <p style={{ margin: '0' }}>Vergunningnummer: ND 8968</p>
               <p style={{ margin: '0' }}>KvK: 97640794</p>
               <p style={{ margin: '0' }}>Tel: <a href="tel:+31462402401" style={{ color: '#FFD700' }}>046 240 2401</a></p>
             </div>

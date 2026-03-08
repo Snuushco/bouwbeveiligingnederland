@@ -52,7 +52,7 @@ export default function TestimonialsSection() {
           <div style={{color:'#7a8ca3',fontSize:'1.05rem'}}>Jaar ervaring</div>
         </div>
         <div style={{textAlign:'center'}}>
-          <div style={{color:'#3b6eea',fontWeight:'bold',fontSize:'2rem',marginBottom:'0.2rem'}}>ND 8969</div>
+          <div style={{color:'#3b6eea',fontWeight:'bold',fontSize:'2rem',marginBottom:'0.2rem'}}>ND 8968</div>
           <div style={{color:'#7a8ca3',fontSize:'1.05rem'}}>Vergunningnummer</div>
         </div>
       </div>

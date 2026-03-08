@@ -93,7 +93,7 @@ export default function BouwplaatsbeveiligingPage() {
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
             {[
-              { title: 'Erkend beveiligingsbedrijf', desc: 'Vergunningnummer ND 8969, volledig gecertificeerd en verzekerd' },
+              { title: 'Erkend beveiligingsbedrijf', desc: 'Vergunningnummer ND 8968, volledig gecertificeerd en verzekerd' },
               { title: 'Ervaring in de bouw', desc: 'Jarenlange ervaring met bouwplaatsbeveiliging bij kleine en grote projecten' },
               { title: 'Lokale kennis', desc: 'Gevestigd in Limburg, actief in heel Nederland. Wij kennen de regio' },
               { title: 'Maatwerk', desc: 'Elke bouwplaats is anders. Wij leveren een oplossing die past bij uw project en budget' },

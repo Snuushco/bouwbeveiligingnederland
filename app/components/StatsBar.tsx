@@ -21,7 +21,7 @@ export default function StatsBar() {
           <div style={{color:SECONDARY,opacity:0.7,fontSize:'1.05rem'}}>Jaar ervaring</div>
         </div>
         <div style={{textAlign:'center',minWidth:120,margin:'0 0.5rem'}}>
-          <div style={{color:PRIMARY,fontWeight:700,fontSize:'2rem',marginBottom:2}}>ND 6250</div>
+          <div style={{color:PRIMARY,fontWeight:700,fontSize:'2rem',marginBottom:2}}>ND 8969</div>
           <div style={{color:SECONDARY,opacity:0.7,fontSize:'1.05rem'}}>Vergunningnummer</div>
         </div>
       </div>

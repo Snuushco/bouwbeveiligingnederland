@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Over Ons | Bouwbeveiliging Nederland — Praesidion Security B.V.',
-  description: 'Leer meer over Bouwbeveiliging Nederland, onderdeel van Praesidion Security B.V. Erkend beveiligingsbedrijf met vergunningnummer ND 6250.',
+  description: 'Leer meer over Bouwbeveiliging Nederland, onderdeel van Praesidion Security B.V. Erkend beveiligingsbedrijf met vergunningnummer ND 8969.',
   openGraph: {
     title: 'Over Ons | Bouwbeveiliging Nederland',
     description: 'Praesidion Security B.V. — erkend beveiligingsbedrijf met jarenlange ervaring.',
@@ -51,7 +51,7 @@ export default function OverOnsPage() {
               <div style={{ color: '#555', lineHeight: 2 }}>
                 <p><strong>Bedrijf:</strong> Praesidion Security B.V.</p>
                 <p><strong>Handelsnaam:</strong> Bouwbeveiliging Nederland</p>
-                <p><strong>Vergunning:</strong> ND 6250</p>
+                <p><strong>Vergunning:</strong> ND 8969</p>
                 <p><strong>KvK:</strong> 97640794</p>
                 <p><strong>BTW:</strong> NL868152237B01</p>
                 <p><strong>Telefoon:</strong> <a href="tel:+31462402401" style={{ color: '#FFD700' }}>046 240 2401</a></p>
@@ -70,7 +70,7 @@ export default function OverOnsPage() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
               {[
                 {
-                  title: 'Beveiligingsvergunning ND 6250',
+                  title: 'Beveiligingsvergunning ND 8969',
                   desc: 'Praesidion Security B.V. beschikt over een beveiligingsvergunning afgegeven door de Dienst Justis. Dit betekent dat wij voldoen aan alle wettelijke eisen voor het uitvoeren van beveiligingswerkzaamheden, inclusief screening van personeel en bedrijfsvoering.',
                   icon: '🏛️',
                 },

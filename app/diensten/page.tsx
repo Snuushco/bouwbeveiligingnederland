@@ -73,7 +73,7 @@ export default function DienstenPage() {
               <h3 style={{fontSize:'1.3rem',fontWeight:'bold',color:'#222',marginBottom:'1rem'}}>Over Praesidion Security B.V.</h3>
               <p style={{color:'#444',marginBottom:'1rem'}}>Praesidion Security B.V. is een toonaangevend beveiligingsbedrijf met jarenlange ervaring in diverse sectoren. Wij leveren hoogwaardige beveiligingsdiensten met aandacht voor klanttevredenheid en professionele uitvoering.</p>
               <div style={{color:'#444',fontSize:'1rem',lineHeight:'1.7'}}>
-                <p><strong>Vergunningnummer:</strong> ND 6250</p>
+                <p><strong>Vergunningnummer:</strong> ND 8969</p>
                 <p><strong>KvK:</strong> 97640794</p>
                 <p><strong>BTW:</strong> NL002280171B48</p>
                 <p><strong>IBAN:</strong> NL23 KNAB 0616 6155 90</p>

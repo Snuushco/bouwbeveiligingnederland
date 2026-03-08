@@ -167,7 +167,7 @@ Om de druk op fysieke beveiliging te verlichten, investeren we in **technologisc
 We informeren onze klanten actief over de mogelijke impact van de NAVO-top op hun projecten en adviseren hen over aanvullende maatregelen. Transparantie en vroegtijdige planning zijn essentieel.
 
 **Samenwerking met autoriteiten**
-Als erkend beveiligingsbedrijf met vergunningnummer **ND 6250** onderhouden we nauwe contacten met lokale en regionale autoriteiten. Dit stelt ons in staat om snel te schakelen en onze klanten te voorzien van actuele informatie over het dreigingsniveau.
+Als erkend beveiligingsbedrijf met vergunningnummer **ND 8969** onderhouden we nauwe contacten met lokale en regionale autoriteiten. Dit stelt ons in staat om snel te schakelen en onze klanten te voorzien van actuele informatie over het dreigingsniveau.
 
 ### Wat kunt u doen als bouwbedrijf?
 

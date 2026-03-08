@@ -1,27 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server'
-import nodemailer from 'nodemailer'
 
 export async function POST(request: NextRequest) {
   try {
     const data = await request.json()
-    // Valideer verplichte velden
+
     const requiredFields = ['naam', 'bedrijf', 'email', 'locatie', 'dienst']
     for (const field of requiredFields) {
       if (!data[field]) {
         return NextResponse.json({ error: `Veld '${field}' is verplicht` }, { status: 400 })
       }
     }
-    // SMTP instellen
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT || '587'),
-      secure: false,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS
-      }
-    })
-    // E-mail opstellen
+
+    const resendApiKey = process.env.RESEND_API_KEY
+    if (!resendApiKey) {
+      console.error('RESEND_API_KEY ontbreekt')
+      return NextResponse.json({ error: 'Mailservice niet geconfigureerd' }, { status: 500 })
+    }
+
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'Bouwbeveiliging Nederland <noreply@praesidion.nl>'
+
     const htmlContent = `
       <h3>Nieuwe intake-aanvraag via bouwbeveiligingnederland.nl</h3>
       <table>
@@ -36,20 +33,31 @@ export async function POST(request: NextRequest) {
       </table>
       <p style="color:#888;font-size:12px;">Deze aanvraag is automatisch gegenereerd via bouwbeveiligingnederland.nl</p>
     `
-    await transporter.sendMail({
-      from: 'Bouwbeveiliging Nederland <bouw@praesidion.nl>',
-      to: 'bouw@praesidion.nl',
-      subject: 'Nieuwe intake-aanvraag via bouwbeveiligingnederland.nl',
-      html: htmlContent,
+
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${resendApiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: fromEmail,
+        to: ['bouw@praesidion.nl'],
+        subject: 'Nieuwe intake-aanvraag via bouwbeveiligingnederland.nl',
+        html: htmlContent,
+        reply_to: data.email,
+      }),
     })
+
+    if (!response.ok) {
+      const errorBody = await response.text()
+      console.error('Resend fout:', response.status, errorBody)
+      return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
+    }
+
     return NextResponse.json({ success: true })
   } catch (err) {
-    // Uitgebreide logging voor debuggen op Vercel
-    console.error('Fout bij versturen intake:', err)
-    console.error('SMTP_HOST:', process.env.SMTP_HOST)
-    console.error('SMTP_PORT:', process.env.SMTP_PORT)
-    console.error('SMTP_USER:', process.env.SMTP_USER)
-    // Let op: wachtwoord niet loggen!
+    console.error('Fout bij versturen intake via Resend:', err)
     return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
   }
-} 
+}

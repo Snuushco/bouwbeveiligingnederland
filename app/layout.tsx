@@ -1,26 +1,77 @@
 import "./globals.css";
+import type { Metadata } from "next";
 import Script from "next/script";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
-export const metadata = {
-  title: 'Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging',
-  description: 'Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging.'
+export const metadata: Metadata = {
+  metadataBase: new URL("https://bouwbeveiligingnederland.nl"),
+  title: {
+    default: "Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging",
+    template: "%s | Bouwbeveiliging Nederland",
+  },
+  description:
+    "Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    url: "https://bouwbeveiligingnederland.nl",
+    siteName: "Bouwbeveiliging Nederland",
+    title: "Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging",
+    description:
+      "Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+  },
+  robots: { index: true, follow: true },
+  icons: { icon: "/favicon.ico" },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Bouwbeveiliging Nederland",
+    description:
+      "Specialist in bouwplaatsbeveiliging in heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+    url: "https://bouwbeveiligingnederland.nl",
+    telephone: "+31462402401",
+    email: "bouw@praesidion.nl",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "NL",
+    },
+    parentOrganization: {
+      "@type": "Organization",
+      name: "Praesidion Security B.V.",
+      taxID: "NL868152237B01",
+    },
+  };
+
   return (
     <html lang="nl">
       <head>
-        <title>Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging</title>
-        <meta name="description" content="Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging." />
-        <meta property="og:title" content="Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging" />
-        <meta property="og:description" content="Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, portiersdiensten, camera- en lichtmasten, mobiele surveillance en alarmopvolging." />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
-        <meta name="robots" content="index, follow" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </head>
-      <body>
-        {children}
-        {/* Google Analytics 4 */}
+      <body className="bg-navy-900 text-white">
+        <NavBar />
+        <main>{children}</main>
+        <Footer />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"

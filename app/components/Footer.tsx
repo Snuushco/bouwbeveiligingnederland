@@ -1,57 +1,142 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#222', color: '#fff', padding: '2.5rem 0 1.5rem 0', marginTop: '3rem' }}>
-      <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 1rem' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '2.5rem' }}>
-          {/* Bedrijfsgegevens */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-              <Image src="/logo-bouwbeveiliging.svg" alt="Bouwbeveiliging Nederland Logo" width={44} height={44} style={{ height: '44px', width: '44px', background: '#fff', borderRadius: '8px', padding: '4px', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }} />
-              <span style={{ fontWeight: 'bold', fontSize: '1.25rem', color: '#fff', letterSpacing: '0.01em' }}>Bouwbeveiliging Nederland</span>
-            </div>
-            <small style={{ color: '#FFD700' }}>Bouwbeveiliging Nederland is een onderdeel van</small>
-            <h3 style={{ fontSize: '1.15rem', fontWeight: 'bold', margin: '0.5rem 0 1rem 0' }}>Praesidion Security B.V.</h3>
-            <div style={{ fontSize: '1rem', color: '#ccc', lineHeight: '1.7' }}>
-              <p style={{ margin: '0' }}>Vergunningnummer: ND 8968</p>
-              <p style={{ margin: '0' }}>KvK: 97640794</p>
-              <p style={{ margin: '0' }}>Tel: <a href="tel:+31462402401" style={{ color: '#FFD700' }}>046 240 2401</a></p>
+    <footer className="bg-navy-950 border-t border-navy-700">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {/* Company info */}
+          <div className="lg:col-span-1">
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <div className="bg-white rounded-lg p-1">
+                <Image
+                  src="/logo-bouwbeveiliging.svg"
+                  alt="Bouwbeveiliging Nederland Logo"
+                  width={40}
+                  height={40}
+                />
+              </div>
+              <span className="font-bold text-lg text-white">
+                Bouwbeveiliging Nederland
+              </span>
+            </Link>
+            <p className="text-orange-400 text-sm font-medium mb-1">
+              Onderdeel van
+            </p>
+            <p className="text-white font-bold text-lg mb-4">
+              Praesidion Security B.V.
+            </p>
+            <div className="space-y-1 text-sm text-gray-400">
+              <p>Vergunningnummer: ND 8968</p>
+              <p>KvK: 97640794</p>
+              <p>BTW: NL868152237B01</p>
             </div>
           </div>
+
           {/* Diensten */}
           <div>
-            <h3 style={{ fontSize: '1.15rem', fontWeight: 'bold', marginBottom: '1rem' }}>Diensten</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <Link href="/diensten/bouwplaatsbeveiliging" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Bouwplaatsbeveiliging</Link>
-              <Link href="/diensten/camerasystemen" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Camerasystemen & Lichtmasten</Link>
-              <Link href="/diensten/toegangscontrole" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Toegangscontrole & Portiers</Link>
-              <Link href="/diensten/surveillance" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Surveillance & Alarmopvolging</Link>
-            </div>
+            <h3 className="text-white font-bold text-lg mb-6">Diensten</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/diensten/bouwplaatsbeveiliging" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Bouwplaatsbeveiliging
+                </Link>
+              </li>
+              <li>
+                <Link href="/diensten/camerasystemen" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Camerasystemen & Lichtmasten
+                </Link>
+              </li>
+              <li>
+                <Link href="/diensten/toegangscontrole" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Toegangscontrole & Portiers
+                </Link>
+              </li>
+              <li>
+                <Link href="/diensten/surveillance" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Surveillance & Alarmopvolging
+                </Link>
+              </li>
+            </ul>
           </div>
+
           {/* Links */}
           <div>
-            <h3 style={{ fontSize: '1.15rem', fontWeight: 'bold', marginBottom: '1rem' }}>Links</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <Link href="/over-ons" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Over ons</Link>
-              <Link href="/blog" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Blog</Link>
-              <Link href="/diensten" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Alle diensten</Link>
-              <Link href="/privacy" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Privacyverklaring</Link>
-              <Link href="/voorwaarden" style={{ color: '#ccc', fontSize: '0.95rem', textDecoration: 'none' }}>Algemene voorwaarden</Link>
-            </div>
+            <h3 className="text-white font-bold text-lg mb-6">Links</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/over-ons" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Over ons
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/diensten" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Alle diensten
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Privacyverklaring
+                </Link>
+              </li>
+              <li>
+                <Link href="/voorwaarden" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  Algemene voorwaarden
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="text-white font-bold text-lg mb-6">Contact</h3>
+            <ul className="space-y-4">
+              <li>
+                <a href="tel:+31462402401" className="flex items-center gap-3 text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  <FaPhone className="text-orange-500" />
+                  046 240 2401
+                </a>
+              </li>
+              <li>
+                <a href="mailto:bouw@praesidion.nl" className="flex items-center gap-3 text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  <FaEnvelope className="text-orange-500" />
+                  bouw@praesidion.nl
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/praesidion-security" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-orange-400 transition-colors text-sm">
+                  <FaLinkedin className="text-orange-500" />
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div style={{ borderTop: '1px solid #333', marginTop: '2.5rem', paddingTop: '2rem', textAlign: 'center', color: '#aaa' }}>
-          <p style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#fff', marginBottom: '0.2rem' }}>bouwbeveiligingnederland.nl</p>
-          <span style={{ fontSize: '1rem' }}>
-            &copy; {new Date().getFullYear()} bouwbeveiligingnederland.nl | Onderdeel van <a href="https://praesidion.nl" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700', textDecoration: 'underline' }}>Praesidion Security B.V.</a> &#39;Uw veiligheid, onze zorg&#39;
-          </span>
+
+        {/* Bottom bar */}
+        <div className="border-t border-navy-700 mt-12 pt-8 text-center">
+          <p className="text-white font-bold text-lg mb-1">bouwbeveiligingnederland.nl</p>
+          <p className="text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} Bouwbeveiliging Nederland | Onderdeel van{" "}
+            <a
+              href="https://praesidion.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-400 hover:text-orange-300 transition-colors"
+            >
+              Praesidion Security B.V.
+            </a>{" "}
+            &mdash; &lsquo;Uw veiligheid, onze zorg&rsquo;
+          </p>
         </div>
       </div>
-      <style>{`
-        footer a:hover { color: #FFD700 !important; }
-      `}</style>
     </footer>
   );
 }

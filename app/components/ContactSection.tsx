@@ -1,43 +1,91 @@
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-
-// Kleurenschema bouwbeveiligingnederland.nl
-const PRIMARY = '#FFD700'; // Geel
-const SECONDARY = '#333333'; // Donkergrijs
-const LIGHT = '#fff';
+"use client";
+import { motion } from "framer-motion";
+import IntakeForm from "./IntakeForm";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
 export default function ContactSection() {
   return (
-    <section id="contact" style={{background:PRIMARY,padding:'3.5rem 0 3rem 0',borderRadius:'0',margin:'0 0 2rem 0',boxShadow:'0 2px 8px rgba(0,0,0,0.03)'}}>
-      <div style={{maxWidth:'1100px',margin:'0 auto',padding:'0 1rem'}}>
-        <h2 style={{textAlign:'center',fontSize:'2.2rem',fontWeight:'bold',color:SECONDARY,marginBottom:'0.7rem'}}>Neem direct contact op</h2>
-        <p style={{textAlign:'center',color:SECONDARY,opacity:0.85,fontSize:'1.15rem',marginBottom:'2.5rem'}}>Klaar om uw bouwproject veiliger te maken? Neem contact op voor een vrijblijvend gesprek.</p>
-        <div style={{display:'flex',flexWrap:'wrap',gap:'2rem',justifyContent:'center'}}>
-          {/* Telefoon */}
-          <div style={{background:LIGHT,border:`1.5px solid ${PRIMARY}` ,borderRadius:'18px',padding:'2.2rem 1.5rem',minWidth:'260px',flex:'1 1 260px',maxWidth:'340px',display:'flex',flexDirection:'column',alignItems:'center',boxShadow:'0 2px 12px rgba(0,0,0,0.04)'}}>
-            <FaPhoneAlt size={32} color={PRIMARY} style={{marginBottom:'0.7rem'}} />
-            <div style={{fontWeight:'bold',color:SECONDARY,fontSize:'1.1rem',marginBottom:'0.2rem'}}>Telefoon</div>
-            <div style={{fontSize:'1.45rem',fontWeight:'bold',color:SECONDARY,marginBottom:'0.2rem'}}>+31 046 240 2401</div>
-            <div style={{color:SECONDARY,opacity:0.7,fontSize:'1rem',marginBottom:'1.2rem'}}>24/7 bereikbaar voor spoed</div>
-            <a href="tel:+31462402401" style={{display:'block',width:'100%',background:PRIMARY,color:SECONDARY,fontWeight:'bold',padding:'0.7rem 0',borderRadius:'8px',textAlign:'center',textDecoration:'none',fontSize:'1.05rem',boxShadow:`0 2px 8px ${PRIMARY}22`,border:`1.5px solid ${PRIMARY}`}}>Nu bellen</a>
-          </div>
-          {/* E-mail */}
-          <div style={{background:LIGHT,border:`1.5px solid ${PRIMARY}` ,borderRadius:'18px',padding:'2.2rem 1.5rem',minWidth:'260px',flex:'1 1 260px',maxWidth:'340px',display:'flex',flexDirection:'column',alignItems:'center',boxShadow:'0 2px 12px rgba(0,0,0,0.04)'}}>
-            <FaEnvelope size={32} color={SECONDARY} style={{marginBottom:'0.7rem'}} />
-            <div style={{fontWeight:'bold',color:SECONDARY,fontSize:'1.1rem',marginBottom:'0.2rem'}}>E-mail</div>
-            <div style={{fontSize:'1.15rem',fontWeight:'bold',color:SECONDARY,marginBottom:'0.2rem'}}>bouw@praesidion.nl</div>
-            <div style={{color:SECONDARY,opacity:0.7,fontSize:'1rem',marginBottom:'1.2rem'}}>Reactie binnen 2 uur</div>
-            <a href="mailto:bouw@praesidion.nl" style={{display:'block',width:'100%',background:PRIMARY,color:SECONDARY,fontWeight:'bold',padding:'0.7rem 0',borderRadius:'8px',textAlign:'center',textDecoration:'none',fontSize:'1.05rem',boxShadow:`0 2px 8px ${PRIMARY}22`,border:`1.5px solid ${PRIMARY}`}}>E-mail versturen</a>
-          </div>
-          {/* Vestigingen */}
-          <div style={{background:LIGHT,border:`1.5px solid ${PRIMARY}` ,borderRadius:'18px',padding:'2.2rem 1.5rem',minWidth:'260px',flex:'1 1 260px',maxWidth:'340px',display:'flex',flexDirection:'column',alignItems:'center',boxShadow:'0 2px 12px rgba(0,0,0,0.04)'}}>
-            <FaMapMarkerAlt size={32} color={PRIMARY} style={{marginBottom:'0.7rem'}} />
-            <div style={{fontWeight:'bold',color:SECONDARY,fontSize:'1.1rem',marginBottom:'0.2rem'}}>Vestigingen</div>
-            <div style={{fontSize:'1.15rem',fontWeight:'bold',color:SECONDARY,marginBottom:'0.2rem'}}>Limburg</div>
-            <div style={{color:SECONDARY,opacity:0.7,fontSize:'1rem',marginBottom:'1.2rem'}}>Maastricht • Sittard • Roermond • Heerlen</div>
-            <a href="#intakeform" style={{display:'block',width:'100%',background:PRIMARY,color:SECONDARY,fontWeight:'bold',padding:'0.7rem 0',borderRadius:'8px',textAlign:'center',textDecoration:'none',fontSize:'1.05rem',boxShadow:`0 2px 8px ${PRIMARY}22`,border:`1.5px solid ${PRIMARY}`}}>Intakegesprek plannen</a>
-          </div>
+    <section id="contact" className="py-20 bg-navy-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
+          <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+            Contact
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3 mb-4">
+            Neem contact op
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+            Vraag een vrijblijvend beveiligingsvoorstel aan of neem direct
+            contact op met onze specialisten.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="space-y-6"
+          >
+            <div className="bg-navy-800 border border-navy-700 rounded-xl p-6 flex items-start gap-4">
+              <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <FaPhone className="w-5 h-5 text-orange-500" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white mb-1">Telefoon</h3>
+                <a href="tel:+31462402401" className="text-gray-400 hover:text-orange-400 transition-colors">
+                  046 240 2401
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-navy-800 border border-navy-700 rounded-xl p-6 flex items-start gap-4">
+              <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <FaEnvelope className="w-5 h-5 text-orange-500" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white mb-1">E-mail</h3>
+                <a href="mailto:bouw@praesidion.nl" className="text-gray-400 hover:text-orange-400 transition-colors">
+                  bouw@praesidion.nl
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-navy-800 border border-navy-700 rounded-xl p-6 flex items-start gap-4">
+              <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <FaMapMarkerAlt className="w-5 h-5 text-orange-500" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white mb-1">Werkgebied</h3>
+                <p className="text-gray-400">
+                  Heel Nederland — met focus op Limburg, Noord-Brabant en de Randstad
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-navy-800 border border-navy-700 rounded-xl p-6 flex items-start gap-4">
+              <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <FaClock className="w-5 h-5 text-orange-500" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white mb-1">Beschikbaarheid</h3>
+                <p className="text-gray-400">
+                  24/7 bereikbaar voor beveiliging en alarmopvolging
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+          <IntakeForm />
         </div>
       </div>
     </section>
   );
-} 
+}

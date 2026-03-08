@@ -1,119 +1,149 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const sectors = [
   {
-    title: 'Bouwplaatsbeveiliging',
-    description: 'Beveiliging voor bouwplaatsen en projecten in heel Nederland',
-    url: '/',
+    title: "Bouwplaatsbeveiliging",
+    description:
+      "Beveiliging voor bouwplaatsen en projecten in heel Nederland.",
+    url: "/diensten/bouwplaatsbeveiliging",
     current: true,
-    features: ['Bouwplaatsbeveiliging', 'Materieelbescherming', 'Toegangscontrole', 'Surveillance']
+    features: [
+      "Bouwplaatsbeveiliging",
+      "Materieelbescherming",
+      "Toegangscontrole",
+      "Surveillance",
+    ],
   },
   {
-    title: 'Zorgbewaking',
-    description: 'Professionele beveiliging voor zorginstellingen in Limburg en Nederland',
-    url: 'https://zorgbewaking.nl',
+    title: "Zorgbewaking",
+    description:
+      "Professionele beveiliging voor zorginstellingen in Limburg en Nederland.",
+    url: "https://zorgbewaking.nl",
     current: false,
-    features: ['Vaste beveiligers', 'Zorginzicht', 'Discrete aanpak', '24/7 beschikbaarheid']
+    features: [
+      "Vaste beveiligers",
+      "Zorginzicht",
+      "Discrete aanpak",
+      "24/7 beschikbaarheid",
+    ],
   },
   {
-    title: 'Evenementenbeveiliging',
-    description: 'Beveiliging voor evenementen, festivals en bijeenkomsten',
-    url: '#',
+    title: "Evenementenbeveiliging",
+    description: "Beveiliging voor evenementen, festivals en bijeenkomsten.",
+    url: "#",
     current: false,
-    features: ['Crowd management', 'Toegangscontrole', 'Incidentenbeheer', 'Flexibele inzet']
+    features: [
+      "Crowd management",
+      "Toegangscontrole",
+      "Incidentenbeheer",
+      "Flexibele inzet",
+    ],
   },
   {
-    title: 'Objectbeveiliging',
-    description: 'Beveiliging voor kantoren, bedrijfspanden en objecten',
-    url: '#',
+    title: "Objectbeveiliging",
+    description: "Beveiliging voor kantoren, bedrijfspanden en objecten.",
+    url: "#",
     current: false,
-    features: ['Receptie', 'Toegangscontrole', 'Surveillance', 'Noodhulp']
+    features: ["Receptie", "Toegangscontrole", "Surveillance", "Noodhulp"],
   },
   {
-    title: 'Industriële beveiliging',
-    description: 'Beveiliging voor fabrieken en industriële locaties',
-    url: '#',
+    title: "Industriële beveiliging",
+    description: "Beveiliging voor fabrieken en industriële locaties.",
+    url: "#",
     current: false,
-    features: ['Perimetertoegang', 'Brandpreventie', 'Veiligheidscontroles', 'Noodprocedures']
+    features: [
+      "Perimetertoegang",
+      "Brandpreventie",
+      "Veiligheidscontroles",
+      "Noodprocedures",
+    ],
   },
   {
-    title: 'Logistiek',
-    description: 'Beveiliging voor logistieke centra, magazijnen en distributie',
-    url: '#',
+    title: "Logistieke beveiliging",
+    description:
+      "Beveiliging voor logistieke centra, magazijnen en distributie.",
+    url: "#",
     current: false,
-    features: ['Magazijnbeveiliging', 'Transportbegeleiding', 'Goederencontrole', 'Perimetertoegang']
-  }
+    features: [
+      "Magazijnbeveiliging",
+      "Transportbegeleiding",
+      "Goederencontrole",
+      "Perimetertoegang",
+    ],
+  },
 ];
 
 export default function DienstenPage() {
   return (
-    <main style={{minHeight:'100vh',background:'#fff'}}>
-      {/* Header */}
-      <div style={{background:'#222',color:'#FFD700',padding:'2.5rem 0 1.5rem 0'}}>
-        <div style={{maxWidth:'1100px',margin:'0 auto',padding:'0 1rem'}}>
-          <div style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-            <div>
-              <h1 style={{fontSize:'2.2rem',fontWeight:'bold'}}>Overige diensten & sectoren</h1>
-              <p style={{color:'#fff',marginTop:'0.5rem'}}>bouwbeveiligingnederland.nl - Onderdeel van Praesidion Security B.V.</p>
+    <div className="bg-navy-950">
+      <section className="relative overflow-hidden border-b border-navy-700 pt-32 pb-16">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#253256_0%,#0a0e1a_60%)]" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">
+            Diensten & sectoren
+          </p>
+          <h1 className="max-w-3xl text-4xl font-black leading-tight text-white sm:text-5xl">
+            Praesidion Security B.V. levert beveiliging voor elke sector
+          </h1>
+          <p className="mt-5 max-w-3xl text-lg text-gray-300">
+            Bouwbeveiliging Nederland is onze specialisatie voor bouwprojecten. Daarnaast
+            ondersteunen we organisaties in zorg, logistiek, industrie en evenementen.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-16 sm:px-6 md:grid-cols-2 xl:grid-cols-3 lg:px-8">
+        {sectors.map((sector, index) => (
+          <Link
+            key={index}
+            href={sector.url}
+            target={sector.current ? undefined : "_blank"}
+            rel={sector.current ? undefined : "noopener noreferrer"}
+            className={`group rounded-2xl border p-6 transition-all duration-300 ${
+              sector.current
+                ? "border-orange-500 bg-orange-500/10 shadow-lg shadow-orange-500/10"
+                : "border-navy-700 bg-navy-900 hover:-translate-y-1 hover:border-orange-400/60"
+            }`}
+          >
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h2 className="text-xl font-bold text-white">{sector.title}</h2>
+              <span
+                className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${
+                  sector.current
+                    ? "bg-orange-500 text-white"
+                    : "bg-navy-700 text-gray-200 group-hover:bg-orange-500 group-hover:text-white"
+                }`}
+              >
+                {sector.current ? "Actief" : "Meer info"}
+              </span>
             </div>
-            <Link href="/" style={{background:'#FFD700',color:'#222',padding:'0.7rem 1.5rem',borderRadius:'4px',fontWeight:'bold',textDecoration:'none',fontSize:'1rem'}}>← Terug naar home</Link>
+            <p className="mb-5 text-sm leading-relaxed text-gray-300">{sector.description}</p>
+            <ul className="space-y-2">
+              {sector.features.map((feature, featureIndex) => (
+                <li key={featureIndex} className="flex items-start gap-2 text-sm text-gray-200">
+                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-orange-400" />
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </Link>
+        ))}
+      </section>
+
+      <section className="border-t border-navy-700 bg-navy-900/70 py-14">
+        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-4 sm:px-6 md:flex-row md:items-center lg:px-8">
+          <div>
+            <h3 className="text-2xl font-bold text-white">Direct weten wat bij uw project past?</h3>
+            <p className="mt-2 text-gray-300">We adviseren u vrijblijvend over de beste beveiligingsmix.</p>
           </div>
+          <Link
+            href="/#contact"
+            className="rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600"
+          >
+            Vraag advies aan
+          </Link>
         </div>
-      </div>
-      {/* Intro Section */}
-      <div style={{maxWidth:'1100px',margin:'0 auto',padding:'3rem 1rem'}}>
-        <div style={{textAlign:'center',marginBottom:'2.5rem'}}>
-          <h2 style={{fontSize:'2rem',fontWeight:'bold',color:'#222',marginBottom:'1rem'}}>Praesidion Security B.V. - Uw partner in beveiliging</h2>
-          <p style={{fontSize:'1.15rem',color:'#444',maxWidth:'700px',margin:'0 auto'}}>Naast bouwbeveiligingnederland.nl biedt Praesidion Security B.V. professionele beveiligingsdiensten voor diverse sectoren. Ontdek hieronder onze andere specialisaties en sectoren.</p>
-        </div>
-        {/* Company Info */}
-        <div style={{background:'#f5f5f5',borderRadius:'12px',padding:'2.5rem',marginBottom:'2.5rem'}}>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'2.5rem'}}>
-            <div>
-              <h3 style={{fontSize:'1.3rem',fontWeight:'bold',color:'#222',marginBottom:'1rem'}}>Over Praesidion Security B.V.</h3>
-              <p style={{color:'#444',marginBottom:'1rem'}}>Praesidion Security B.V. is een toonaangevend beveiligingsbedrijf met jarenlange ervaring in diverse sectoren. Wij leveren hoogwaardige beveiligingsdiensten met aandacht voor klanttevredenheid en professionele uitvoering.</p>
-              <div style={{color:'#444',fontSize:'1rem',lineHeight:'1.7'}}>
-                <p><strong>Vergunningnummer:</strong> ND 8968</p>
-                <p><strong>KvK:</strong> 97640794</p>
-                <p><strong>BTW:</strong> NL002280171B48</p>
-                <p><strong>IBAN:</strong> NL23 KNAB 0616 6155 90</p>
-              </div>
-            </div>
-            <div>
-              <h3 style={{fontSize:'1.3rem',fontWeight:'bold',color:'#222',marginBottom:'1rem'}}>Onze kernwaarden</h3>
-              <ul style={{color:'#444',fontSize:'1rem',lineHeight:'1.7',paddingLeft:'1.2rem'}}>
-                <li style={{marginBottom:'0.5rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>✓</span><strong>Professionaliteit:</strong> Hoogopgeleide en ervaren beveiligers</li>
-                <li style={{marginBottom:'0.5rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>✓</span><strong>Betrouwbaarheid:</strong> Altijd beschikbaar en punctueel</li>
-                <li style={{marginBottom:'0.5rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>✓</span><strong>Discretie:</strong> Vertrouwelijke behandeling van alle informatie</li>
-                <li style={{marginBottom:'0.5rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>✓</span><strong>Klantgerichtheid:</strong> Maatwerk en persoonlijke aandacht</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        {/* Sectors Grid */}
-        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:'2rem'}}>
-          {sectors.map((sector, index) => (
-            <Link
-              key={index}
-              href={sector.url}
-              target={sector.current ? undefined : '_blank'}
-              rel={sector.current ? undefined : 'noopener noreferrer'}
-              style={{display:'block',textDecoration:'none',color:'#222',background:sector.current ? '#FFD70022' : '#fff',borderRadius:'10px',boxShadow:sector.current ? '0 0 0 2px #FFD700' : '0 2px 8px rgba(0,0,0,0.04)',transition:'box-shadow 0.2s',padding:'2rem',border:sector.current ? '2px solid #FFD700' : '1px solid #eee',cursor:'pointer'}}
-            >
-              <div style={{fontWeight:'bold',fontSize:'1.2rem',marginBottom:'0.5rem'}}>{sector.title}</div>
-              <div style={{color:'#444',marginBottom:'1rem'}}>{sector.description}</div>
-              <div style={{marginBottom:'1rem'}}>
-                <span style={{background:'#FFD700',color:'#222',fontWeight:'bold',fontSize:'0.95rem',padding:'0.2rem 0.7rem',borderRadius:'4px'}}>{sector.current ? 'Huidige pagina' : 'Meer info'}</span>
-              </div>
-              <ul style={{color:'#444',fontSize:'0.98rem',paddingLeft:'1.2rem'}}>
-                {sector.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} style={{marginBottom:'0.3rem'}}><span style={{color:'#FFD700',marginRight:'0.5rem'}}>•</span>{feature}</li>
-                ))}
-              </ul>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </main>
+      </section>
+    </div>
   );
-} 
+}

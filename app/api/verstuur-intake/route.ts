@@ -13,23 +13,21 @@ export async function POST(request: NextRequest) {
 
     const resendApiKey = process.env.RESEND_API_KEY
     if (!resendApiKey) {
-      console.error('RESEND_API_KEY ontbreekt')
-      return NextResponse.json({ error: 'Mailservice niet geconfigureerd' }, { status: 500 })
+      console.error('RESEND_API_KEY not configured')
+      return NextResponse.json({ error: 'Server configuratiefout' }, { status: 500 })
     }
-
-    const fromEmail = process.env.RESEND_FROM_EMAIL || 'Bouwbeveiliging Nederland <noreply@praesidion.nl>'
 
     const htmlContent = `
       <h3>Nieuwe intake-aanvraag via bouwbeveiligingnederland.nl</h3>
       <table>
         <tr><td><b>Naam:</b></td><td>${data.naam}</td></tr>
         <tr><td><b>Bedrijf:</b></td><td>${data.bedrijf}</td></tr>
-        <tr><td><b>E-mail:</b></td><td>${data.email}</td></tr>
-        <tr><td><b>Telefoon:</b></td><td>${data.telefoon || 'Niet opgegeven'}</td></tr>
+        <tr><td><b>E-mail:</b></td><td><a href="mailto:${data.email}">${data.email}</a></td></tr>
+        <tr><td><b>Telefoon:</b></td><td>${data.telefoon || '—'}</td></tr>
         <tr><td><b>Locatie:</b></td><td>${data.locatie}</td></tr>
         <tr><td><b>Dienst:</b></td><td>${data.dienst}</td></tr>
-        <tr><td><b>Startdatum project:</b></td><td>${data.startdatum || 'Niet opgegeven'}</td></tr>
-        <tr><td><b>Extra info:</b></td><td>${data.bericht || 'Geen'}</td></tr>
+        <tr><td><b>Startdatum project:</b></td><td>${data.startdatum || '—'}</td></tr>
+        <tr><td><b>Extra info:</b></td><td>${(data.bericht || '—').replace(/\n/g, '<br>')}</td></tr>
       </table>
       <p style="color:#888;font-size:12px;">Deze aanvraag is automatisch gegenereerd via bouwbeveiligingnederland.nl</p>
     `
@@ -41,23 +39,23 @@ export async function POST(request: NextRequest) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: fromEmail,
-        to: ['bouw@praesidion.nl'],
-        subject: 'Nieuwe intake-aanvraag via bouwbeveiligingnederland.nl',
-        html: htmlContent,
+        from: 'Bouwbeveiliging Nederland <noreply@snelrie.nl>',
+        to: 'bouw@praesidion.nl',
         reply_to: data.email,
+        subject: `Nieuwe intake-aanvraag van ${data.naam} — Bouwbeveiliging Nederland`,
+        html: htmlContent,
       }),
     })
 
     if (!response.ok) {
       const errorBody = await response.text()
-      console.error('Resend fout:', response.status, errorBody)
-      return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
+      console.error('Resend error:', errorBody)
+      return NextResponse.json({ error: 'Email verzenden mislukt' }, { status: 500 })
     }
 
     return NextResponse.json({ success: true })
   } catch (err) {
-    console.error('Fout bij versturen intake via Resend:', err)
-    return NextResponse.json({ error: 'Fout bij verzenden' }, { status: 500 })
+    console.error('Contact form error:', err)
+    return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }

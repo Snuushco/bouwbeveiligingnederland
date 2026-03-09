@@ -11,6 +11,114 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'beveiliging-als-vast-onderdeel-van-bouwprojecten',
+    title: 'Beveiliging als vast onderdeel van bouwprojecten',
+    description: 'Zes op de tien bouwprofessionals ziet criminaliteit toenemen, maar beveiliging krijgt structureel te weinig plek in ontwerp en aanbesteding. Waarom dat moet veranderen.',
+    date: '2026-03-09',
+    readTime: '8 min',
+    category: 'Analyse',
+    content: `
+## Beveiliging hoort in de ontwerpfase, niet op de bouwplaats
+
+De Nederlandse bouwsector verliest jaarlijks naar schatting **€250 miljoen** aan criminaliteit op bouwplaatsen. Zes op de tien bouwprofessionals ervaart een toename van diefstal, vandalisme en georganiseerde misdaad. Toch krijgt beveiliging structureel te weinig aandacht in de vroege fasen van een bouwproject. Dat blijkt uit recente publicaties op Infrasite en het Crime Report van BauWatch.
+
+De conclusie is helder: beveiliging moet verschuiven van reactief nawerk naar een vast onderdeel van ontwerp, kostenraming en contract. In dit artikel analyseren we waarom dat nog niet gebeurt — en wat u als bouwbedrijf vandaag kunt doen.
+
+### Het probleem: beveiliging als afterthought
+
+Uit gesprekken met uitvoerders en projectteams blijkt steeds hetzelfde patroon. De risico's worden breed herkend, maar de vraag naar beveiliging komt pas op tafel zodra de eerste materialen op het terrein liggen. Soms wordt diefstal zelfs **'meegenomen' in de begroting**, omdat men denkt dat preventie duurder is dan verlies.
+
+Dit is een misvatting. De directe schade van een gestolen generator of accu is vervelend, maar zelden het grootste probleem. De echte kosten ontstaan wanneer de **planning uit balans raakt**:
+
+- **Projectvertraging:** gemiddeld 2–5 dagen per incident
+- **Logistieke druk:** onderaannemers moeten hun planning aanpassen
+- **Verzekeringsschade:** premies stijgen na claims, eigen risico loopt op
+- **Reputatieschade:** opdrachtgevers zien een onbeveiligd project als risico
+
+Bijna een derde van de Nederlandse bouwprofessionals noemt vertraging de belangrijkste zorg. In een sector waar marges krap zijn en tijd de duurste component is, weegt dat zwaarder dan de waarde van het verdwenen materiaal.
+
+### Nederland loopt achter op Europa
+
+Slechts een derde van de Nederlandse bouwsector betrekt beveiliging al in de ontwerpfase. In Europa ligt dat gemiddelde bijna op de helft. Grote bouwbedrijven lopen hierin voorop — zij nemen beveiliging steeds vaker mee in de risicoanalyse tijdens de voorbereiding. Maar het midden- en kleinbedrijf blijft achter.
+
+Een derde van de Nederlandse bouwprofessionals accepteert de risico's zelfs bewust. Dat aandeel ligt aanzienlijk hoger dan het Europees gemiddelde. Het moment waarop beveiliging wordt ingepland, schuift daardoor nauwelijks naar voren.
+
+### De kernvraag: wie draagt de schade?
+
+Als beveiliging bewust pas later wordt gepland, rijst een fundamentele vraag: **wie draagt uiteindelijk de schade?** De hoofdaannemer, de opdrachtgever, de verzekeraar of de ketenpartners die hun planning moeten aanpassen?
+
+Preventie wordt pas financieel interessant wanneer je de **hele keten** meeneemt. De kosten van een enkel incident — diefstal, vertraging, extra overleg, verzekeringsclaim — overstijgen vrijwel altijd de investering in preventieve beveiliging. Toch gebeurt die ketenafweging in de praktijk nog te weinig.
+
+### Vergelijk het met ARBO en brandveiligheid
+
+Veiligheid, bouwvergunningen, ARBO-eisen — bij al deze thema's is de rolverdeling helder. Ze horen bij de basis van elk project. Beveiliging staat nog te vaak los van dat fundament, terwijl de risico's inmiddels structureel genoeg zijn om die stap te zetten.
+
+De bouwsector heeft de afgelopen jaren laten zien dat zij veiligheid, digitalisering en duurzaamheid succesvol kan verankeren in projecten. Beveiliging kan op dezelfde manier onderdeel worden van ontwerp en planning. Dat vraagt geen zware regelgeving, maar **duidelijke keuzes in een vroeg stadium**.
+
+### Wat een volwassen beveiligingsaanpak inhoudt
+
+Een volwassen aanpak begint bij twee dingen: een **vroeg beslismoment** en **duidelijke verantwoordelijkheid**.
+
+**1. Beveiliging in de ontwerpfase**
+
+Neem beveiliging mee in de projectvoorbereiding, naast veiligheid, logistiek en planning. Stel bij de start van elk project de vraag: welke beveiligingsrisico's zijn er, wie is verantwoordelijk, en wat is het budget?
+
+**2. Beveiligingsplan als contractonderdeel**
+
+Maak het beveiligingsplan onderdeel van het contract met de opdrachtgever. Leg vast welke maatregelen worden genomen, wie ze uitvoert en hoe er wordt gerapporteerd. Dit voorkomt discussie achteraf en geeft alle partijen duidelijkheid.
+
+**3. Gelaagde beveiligingsmaatregelen**
+
+Een effectief beveiligingsplan combineert meerdere lagen:
+- **Perimeter:** hekwerk, verlichting, waarschuwingsborden
+- **Detectie:** camerasystemen met bewegingsdetectie en remote monitoring
+- **Respons:** alarmopvolging door gediplomeerde beveiligers
+- **Organisatie:** toegangscontrole, registratie, procedures
+
+**4. Periodieke evaluatie**
+
+Beveiligingsrisico's veranderen gedurende een project. Evalueer het beveiligingsplan bij elke fase-overgang en pas het aan op de actuele situatie.
+
+### De financiële realiteit
+
+Laten we eerlijk zijn over de kosten. Een professioneel beveiligingspakket voor een middelgroot bouwproject kost een fractie van wat een enkel diefstalincident u kan kosten. Ter vergelijking:
+
+- **Camerasysteem met remote monitoring:** enkele honderden euro's per maand
+- **Mobiele surveillance:** vanaf €15 per patrouille
+- **Portiersdienst:** afhankelijk van uren, maar voorspelbaar en budgetteerbaar
+- **Eén diefstalincident:** gemiddeld €20.000–€50.000 directe schade, exclusief vertraging
+
+De rekening is snel gemaakt. Beveiliging is geen kostenpost — het is **risicomanagement**.
+
+### Wat Bouwbeveiliging Nederland voor u betekent
+
+Bij Bouwbeveiliging Nederland, onderdeel van **Praesidion Security B.V.**, helpen we bouwbedrijven om beveiliging structureel in te bedden in hun projecten. Niet als losse dienst, maar als integraal onderdeel van projectbeheersing.
+
+Onze aanpak:
+
+- **Risicoanalyse** bij projectstart — gratis en vrijblijvend
+- **Beveiligingsplan op maat** dat past bij uw project en budget
+- **Uitvoering:** camera- en lichtmasten, mobiele surveillance, portiersdiensten, alarmopvolging
+- **Rapportage en evaluatie** gedurende het hele project
+
+We zijn gevestigd in Limburg en kennen de regio. Onze beveiligers zijn gediplomeerd, onze systemen zijn bewezen en onze lijnen zijn kort. Wanneer u belt, heeft u direct een specialist aan de lijn — geen callcenter.
+
+### De verschuiving is begonnen
+
+De tekenen zijn duidelijk. Steeds meer opdrachtgevers nemen beveiligingseisen op in bestekken. Het programma **Veiligheid in Aanbestedingen (ViA)** verscherpt de eisen per 1 juli 2026. En de verzekeringsmarkt differentieert steeds meer op basis van aantoonbare preventie.
+
+Bouwbedrijven die nu investeren in een structurele beveiligingsaanpak, staan straks sterker in aanbestedingen, betalen minder premie en hebben minder last van vertragingen door incidenten.
+
+Zolang beveiliging pas start nadat de bouw is begonnen, blijft het nawerk in plaats van een ontwerpkwestie. En dat is een kostencirkel die geen aannemer, verzekeraar of opdrachtgever uiteindelijk wil dragen.
+
+---
+
+**Wilt u beveiliging structureel meenemen in uw bouwprojecten?** Neem contact op met Bouwbeveiliging Nederland voor een gratis risicoanalyse. Bel **046 240 2401** of mail naar **bouw@praesidion.nl**.
+
+*Bronnen: Infrasite (maart 2026), BauWatch Crime Report (2025)*
+    `
+  },
+  {
     slug: 'dijkversterking-limburg-2026-2027-beveiligingskansen',
     title: 'Dijkversterking Limburg 2026-2027: beveiligingskansen bij grote infraprojecten',
     description: 'De dijkversterkingsprojecten in Limburg bieden enorme kansen voor professionele bouwplaatsbeveiliging. Ontdek waarom beveiliging essentieel is bij waterwerken.',

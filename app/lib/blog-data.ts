@@ -11,6 +11,121 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'criminaliteitscijfers-2025-bouwplaatsen-zwaarst-getroffen',
+    title: '800.974 misdrijven in 2025: waarom bouwplaatsen het zwaarst worden getroffen',
+    description: 'De politie registreerde 800.974 misdrijven in 2025 — de jarenlange daling is voorbij. Bouwplaatsen zijn extra kwetsbaar: 6 op 10 bouwprofessionals ziet criminaliteit toenemen. Wat kunt u doen?',
+    date: '2026-03-13',
+    readTime: '7 min',
+    category: 'Cijfers & Trends',
+    content: `
+## De daling van criminaliteit is voorbij — en bouwplaatsen betalen de prijs
+
+De politie registreerde in 2025 in totaal **800.974 misdrijven** in Nederland. Na bijna twee decennia van dalende criminaliteitscijfers is die trend definitief gestopt. Korpschef Janny Knol waarschuwde in januari 2026: *"We moeten uitkijken dat we ons niet in slaap laten sussen door algemene cijfers."*
+
+Achter die 800.974 misdrijven schuilt een verontrustende verschuiving. Het aantal minderjarige verdachten van straatroof en overvallen steeg met **13% ten opzichte van 2024** en zelfs **24% ten opzichte van 2023**. In Amsterdam werden gemiddeld 222 misdrijven per dag geregistreerd, in Rotterdam 146 en in Den Haag 109.
+
+Tegelijkertijd daalde het aantal woninginbraken naar circa 22.000 — een spectaculaire afname vergeleken met de 71.000 inbraken van tien jaar geleden. Maar dat goede nieuws maakt de situatie voor bouwplaatsen juist slechter.
+
+### Waarom de daling van woninginbraken slecht nieuws is voor bouwplaatsen
+
+Het klinkt paradoxaal, maar de succesvolle beveiliging van woningen en bedrijfspanden drijft criminelen naar **zachtere doelwitten**. Bouwplaatsen zijn bij uitstek zo'n doelwit: tijdelijk, wisselend bemand, vol met kostbaar materieel en vaak zonder structurele beveiliging.
+
+De cijfers uit de bouwsector bevestigen dit beeld. Uit onderzoek gepubliceerd op Infrasite (maart 2026) blijkt:
+
+- **6 op de 10** Nederlandse bouwprofessionals ervaart een **toename van criminaliteit** op bouwplaatsen
+- Criminele groepen werken **geraffineerder en professioneler** dan voorheen
+- De directe schade is vervelend, maar de **gevolgschade** is vele malen groter: projectvertragingen, logistieke druk, verzekeringsschade
+
+Bijna een derde van de Nederlandse bouwprofessionals noemt **vertraging** als de grootste zorg — niet de waarde van het gestolen materiaal. In een sector waar marges krap zijn en tijd de duurste component is, weegt dat extreem zwaar.
+
+### Slechts 1 op 3 betrekt beveiliging in de ontwerpfase
+
+Het meest opvallende cijfer: **slechts een derde** van de Nederlandse bouwsector betrekt beveiliging al in de ontwerpfase van een project. In Europa ligt dat gemiddelde bijna op de **helft**.
+
+Dat betekent dat twee derde van de Nederlandse bouwprojecten start zonder dat beveiliging serieus is meegenomen in ontwerp, kostenraming of contract. Beveiliging wordt pas geregeld als de eerste materialen op het terrein liggen — of erger: pas na het eerste incident.
+
+Een derde van de bouwprofessionals **accepteert de risico's zelfs bewust**. Dat aandeel ligt significant hoger dan het Europees gemiddelde. Diefstal wordt soms letterlijk "meegenomen in de begroting" omdat men denkt dat preventie duurder is dan verlies.
+
+### De rekening van uitstelgedrag
+
+Die aanname is aantoonbaar onjuist. De echte kosten ontstaan niet door een gestolen generator, maar doordat de **planning uit balans raakt**:
+
+| Kostenpost | Impact |
+|---|---|
+| Projectvertraging | Gemiddeld 2–5 dagen per incident |
+| Logistieke druk | Onderaannemers moeten herplannen |
+| Verzekeringspremie | Stijgt na elke claim |
+| Eigen risico | Loopt op bij herhaling |
+| Reputatieschade | Opdrachtgever ziet onbeveiligd project als risico |
+
+De kosten van één diefstalincident — inclusief vertraging, overleg, vervanging en verzekeringsclaim — overstijgen vrijwel altijd de investering in preventieve beveiliging over het hele project.
+
+### Twee trends die bouwbedrijven nu raken
+
+**1. Professionalisering van criminelen**
+
+De tijden van opportunistische diefstal door voorbijgangers zijn voorbij. De politiecijfers van 2025 laten zien dat criminaliteit verschuift, niet verdwijnt. Bouwplaatsen worden verkend, beveiligingssystemen worden geanalyseerd, en diefstallen worden uitgevoerd met vrachtwagens en gecoördineerde teams. Dit vraagt om **professionele tegenmaatregelen**, niet om een extra slot op het hek.
+
+**2. Verscherpte eisen bij aanbestedingen**
+
+Per 1 juli 2026 verscherpt het programma **Veiligheid in Aanbestedingen (ViA)** de eisen rondom beveiliging bij publieke projecten. Een beveiligingsplan wordt een concreet gunningscriterium. Bouwbedrijven die nu al investeren in structurele beveiliging, staan straks sterker in aanbestedingen. Wie wacht, mist opdrachten.
+
+### De les van woninginbraken: preventie werkt
+
+De spectaculaire daling van woninginbraken — van 71.000 naar 22.000 in tien jaar — bewijst één ding onomstotelijk: **zichtbare preventie werkt**. Betere beveiliging, alarmopvolging en bewustwording hebben woningen veiliger gemaakt. Diezelfde aanpak kan de bouwsector transformeren.
+
+Maar dan moet beveiliging wél onderdeel worden van de projectvoorbereiding, net als veiligheid, logistiek en ARBO-eisen. Niet als afterthought, maar als **ontwerpkwestie**.
+
+### Wat een volwassen beveiligingsaanpak voor bouwplaatsen inhoudt
+
+**Stap 1: Beveiliging in de ontwerpfase**
+
+Stel bij de start van elk project drie vragen: Welke beveiligingsrisico's zijn er? Wie is verantwoordelijk? Wat is het budget?
+
+**Stap 2: Beveiligingsplan als contractonderdeel**
+
+Leg vast welke maatregelen worden genomen, wie ze uitvoert en hoe er wordt gerapporteerd. Dit voorkomt discussie achteraf.
+
+**Stap 3: Gelaagde maatregelen**
+
+Combineer meerdere beveiligingslagen:
+- **Perimeter**: hekwerk, verlichting, waarschuwingsborden
+- **Detectie**: camerasystemen met bewegingsdetectie en remote monitoring
+- **Respons**: alarmopvolging door gediplomeerde beveiligers
+- **Organisatie**: toegangscontrole, registratie, procedures
+
+**Stap 4: Periodieke evaluatie**
+
+Beveiligingsrisico's veranderen per projectfase. Evalueer het plan bij elke fase-overgang.
+
+### Praesidion: beveiliging die WEL in de ontwerpfase begint
+
+Bij Bouwbeveiliging Nederland, onderdeel van **Praesidion Security B.V.**, nemen we beveiliging mee vanaf het eerste projectoverleg. Niet als losse dienst, maar als integraal onderdeel van projectbeheersing.
+
+Onze aanpak:
+
+- **Gratis risicoanalyse** bij projectstart — we komen op locatie
+- **Beveiligingsplan op maat** dat past bij uw project, budget en planning
+- **Uitvoering:** camera- en lichtmasten, mobiele surveillance, portiersdiensten, alarmopvolging
+- **Rapportage en evaluatie** gedurende het hele project
+- **ViA-proof documentatie** voor aanbestedingen
+
+We zijn gevestigd in **Limburg** en kennen de regio. Onze beveiligers zijn gediplomeerd, onze systemen zijn bewezen en onze lijnen zijn kort. Wanneer u belt, heeft u direct een specialist aan de lijn.
+
+### De cijfers liegen niet
+
+800.974 misdrijven. Een dalende trend die definitief is gestopt. Criminelen die zich professionaliseren. Bouwplaatsen die structureel kwetsbaar zijn. En een sector die beveiliging te laat in het proces betrekt.
+
+De bouwbedrijven die nu investeren in structurele beveiliging, betalen straks minder premie, hebben minder vertraging, staan sterker bij aanbestedingen en bieden hun opdrachtgevers zekerheid. De bedrijven die wachten, blijven diefstal "meebegroten" — totdat het een keer écht misgaat.
+
+---
+
+**Wilt u beveiliging structureel meenemen in uw bouwprojecten?** Neem contact op met Bouwbeveiliging Nederland voor een gratis risicoanalyse. Bel **046 240 2401** of mail naar **bouw@praesidion.nl**.
+
+*Bronnen: Politie.nl/CBS jaarcijfers 2025, Infrasite (maart 2026), Flexteam Security analyse*
+    `
+  },
+  {
     slug: 'beveiliging-als-vast-onderdeel-van-bouwprojecten',
     title: 'Beveiliging als vast onderdeel van bouwprojecten',
     description: 'Zes op de tien bouwprofessionals ziet criminaliteit toenemen, maar beveiliging krijgt structureel te weinig plek in ontwerp en aanbesteding. Waarom dat moet veranderen.',

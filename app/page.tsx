@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
+import UrgencyBanner from "./components/UrgencyBanner";
 import DienstenOverview from "./components/DienstenOverview";
 import WhySection from "./components/WhySection";
 import TestimonialsSection from "./components/TestimonialsSection";
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <HeroSection />
       <StatsSection />
+      <UrgencyBanner />
       <DienstenOverview />
       <WhySection />
       <TestimonialsSection />

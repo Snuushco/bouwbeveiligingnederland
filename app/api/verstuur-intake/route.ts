@@ -32,6 +32,8 @@ export async function POST(request: NextRequest) {
       <p style="color:#888;font-size:12px;">Deze aanvraag is automatisch gegenereerd via bouwbeveiligingnederland.nl</p>
     `
 
+    const fromEmail = process.env.LEADS_FROM_EMAIL || 'Bouwbeveiliging Nederland <noreply@snelrie.nl>'
+
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
@@ -39,7 +41,7 @@ export async function POST(request: NextRequest) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Bouwbeveiliging Nederland <noreply@snelrie.nl>',
+        from: fromEmail,
         to: 'bouw@praesidion.nl',
         reply_to: data.email,
         subject: `Nieuwe intake-aanvraag van ${data.naam} — Bouwbeveiliging Nederland`,

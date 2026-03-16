@@ -11,6 +11,106 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'beveiliging-in-ontwerp-en-aanbesteding-infrasite-onderzoek-2026',
+    title: 'Infrasite-onderzoek 2026: waarom beveiliging ontbreekt in ontwerp en aanbesteding — en wat dat uw project kost',
+    description: 'Uit onderzoek op Infrasite blijkt dat slechts 1 op 3 bouwbedrijven beveiliging meeneemt in de ontwerpfase. Nederland loopt achter op Europa. Wat kost dat uitstelgedrag werkelijk?',
+    date: '2026-03-16',
+    readTime: '9 min',
+    category: 'Onderzoek & Analyse',
+    content: `
+## Beveiliging ontbreekt structureel in bouwontwerp en aanbesteding
+
+Begin maart 2026 publiceerde Infrasite een opvallend ingezonden artikel over de staat van beveiliging in de Nederlandse bouwsector. De kern: **zes op de tien bouwprofessionals ervaart een toename van criminaliteit**, maar beveiliging krijgt structureel geen plek in ontwerp, kostenraming en aanbesteding. Niet omdat de sector niet wíl investeren — maar omdat het proces er simpelweg niet op is ingericht.
+
+Bij Bouwbeveiliging Nederland herkennen we dit beeld dagelijks. In dit artikel duiden we de bevindingen, leggen we uit wat het de sector werkelijk kost en laten we zien hoe u als bouwbedrijf het verschil maakt.
+
+## De kernbevindingen uit het Infrasite-onderzoek
+
+Het Infrasite-artikel schetst een helder beeld van de kloof tussen risicobewustzijn en daadwerkelijke actie:
+
+- **6 op de 10** Nederlandse bouwprofessionals ziet criminaliteit toenemen op de bouwplaats
+- Criminele groepen werken **geraffineerder en professioneler** dan voorheen
+- Slechts **1 op de 3** bedrijven betrekt beveiliging al in de ontwerpfase — in Europa is dat bijna de helft
+- Een derde van de sector **accepteert de risico's bewust** en begroot diefstal als normaal verlies
+- Beveiliging komt pas op tafel zodra de eerste materialen op het terrein liggen — of na het eerste incident
+
+Dat laatste punt is cruciaal. De auteur stelt terecht dat beveiliging niet draait om de waarde van gestolen materialen, maar om het **voorkomen van gevolgschade**. En die gevolgschade is waar de werkelijke kosten zitten.
+
+## De kostencirkel van uitstelgedrag
+
+Bijna een derde van de Nederlandse bouwprofessionals noemt **vertraging** als de grootste zorg bij beveiligingsincidenten. Niet de waarde van de gestolen generator of accu, maar de cascade die volgt: herplanning, logistieke druk op onderaannemers, extra overleg, verzekeringsafhandeling.
+
+In een sector waar marges krap zijn en tijd de duurste component is, weegt dat extreem zwaar. Het Infrasite-artikel beschrijft dit als een **kostencirkel**: beveiliging wordt uitgesteld omdat het als duur wordt gezien, maar de schade van niet-beveiligen overtreft de investering vrijwel altijd.
+
+Laten we de rekening concreet maken:
+
+- **Eén diefstalincident:** gemiddeld €20.000–€50.000 directe schade
+- **Projectvertraging:** 2–5 dagen per incident, met alle gevolgen voor de planning
+- **Verzekeringspremie:** stijgt na elke claim, eigen risico loopt op
+- **Reputatieschade:** opdrachtgevers zien een onbeveiligd project als risico bij vervolgtrajecten
+
+Tegenover die kosten staat een professioneel beveiligingspakket dat een fractie kost van één enkel incident. Beveiliging is geen kostenpost — het is **risicomanagement dat zichzelf terugverdient**.
+
+## Waarom Nederland achterloopt op Europa
+
+Een van de meest opvallende bevindingen: in Europa betrekt gemiddeld bijna de helft van de bouwsector beveiliging al in de ontwerpfase. In Nederland is dat slechts een derde. Grote bouwbedrijven lopen hierin voorop, maar het **midden- en kleinbedrijf** blijft achter.
+
+Het Infrasite-artikel wijst op een cultuurverschil. In Nederland wordt diefstal soms letterlijk "meegenomen in de begroting", alsof het een onvermijdelijke kostenpost is. Een derde van de professionals accepteert de risico's bewust — aanzienlijk hoger dan het Europees gemiddelde.
+
+Dit is een misvatting die de sector geld kost. De auteur vergelijkt het treffend met veiligheid, bouwvergunningen en ARBO-eisen: bij die thema's is de rolverdeling helder en zijn ze een standaardonderdeel van elk project. Beveiliging verdient dezelfde status.
+
+## De verschuiving die al gaande is
+
+Het goede nieuws: de verschuiving is begonnen. Meerdere ontwikkelingen duwen beveiliging naar voren in het bouwproces:
+
+### ViA-eisen per 1 juli 2026
+
+Het programma **Veiligheid in Aanbestedingen (ViA)** verscherpt de eisen rondom beveiliging bij publieke projecten. Een beveiligingsplan wordt een concreet gunningscriterium. Bouwbedrijven die nu al investeren in structurele beveiliging, staan straks sterker in aanbestedingen.
+
+### Professionalisering van criminelen
+
+De tijden van opportunistische diefstal zijn voorbij. Bouwplaatsen worden verkend, beveiligingssystemen worden geanalyseerd en diefstallen worden uitgevoerd met vrachtwagens en gecoördineerde teams. Dit vraagt om professionele tegenmaatregelen — niet om een extra slot op het hek.
+
+### Verzekeringsmarkt differentieert
+
+Verzekeraars kijken steeds scherper naar **aantoonbare preventie**. Bedrijven die investeren in beveiliging betalen minder premie. Bedrijven die dat niet doen, betalen de rekening bij elke claim.
+
+## Van nawerk naar ontwerpkwestie: de aanpak
+
+Het Infrasite-artikel pleit voor twee dingen: een **vroeg beslismoment** en **duidelijke verantwoordelijkheid**. Dat is precies wat wij bij Bouwbeveiliging Nederland in de praktijk brengen.
+
+### Stap 1: Beveiliging in de ontwerpfase
+
+Stel bij de start van elk project drie vragen: Welke beveiligingsrisico's zijn er? Wie is verantwoordelijk? Wat is het budget? Wij bieden een **gratis risicoanalyse** bij projectstart — op locatie, concreet en actionable.
+
+### Stap 2: Beveiligingsplan als contractonderdeel
+
+Leg vast welke maatregelen worden genomen, wie ze uitvoert en hoe er wordt gerapporteerd. Dit voorkomt grijze zones tussen hoofdaannemer, onderaannemer en opdrachtgever.
+
+### Stap 3: Gelaagde maatregelen
+
+Combineer **perimeter** (hekwerk, verlichting), **detectie** (camera's met remote monitoring), **respons** (alarmopvolging door gediplomeerde beveiligers) en **organisatie** (toegangscontrole, registratie, procedures).
+
+### Stap 4: Periodieke evaluatie
+
+Beveiligingsrisico's veranderen per projectfase. Evalueer het plan bij elke fase-overgang en pas aan op de actuele situatie.
+
+## De kernvraag die de sector moet beantwoorden
+
+Het Infrasite-artikel stelt de juiste vraag: als beveiliging bewust pas later wordt gepland, **wie draagt dan uiteindelijk de schade?** De hoofdaannemer, de opdrachtgever, de verzekeraar of de ketenpartners die hun planning moeten aanpassen?
+
+Het antwoord is: iedereen. En dat is precies waarom beveiliging onderdeel moet worden van de projectvoorbereiding, net als veiligheid, logistiek en ARBO-eisen. Niet als zware regelgeving, maar als **duidelijke keuze in een vroeg stadium**.
+
+De bouwsector heeft eerder bewezen dat zij veiligheid, digitalisering en duurzaamheid succesvol kan verankeren in projecten. Beveiliging is de volgende stap.
+
+---
+
+**Wilt u beveiliging structureel meenemen in uw bouwprojecten?** Neem contact op met Bouwbeveiliging Nederland voor een gratis risicoanalyse. Bel **046 240 2401** of mail naar **bouw@praesidion.nl**.
+
+*Bron: Infrasite, maart 2026 — "Criminaliteit groeit maar beveiliging krijgt geen plek in ontwerp en aanbesteding"*
+    `
+  },
+  {
     slug: 'fysieke-beveiliging-trends-2026-toekomst-objectbeveiliging',
     title: 'Fysieke beveiliging trends 2026: de 8 ontwikkelingen die de sector herdefiniëren',
     description: 'Van AI-gestuurde camerasystemen tot hybride beveiligingsteams: dit zijn de 8 trends die fysieke beveiliging in 2026 fundamenteel veranderen. Inclusief concrete impact per sector.',

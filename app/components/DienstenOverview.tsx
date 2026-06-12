@@ -36,8 +36,9 @@ const diensten = [
 
 export default function DienstenOverview() {
   return (
-    <section className="py-20 bg-navy-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden py-24 bg-[#07090d]">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_12%_18%,rgba(249,115,22,.14),transparent_28%),linear-gradient(rgba(255,255,255,.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.025)_1px,transparent_1px)] bg-[size:auto,44px_44px,44px_44px]" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -68,7 +69,7 @@ export default function DienstenOverview() {
             >
               <Link
                 href={dienst.href}
-                className="group block bg-navy-800 border border-navy-700 hover:border-orange-500/50 rounded-2xl p-8 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/5 h-full"
+                className="group relative block h-full overflow-hidden border border-white/15 bg-white/[0.07] p-8 shadow-[0_28px_90px_rgba(0,0,0,.28)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-orange-300/50 hover:bg-white/[0.10]"
               >
                 <div className="w-14 h-14 bg-orange-500/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-orange-500/20 transition-colors">
                   <dienst.icon className="w-7 h-7 text-orange-500" />

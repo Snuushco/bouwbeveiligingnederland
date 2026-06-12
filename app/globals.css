@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy-950: #0a0e1a;
-  --color-navy-900: #0f172a;
-  --color-navy-800: #1a2340;
-  --color-navy-700: #253256;
+  --color-navy-950: #07090d;
+  --color-navy-900: #0b1019;
+  --color-navy-800: #111a2a;
+  --color-navy-700: #22314a;
   --color-navy-600: #334571;
   --color-orange-500: #f97316;
   --color-orange-400: #fb923c;
@@ -14,12 +14,20 @@
 
 html {
   scroll-behavior: smooth;
+  background: #07090d;
 }
 
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(circle at 78% 4%, rgba(249, 115, 22, 0.13), transparent 30%),
+    linear-gradient(180deg, #07090d 0%, #0b1019 42%, #f8fafc 42%);
+}
+
+::selection {
+  background: rgba(249, 115, 22, 0.32);
 }
 
 ::-webkit-scrollbar {
@@ -30,8 +38,17 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background: #334571;
-  border-radius: 4px;
+  border-radius: 0;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #f97316;
+}
+
+@layer components {
+  .premium-panel {
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.04));
+    box-shadow: 0 28px 90px rgba(2, 6, 23, 0.30);
+    backdrop-filter: blur(16px);
+  }
 }

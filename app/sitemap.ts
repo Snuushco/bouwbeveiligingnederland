@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllSlugs } from './lib/blog-data';
+import { seoPages } from './lib/seo-pages';
 
 const BASE_URL = 'https://bouwbeveiligingnederland.nl';
 
@@ -35,5 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPages, ...regioPages];
+  const seoLandingPages: MetadataRoute.Sitemap = seoPages.map((page) => ({
+    url: `${BASE_URL}/${page.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...blogPages, ...regioPages, ...seoLandingPages];
 }

@@ -44,7 +44,7 @@ In een sector waar marges krap zijn en tijd de duurste component is, weegt dat e
 
 Laten we de rekening concreet maken:
 
-- **Eén diefstalincident:** gemiddeld €20.000–€50.000 directe schade
+- **Eén diefstalincident:** vaak forse directe schade en vertraging
 - **Projectvertraging:** 2–5 dagen per incident, met alle gevolgen voor de planning
 - **Verzekeringspremie:** stijgt na elke claim, eigen risico loopt op
 - **Reputatieschade:** opdrachtgevers zien een onbeveiligd project als risico bij vervolgtrajecten
@@ -378,7 +378,7 @@ De bouwbedrijven die nu investeren in structurele beveiliging, betalen straks mi
     content: `
 ## Beveiliging hoort in de ontwerpfase, niet op de bouwplaats
 
-De Nederlandse bouwsector verliest jaarlijks naar schatting **€250 miljoen** aan criminaliteit op bouwplaatsen. Zes op de tien bouwprofessionals ervaart een toename van diefstal, vandalisme en georganiseerde misdaad. Toch krijgt beveiliging structureel te weinig aandacht in de vroege fasen van een bouwproject. Dat blijkt uit recente publicaties op Infrasite en het Crime Report van BauWatch.
+De Nederlandse bouwsector verliest jaarlijks naar schatting een aanzienlijk bedrag aan criminaliteit op bouwplaatsen. Zes op de tien bouwprofessionals ervaart een toename van diefstal, vandalisme en georganiseerde misdaad. Toch krijgt beveiliging structureel te weinig aandacht in de vroege fasen van een bouwproject. Dat blijkt uit recente publicaties op Infrasite en het Crime Report van BauWatch.
 
 De conclusie is helder: beveiliging moet verschuiven van reactief nawerk naar een vast onderdeel van ontwerp, kostenraming en contract. In dit artikel analyseren we waarom dat nog niet gebeurt — en wat u als bouwbedrijf vandaag kunt doen.
 
@@ -441,10 +441,10 @@ Beveiligingsrisico's veranderen gedurende een project. Evalueer het beveiligings
 
 Laten we eerlijk zijn over de kosten. Een professioneel beveiligingspakket voor een middelgroot bouwproject kost een fractie van wat een enkel diefstalincident u kan kosten. Ter vergelijking:
 
-- **Camerasysteem met remote monitoring:** enkele honderden euro's per maand
-- **Mobiele surveillance:** vanaf €15 per patrouille
+- **Camerasysteem met remote monitoring:** investering afhankelijk van terrein, camera's en opvolging
+- **Mobiele surveillance:** inzet afhankelijk van route, frequentie en gewenste opvolging
 - **Portiersdienst:** afhankelijk van uren, maar voorspelbaar en budgetteerbaar
-- **Eén diefstalincident:** gemiddeld €20.000–€50.000 directe schade, exclusief vertraging
+- **Eén diefstalincident:** vaak forse directe schade en vertraging, exclusief vertraging
 
 De rekening is snel gemaakt. Beveiliging is geen kostenpost — het is **risicomanagement**.
 
@@ -486,7 +486,7 @@ Zolang beveiliging pas start nadat de bouw is begonnen, blijft het nawerk in pla
     content: `
 ## Dijkversterking Limburg: een megaproject met grote beveiligingsuitdagingen
 
-De provincie Limburg staat aan de vooravond van een van de grootste infrastructurele operaties in jaren. De dijkversterkingsprojecten bij **Baarlo-Hout-Blerick** en **Well** zijn onderdeel van het landelijke Hoogwaterbeschermingsprogramma (HWBP) en zullen in 2026 en 2027 voor ingrijpende werkzaamheden zorgen langs de Maas. Deze projecten, die samen honderden miljoenen euro's vertegenwoordigen, brengen niet alleen technische uitdagingen met zich mee — ze vragen ook om professionele bouwplaatsbeveiliging van het hoogste niveau.
+De provincie Limburg staat aan de vooravond van een van de grootste infrastructurele operaties in jaren. De dijkversterkingsprojecten bij **Baarlo-Hout-Blerick** en **Well** zijn onderdeel van het landelijke Hoogwaterbeschermingsprogramma (HWBP) en zullen in 2026 en 2027 voor ingrijpende werkzaamheden zorgen langs de Maas. Deze projecten, die samen zeer omvangrijke investeringen vertegenwoordigen, brengen niet alleen technische uitdagingen met zich mee — ze vragen ook om professionele bouwplaatsbeveiliging van het hoogste niveau.
 
 ### De omvang van de dijkversterkingsprojecten
 
@@ -504,7 +504,7 @@ Anders dan bij een gebouw of woningbouwproject, strekken dijkversterkingsproject
 
 **2. Kostbaar materieel en materiaal**
 
-Bij waterwerken wordt gebruik gemaakt van gespecialiseerd en kostbaar materieel: grondverzetmachines, heistellen, waterpompen, damwandplanken en tonnen aan bouwmaterialen. De waarde van het materieel op een gemiddeld dijkversterkingsproject loopt al snel in de miljoenen euro's. Diefstal of vandalisme kan niet alleen financiële schade veroorzaken, maar ook weken vertraging opleveren.
+Bij waterwerken wordt gebruik gemaakt van gespecialiseerd en kostbaar materieel: grondverzetmachines, heistellen, waterpompen, damwandplanken en tonnen aan bouwmaterialen. De waarde van het materieel op een gemiddeld dijkversterkingsproject loopt al snel sterk op. Diefstal of vandalisme kan niet alleen financiële schade veroorzaken, maar ook weken vertraging opleveren.
 
 **3. Kritieke infrastructuur**
 
@@ -674,24 +674,24 @@ De NAVO-top in juni 2026 is niet alleen een geopolitiek evenement van formaat �
   },
   {
     slug: 'diefstal-bouwplaatsen-300-miljoen-schade',
-    title: 'Diefstal op bouwplaatsen: €300 miljoen schade per jaar in Nederland',
-    description: 'Jaarlijks wordt er voor €300 miljoen gestolen van bouwplaatsen in Nederland. Ontdek de cijfers, trends en hoe u diefstal voorkomt met camera\'s en beveiliging.',
+    title: 'Diefstal op bouwplaatsen: grote schadepost voor de Nederlandse bouw',
+    description: 'Diefstal op bouwplaatsen veroorzaakt grote directe en indirecte schade. Ontdek de cijfers, trends en hoe u diefstal voorkomt met camera\'s en beveiliging.',
     date: '2026-02-28',
     readTime: '9 min',
     category: 'Preventie',
     content: `
-## Diefstal op bouwplaatsen: een probleem van €300 miljoen per jaar
+## Diefstal op bouwplaatsen: een grote schadepost voor de bouw
 
-Diefstal op bouwplaatsen is een van de grootste financiële uitdagingen voor de Nederlandse bouwsector. Jaarlijks wordt er naar schatting voor **€300 miljoen** aan materialen, gereedschap en materieel gestolen van bouwplaatsen in Nederland. Dit bedrag omvat alleen de directe schade — de indirecte kosten door **projectvertragingen**, **hogere verzekeringspremies** en **productiviteitsverlies** lopen nog vele malen hoger op.
+Diefstal op bouwplaatsen is een van de grootste financiële uitdagingen voor de Nederlandse bouwsector. Jaarlijks verdwijnen grote hoeveelheden materialen, gereedschap en materieel van bouwplaatsen in Nederland. Dit bedrag omvat alleen de directe schade — de indirecte kosten door **projectvertragingen**, **hogere verzekeringspremies** en **productiviteitsverlies** lopen nog vele malen hoger op.
 
 ### De cijfers spreken voor zich
 
 De bouwsector is een van de meest getroffen sectoren als het gaat om diefstal en criminaliteit:
 
-- **€300 miljoen** aan directe diefstalschade per jaar
+- Aanzienlijke directe diefstalschade per jaar
 - **Gemiddeld 15.000 diefstallen** per jaar op bouwplaatsen
 - **70% van de bouwbedrijven** heeft te maken gehad met diefstal
-- De gemiddelde schade per incident bedraagt **€20.000 tot €50.000**
+- De gemiddelde schade per incident kan fors oplopen
 - Slechts **15%** van de gestolen goederen wordt teruggevonden
 - **40%** van de diefstallen vindt plaats in het weekend
 

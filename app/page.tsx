@@ -19,24 +19,24 @@ export default function Home() {
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
               <span className="text-orange-400 font-semibold text-sm uppercase tracking-wider">
-                Professionele onderbouwing
+                Werkwijze
               </span>
               <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">
-                Geen verzonnen reviews of vaste prijsclaims — wel een controleerbare aanpak.
+                Bouwplaatsbeveiliging met grip op risico, toegang en continuïteit.
               </h2>
               <p className="mt-5 text-lg leading-relaxed text-slate-300">
-                Bouwplaatsbeveiliging is afhankelijk van projectfase, locatie, toegangspunten,
-                werktijden, materiaalwaarde en gewenste rapportage. Daarom tonen we geen
-                standaardtarieven of testimonials zonder aantoonbare toestemming.
+                We brengen projectfase, locatie, toegangspunten, werktijden en materiaalwaarde
+                overzichtelijk in kaart. Daarna vertalen we dit naar een praktische inzet met
+                duidelijke instructies, rapportage en escalatieafspraken.
               </p>
             </div>
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl">
-              <h3 className="text-xl font-bold">Wat u wel krijgt</h3>
+              <h3 className="text-xl font-bold">Wat u krijgt</h3>
               <ul className="mt-4 space-y-3 text-slate-300">
                 <li>• Risico-inventarisatie per bouwplaats</li>
                 <li>• Postinstructies, sluitrondes en escalatieafspraken</li>
                 <li>• Advies over beveiligers, camera’s, toegang en surveillance</li>
-                <li>• Offerte op basis van echte inzet en projectomstandigheden</li>
+                <li>• Offerte op basis van concrete inzet en projectomstandigheden</li>
               </ul>
             </div>
           </div>

@@ -11,6 +11,41 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'bouwplaatsbeveiliging-planning-overdracht-instructies',
+    title: 'Bouwplaatsbeveiliging zonder ruis: planning, overdracht en duidelijke instructies',
+    description: 'Wat sectorontwikkelingen rond roosters en operationele druk betekenen voor bouwplaatsbeveiliging: korte instructies, fase-overdracht en rapportage die tot actie leidt.',
+    date: '2026-06-25',
+    readTime: '6 min',
+    category: 'Bouwplaatsbeveiliging',
+    content: `
+## Bouwplaatsbeveiliging valt of staat met overdracht
+
+Op bouwplaatsen veranderen risico’s per fase: ruwbouw, afbouw, installatie, oplevering en leegstand vragen elk om andere aandacht. Recente sectorberichten over roosters, werkdruk en operationele druk in de beveiliging zijn daarom ook voor bouwprojecten relevant: zonder duidelijke instructies wordt beveiliging al snel ad hoc.
+
+## Het pijnpunt voor projectleiders
+
+De projectleider wil geen extra overleglaag. Hij wil weten dat materieel, toegang, leveranciers en noodroutes onder controle blijven zonder dat de planning vertraagt. Dat lukt alleen wanneer de beveiligingsafspraken kort, praktisch en overdraagbaar zijn.
+
+## Waar het vaak misgaat
+
+- Onderaannemers hebben wisselende toegangstijden, maar de postinstructie is niet bijgewerkt.
+- Waardevol materiaal staat tijdelijk buiten de oorspronkelijke opslagzone.
+- De bouwplaats verandert sneller dan de looproute of surveillance-instructie.
+- Een incident wordt gemeld, maar niet vertaald naar een aangepaste maatregel.
+- Na een roosterwissel weet de volgende beveiliger niet welke afspraken met de uitvoerder zijn gemaakt.
+
+## Beter borgen in vijf stappen
+
+- Koppel beveiligingsinstructies aan de bouwfase, niet aan één statisch plan.
+- Plan korte overdracht bij kritieke momenten: levering, afsluiting, weekend, opleverfase.
+- Laat rapportage concrete actiepunten bevatten: wie moet wat aanpassen?
+- Maak uitzonderingen zichtbaar voor de uitvoerder én de beveiliger.
+- Bespreek beveiliging in de weekstart wanneer risico’s of toegang wijzigen.
+
+Bronnen: FNV-sectorberichten over cao-onderhandelingen particuliere beveiliging en meldingen van Schipholbeveiligers (mei/juni 2026), plus UWV-arbeidsmarktinformatie over tekorten aan beveiligers. Deze blog duidt de signalen als operationele aandachtspunten; het is geen juridisch of cao-advies.
+`
+  },
+  {
     slug: 'beveiliging-in-ontwerp-en-aanbesteding-infrasite-onderzoek-2026',
     title: 'Infrasite-onderzoek 2026: waarom beveiliging ontbreekt in ontwerp en aanbesteding — en wat dat uw project kost',
     description: 'Uit onderzoek op Infrasite blijkt dat slechts 1 op 3 bouwbedrijven beveiliging meeneemt in de ontwerpfase. Nederland loopt achter op Europa. Wat kost dat uitstelgedrag werkelijk?',

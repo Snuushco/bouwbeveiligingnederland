@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Niet gevonden" };
   }
 
-  const canonical = `${SITE_URL}/${page.slug}/`;
+  const canonical = `${SITE_URL}/${page.slug}`;
 
   return {
     title: page.title,
@@ -57,7 +57,7 @@ function formatDate(date: string): string {
 }
 
 function buildSchemas(page: SeoPage) {
-  const pageUrl = `${SITE_URL}/${page.slug}/`;
+  const pageUrl = `${SITE_URL}/${page.slug}`;
 
   return [
     {

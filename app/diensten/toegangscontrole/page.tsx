@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/diensten/toegangscontrole" },
   title: "Toegangscontrole & portiersdiensten",
   description:
     "Professionele portiersdiensten met bezoekersregistratie, legitimatiecontrole en terreinbewaking.",

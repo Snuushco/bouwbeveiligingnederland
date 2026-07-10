@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/over-ons" },
   title: "Over ons",
   description:
     "Bouwbeveiliging Nederland is onderdeel van Praesidion Security B.V. Erkend beveiligingsbedrijf met vergunning ND 8968.",

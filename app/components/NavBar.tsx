@@ -99,8 +99,8 @@ export default function NavBar() {
             <Link href="/blog" className="text-gray-300 hover:text-orange-400 px-4 py-2 text-sm font-medium transition-colors">
               Blog
             </Link>
-            <Link href="/regio/maastricht" className="text-gray-300 hover:text-orange-400 px-4 py-2 text-sm font-medium transition-colors">
-              Regio&apos;s
+            <Link href="/bouwplaatsbeveiliging-limburg" className="text-gray-300 hover:text-orange-400 px-4 py-2 text-sm font-medium transition-colors">
+              Limburg
             </Link>
             <Link href="/over-ons" className="text-gray-300 hover:text-orange-400 px-4 py-2 text-sm font-medium transition-colors">
               Over ons
@@ -157,8 +157,8 @@ export default function NavBar() {
               <Link href="/blog" onClick={() => setMobileOpen(false)} className="block px-4 py-3 text-gray-300 hover:text-orange-400 font-medium transition-colors">
                 Blog
               </Link>
-              <Link href="/regio/maastricht" onClick={() => setMobileOpen(false)} className="block px-4 py-3 text-gray-300 hover:text-orange-400 font-medium transition-colors">
-                Regio&apos;s
+              <Link href="/bouwplaatsbeveiliging-limburg" onClick={() => setMobileOpen(false)} className="block px-4 py-3 text-gray-300 hover:text-orange-400 font-medium transition-colors">
+                Limburg
               </Link>
               <Link href="/over-ons" onClick={() => setMobileOpen(false)} className="block px-4 py-3 text-gray-300 hover:text-orange-400 font-medium transition-colors">
                 Over ons

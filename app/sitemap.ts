@@ -4,8 +4,6 @@ import { seoPages } from './lib/seo-pages';
 
 const BASE_URL = 'https://bouwbeveiligingnederland.nl';
 
-const regios = ['maastricht', 'heerlen', 'sittard', 'roermond', 'venlo', 'eindhoven', 'amsterdam', 'rotterdam'];
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
@@ -29,19 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const regioPages: MetadataRoute.Sitemap = regios.map((stad) => ({
-    url: `${BASE_URL}/regio/${stad}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
   const seoLandingPages: MetadataRoute.Sitemap = seoPages.map((page) => ({
     url: `${BASE_URL}/${page.slug}`,
-    lastModified: now,
+    lastModified: page.updatedAt,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
-  return [...staticPages, ...blogPages, ...regioPages, ...seoLandingPages];
+  return [...staticPages, ...blogPages, ...seoLandingPages];
 }

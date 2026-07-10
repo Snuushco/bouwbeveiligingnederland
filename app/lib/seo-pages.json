@@ -1,0 +1,652 @@
+[
+  {
+    "slug": "bouwplaatsbeveiliging-limburg",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging provincie limburg",
+    "title": "Bouwplaatsbeveiliging Limburg | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Limburg voor tijdelijke bouwterreinen, renovaties en infrastructuur. Praesidion Security verzorgt intake, inzetplan, toegangscontrole en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Limburg",
+    "kicker": "Regionale bouwplaatsbeveiliging",
+    "hero": "Bouwprojecten in Limburg hebben vaak te maken met verspreide werklocaties, grensverkeer, stedelijke renovatie en logistieke aanvoer via Maas, A2, A73 en A76. Praesidion Security vertaalt die situatie naar toegangsafspraken, rondes, toezicht en rapportage in een concreet inzetplan per locatie.",
+    "localContext": "Limburg combineert binnenstedelijke bouw in Maastricht en Heerlen met bedrijventerreinen, logistieke corridors rond Venlo, industrie in de Westelijke Mijnstreek en watergebonden werkzaamheden langs de Maas. Die geografische en economische variatie vraagt om beveiliging die per bouwfase meebeweegt en per locatie aansluit op terreinindeling, omgeving en logistiek.",
+    "risks": [
+      "Meerdere toegangen of tijdelijke poorten op terreinen die per bouwfase verschuiven.",
+      "Materieel, kabels, brandstof en gereedschap die buiten werktijd zichtbaar of bereikbaar blijven.",
+      "Grens- en corridorverkeer waardoor onbekende voertuigen minder opvallen bij logistieke bouwlocaties.",
+      "Binnenstedelijke hinder, bezoekersstromen en beperkte opslagruimte bij renovatie of transformatie.",
+      "Water- en infrastructuurwerken waar lange lijnen, depots en nachtelijke rustmomenten extra controle vragen."
+    ],
+    "approach": "We starten met een risico-intake op terreinindeling, bouwfase, werktijden, onderaannemers, kwetsbare goederen en bestaande maatregelen. Daarna volgt een praktisch beveiligingsplan met taken voor portier, ronde, sleutelbeheer, cameramelding of alarmopvolging. De inzet blijft toetsbaar via logboek, incidentregistratie en periodieke bijstelling.",
+    "deliverables": [
+      "Risico-inventarisatie per bouwfase en zone.",
+      "Inzetvoorstel met taken, tijden, overdracht en escalatielijn.",
+      "Toegangs- en bezoekersprocedure voor hoofdaannemer en onderaannemers.",
+      "Ronde-instructies voor depots, ketenpark, opslag, hekwerk en kritieke installaties.",
+      "Rapportageformat voor bijzonderheden, afwijkingen en vervolgacties."
+    ],
+    "process": [
+      "Intake: locatie, planning, waardevolle goederen, huidige afsluiting en eerdere incidenten bespreken.",
+      "Inzetplan: bepalen welke combinatie van fysieke aanwezigheid, controle, techniek en opvolging nodig is.",
+      "Startinstructie: werklijst, contactpersonen, toegangspunten en meldroute vastleggen.",
+      "Uitvoering: controleren, registreren, aanspreken en afwijkingen direct overdraagbaar maken.",
+      "Evaluatie: rapportages gebruiken om rondes, tijden of toegangsmomenten aan te scherpen."
+    ],
+    "areaServed": ["Limburg", "Maastricht", "Heerlen", "Sittard-Geleen", "Roermond", "Venlo", "Weert"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Voor welke soorten Limburgse bouwlocaties is deze aanpak bedoeld?",
+        "answer": "Voor onder meer binnenstedelijke renovatie, woningbouw, bedrijventerreinen, infrastructurele werken en tijdelijke depots. De precieze inzet volgt uit de locatie en bouwfase."
+      },
+      {
+        "question": "Wanneer is provinciale bouwplaatsbeveiliging zinvol?",
+        "answer": "Voor opdrachtgevers met meerdere locaties, wisselende bouwfasen of een mix van stedelijke, logistieke en infrastructurele terreinen is een provinciaal inzetkader vaak efficiënter dan losse ad-hoc afspraken."
+      },
+      {
+        "question": "Welke informatie is nodig voor een voorstel?",
+        "answer": "Minimaal de locatie, bouwplanning, werktijden, toegangspunten, waardevolle goederen, bestaande hekwerken of camera's en de gewenste rapportage."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-maastricht", "bouwplaatsbeveiliging-venlo", "bouwterrein-beveiligen", "tijdelijke-bouwbeveiliging"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-maastricht",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging maastricht",
+    "title": "Bouwplaatsbeveiliging Maastricht | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Maastricht voor binnenstedelijke bouw, renovatie en terreinen met beperkte ruimte. Intake, toegangscontrole, rondes en rapportage door Praesidion Security.",
+    "h1": "Bouwplaatsbeveiliging Maastricht",
+    "kicker": "Binnenstedelijke bouw en renovatie",
+    "hero": "Maastricht vraagt op bouwplaatsen vaak om compacte, nette en goed uitlegbare beveiliging. Binnenstedelijke routes, beperkte laad- en losruimte, bezoekersstromen en monumentale of gemengde functies maken het belangrijk dat toegang, rondes en overdracht strak zijn ingericht.",
+    "localContext": "De stad ligt aan de Maas, dicht bij België en heeft een centrum waar wonen, werken, onderwijs, zorg en toerisme dicht op elkaar zitten. Voor bouwbeveiliging betekent dit vooral: duidelijke poortinstructies, aandacht voor omwonenden en controle op materialen in krappe bouwzones.",
+    "risks": [
+      "Kleine bouwterreinen waar opslag, keten en doorgang elkaar snel kruisen.",
+      "Onbedoelde toegang door bezoekers, leveranciers of passanten in gemengd stedelijk gebied.",
+      "Geluid, stof of hinder waardoor beveiligers vaker als eerste aanspreekpunt worden gezien.",
+      "Materiaaltransport via smalle straten of venstertijden met beperkte controlemomenten.",
+      "Avond- en weekendrisico op diefstal van gereedschap, kabels en klein materieel."
+    ],
+    "approach": "Voor Maastricht leggen we nadruk op toegangsdiscipline, representatieve aanspreekbaarheid en korte rapportagelijnen. De instructie benoemt wie het terrein op mag, waar leveringen worden gecontroleerd, welke zones buiten werktijd extra aandacht krijgen en hoe overlastmeldingen worden vastgelegd zonder toezeggingen buiten mandaat.",
+    "deliverables": [
+      "Poortinstructie voor leveranciers, bezoekers en onderaannemers.",
+      "Rondeplan voor ketenpark, materiaalopslag, steigers, tijdelijke elektra en hekwerk.",
+      "Logboek met afwijkingen, aanspreekmomenten en overdracht aan uitvoerder.",
+      "Escalatiekaart voor incidenten, alarmmeldingen en schadeconstatering.",
+      "Advies voor minimale afsluiting bij compacte of gedeelde bouwzones."
+    ],
+    "process": [
+      "Locatiefoto's, fasering en toegangspunten verzamelen.",
+      "Risico's scheiden tussen werktijd, avond, nacht en weekend.",
+      "Portier- of rondetaak afstemmen op bouwplaatsregels.",
+      "Startoverdracht met uitvoerder en beveiligingsmedewerker uitvoeren.",
+      "Na eerste inzet rapportage controleren en instructie aanscherpen."
+    ],
+    "areaServed": ["Maastricht", "Eijsden-Margraten", "Meerssen", "Valkenburg aan de Geul", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Is bouwplaatsbeveiliging in Maastricht vooral portierwerk?",
+        "answer": "Niet altijd. Bij compacte locaties kan portierwerk belangrijk zijn, maar avondrondes, sleutelbeheer, materiaalcontrole en opvolging van camerameldingen kunnen net zo relevant zijn."
+      },
+      {
+        "question": "Kunnen omwonenden of passanten worden aangesproken?",
+        "answer": "Een beveiliger kan representatief aanspreekpunt zijn voor praktische meldingen rond toegang of veiligheid. Inhoudelijke bouwcommunicatie blijft bij opdrachtgever of uitvoerder."
+      },
+      {
+        "question": "Welke informatie is nodig voor beveiliging op een Maastrichtse bouwplaats?",
+        "answer": "De locatie, bouwfase, werktijden, toegangspunten, leveringsmomenten, waardevolle materialen, bestaande afsluiting en contactpersonen bepalen samen het inzetvoorstel."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-heerlen", "toegangscontrole-bouwplaats", "bouwterrein-beveiligen"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-heerlen",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging heerlen parkstad",
+    "title": "Bouwplaatsbeveiliging Heerlen | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Heerlen en Parkstad voor renovatie, transformatie en bouwterreinen met wisselende toegang. Praesidion Security levert intake, rondes en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Heerlen",
+    "kicker": "Bouwbeveiliging in Parkstad",
+    "hero": "In Heerlen en Parkstad komen renovatie, transformatie, bedrijventerreinen en woningbouw vaak dicht bij bestaande woon- en werkgebieden samen. Bouwbeveiliging moet daar niet alleen materieel bewaken, maar ook orde brengen in toegang, routes, opslag en overdracht.",
+    "localContext": "Heerlen is een centrumstad in Parkstad Limburg, met een stedelijke structuur die wordt beïnvloed door voormalige mijngebieden, regionale wegen en verspreide kernen. Voor bouwbeveiliging levert dat aandachtspunten op rond open randen, leegstaande of te transformeren panden en terreinen waar meerdere partijen tegelijk werken.",
+    "risks": [
+      "Transformatie- of renovatielocaties met bestaande gebouwen, donkere hoeken en tijdelijke openingen.",
+      "Verspreide opslag van steigermateriaal, kabels, koper, brandstof of klein gereedschap.",
+      "Meerdere onderaannemers met verschillende werktijden en wisselende toegang.",
+      "Terreinen aan doorgaande wegen waar observatie vanaf buiten makkelijk is.",
+      "Onvoldoende overdracht tussen sloop-, bouw- en afbouwfase."
+    ],
+    "approach": "Voor Heerlen ligt de nadruk op controleerbare zones en strakke faseoverdracht. We bepalen welke delen van het terrein actief zijn, welke gebouwen of ruimten gesloten blijven, waar waardevolle goederen staan en welke rondepunten bewijsbaar gecontroleerd moeten worden.",
+    "deliverables": [
+      "Zonekaart met actieve bouwdelen, afgesloten ruimten en aandachtspunten.",
+      "Controlelijst voor sloop-, ruwbouw-, afbouw- en opleverfase.",
+      "Toegangsprocedure voor onderaannemers buiten reguliere werktijden.",
+      "Incidentrapportage voor schade, braaksporen, open hekwerk of ontbrekend materiaal.",
+      "Advies over verlichting, zichtlijnen en opslagconcentratie."
+    ],
+    "process": [
+      "Bestaande gebouwsituatie en bouwfase inventariseren.",
+      "Toegangsmomenten en sleutelbeheer vastleggen.",
+      "Rondepunten koppelen aan kwetsbare zones en materiaalposities.",
+      "Dagelijkse of periodieke rapportage afstemmen op uitvoerder.",
+      "Wijzigingen in fasering verwerken in nieuwe instructie."
+    ],
+    "areaServed": ["Heerlen", "Parkstad Limburg", "Landgraaf", "Kerkrade", "Brunssum", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Waarom vraagt renovatie in Heerlen om andere beveiliging dan nieuwbouw?",
+        "answer": "Bij renovatie of transformatie zijn er vaak bestaande toegangspunten, verborgen ruimten en tijdelijke openingen. Daardoor moet de instructie preciezer zijn dan alleen een ronde langs het hek."
+      },
+      {
+        "question": "Kan beveiliging meebewegen met bouwfasen?",
+        "answer": "Ja. De inzet kan veranderen zodra sloop, ruwbouw, installatiewerk of afbouw andere risico's oplevert."
+      },
+      {
+        "question": "Welke gebieden rond Heerlen kunnen in de intake worden meegenomen?",
+        "answer": "Naast Heerlen kunnen onder meer Landgraaf, Kerkrade, Brunssum en andere delen van Parkstad worden meegenomen wanneer de locatie, planning en gewenste inzet bekend zijn."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-maastricht", "diefstalpreventie-bouwplaats", "nachtbewaking-bouwplaats"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-sittard-geleen",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging sittard geleen",
+    "title": "Bouwplaatsbeveiliging Sittard-Geleen | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Sittard-Geleen voor bouw bij stedelijke, logistieke en industriële omgeving. Praktische intake, toegangsinstructies, rondes en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Sittard-Geleen",
+    "kicker": "Westelijke Mijnstreek",
+    "hero": "Sittard-Geleen combineert woongebieden, bedrijventerreinen, spoor- en snelwegverbindingen en een sterke industriële omgeving. Bouwbeveiliging moet hier duidelijk onderscheiden tussen bouwplaatsregels, logistieke toegang en eventuele locatiegebonden veiligheidsinstructies, vooral wanneer meerdere partijen tegelijk dezelfde route of poort gebruiken.",
+    "localContext": "De gemeente ligt in de Westelijke Mijnstreek, nabij A2, A76, spoorverbindingen en grote industriële bedrijvigheid. Dat zijn algemene kenmerken van het gebied. Ze betekenen voor bouwbeveiliging dat voertuigstromen, toegangspassen, leveringsmomenten en afbakening van verantwoordelijkheden extra zorgvuldig moeten worden ingericht.",
+    "risks": [
+      "Gemengd verkeer van bouwpersoneel, leveranciers, transporteurs en bezoekers.",
+      "Onheldere grens tussen bouwterrein, openbaar gebied en aangrenzende bedrijfslocaties.",
+      "Waardevolle installatiedelen of kabelwerk tijdens montage- en afbouwfasen.",
+      "Werken nabij spoor, snelweg of industrie waar veiligheidsinstructies strikt moeten worden gevolgd.",
+      "Afwijkende werktijden door logistiek, onderhoudsstops of gefaseerde oplevering."
+    ],
+    "approach": "Voor Sittard-Geleen maken we toegang en mandaat expliciet. De beveiliger krijgt vastgelegde instructies voor aanmelding, registratie, PBM-controle indien afgesproken, rondepunten, afwijkingen en escalatie. We vermijden informele uitzonderingen aan de poort omdat die later vaak tot discussie leiden.",
+    "deliverables": [
+      "Aanmeld- en registratieproces voor personeel, leveranciers en bezoekers.",
+      "Instructie voor toegang buiten standaard werktijden.",
+      "Rondeplan voor installatiedelen, kabeltraces, opslag en bouwketen.",
+      "Overdrachtsblad met contactpersonen en escalatievolgorde.",
+      "Rapportage over toegang, bijzonderheden, schade en openstaande acties."
+    ],
+    "process": [
+      "Bepalen welke toegangseisen bouwplaatsbreed gelden.",
+      "Afstemmen welke controles een beveiliger wel en niet uitvoert.",
+      "Logistieke piekmomenten verwerken in bemanning of rondes.",
+      "Instructie testen op de eerste uitvoeringsdag.",
+      "Bij incidenten onderscheid maken tussen beveiliging, veiligheid en bouwleiding."
+    ],
+    "areaServed": ["Sittard", "Geleen", "Born", "Westelijke Mijnstreek", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Waarom is toegangscontrole hier zo belangrijk?",
+        "answer": "Door de mix van bouw, logistiek en bedrijvigheid kan veel verkeer legitiem lijken. Registratie en duidelijke poortinstructies voorkomen dat onbekende toegang normaal wordt."
+      },
+      {
+        "question": "Kan een aanvraag alleen voor Geleen of Sittard worden gedaan?",
+        "answer": "Ja. De gezamenlijke regiopagina behandelt beide stadsdelen, maar de intake en het inzetplan worden altijd per concrete bouwlocatie opgesteld."
+      },
+      {
+        "question": "Wat verandert bij bouwen in een industriële omgeving?",
+        "answer": "Toegangseisen, voertuigstromen, veiligheidsinstructies en de scheiding tussen bouwplaats en aangrenzende processen moeten dan extra zorgvuldig worden vastgelegd."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-roermond", "toegangscontrole-bouwplaats", "camera-en-fysieke-beveiliging-bouw"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-roermond",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging roermond midden limburg",
+    "title": "Bouwplaatsbeveiliging Roermond | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Roermond en Midden-Limburg voor bouwterreinen bij stad, water, retail en infrastructuur. Intake, rondes, toegangscontrole en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Roermond",
+    "kicker": "Midden-Limburg",
+    "hero": "Roermond ligt centraal in Midden-Limburg, aan de Maas en nabij belangrijke regionale routes. Bouwplaatsen kunnen hier te maken krijgen met watergebonden zones, publieksdrukte, retailomgeving of bedrijventerreinen waar zichtbaarheid en toegangscontrole anders werken dan op een afgesloten nieuwbouwkavel.",
+    "localContext": "De stad heeft een mix van centrumfuncties, Maasplassen, regionale voorzieningen en verbindingen richting Noord-, Zuid- en Midden-Limburg. Voor beveiliging vertaalt dat zich naar aandacht voor terreinafbakening, leveringsroutes, publiek langs de randen en kwetsbare opslag na werktijd.",
+    "risks": [
+      "Bouwlocaties nabij water of open gebied met lange hekwerklijnen en minder sociale controle.",
+      "Publieksstromen rond centrum- of retailomgevingen die niet bij de bouwplaats horen.",
+      "Materiaaldepots die tijdelijk buiten het directe werkvak liggen.",
+      "Schade of betreding bij weekenden, koopavonden of evenementen in de omgeving.",
+      "Leveringen die via meerdere zijden van het terrein plaatsvinden."
+    ],
+    "approach": "Voor Roermond sturen we op heldere terreingrenzen en controlepunten. De aanpak benoemt waar publiek mag komen, waar bouwlogistiek stopt, welke zones in rondes prioriteit hebben en hoe afwijkingen zoals open hekwerk of onbeheerde opslag direct worden gemeld.",
+    "deliverables": [
+      "Terreingrens- en poortoverzicht voor beveiligingsinstructie.",
+      "Rondepunten voor waterzijde, opslag, ketenpark, machines en tijdelijke installaties.",
+      "Procedure voor leveringen, bezoekers en onverwachte toegangsvragen.",
+      "Rapportage met foto's of omschrijvingen van afwijkingen indien afgesproken.",
+      "Advies over tijdelijke maatregelen bij lange weekenden of fasen met veel materiaalwaarde."
+    ],
+    "process": [
+      "Randen, looproutes en logistieke ingangen inventariseren.",
+      "Bepalen of beveiliging vooral preventief, controlerend of poortgericht moet zijn.",
+      "Werkafspraken met uitvoerder en eventueel facilitair aanspreekpunt vastleggen.",
+      "Rapportage frequentie afstemmen op risico en bouwfase.",
+      "Na wijziging van terreinindeling rondekaart actualiseren."
+    ],
+    "areaServed": ["Roermond", "Midden-Limburg", "Maasgouw", "Leudal", "Roerdalen", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Is beveiliging bij watergebonden bouwlocaties anders?",
+        "answer": "Vaak wel. Langere randen, depots en minder overzicht kunnen vragen om andere rondepunten en extra aandacht voor hekwerk en verlichting."
+      },
+      {
+        "question": "Kan een beveiliger publieke vragen afhandelen?",
+        "answer": "Alleen binnen afgesproken mandaat. De beveiliger kan verwijzen, registreren en toegang bewaken; bouwinhoudelijke communicatie blijft bij opdrachtgever."
+      },
+      {
+        "question": "Worden Roermondse projecten als referentie gebruikt?",
+        "answer": "Nee. Deze pagina gebruikt alleen lokale context en beschrijft een mogelijke werkwijze."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-sittard-geleen", "nachtbewaking-bouwplaats", "bouwterrein-beveiligen"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-venlo",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging venlo noord limburg",
+    "title": "Bouwplaatsbeveiliging Venlo | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Venlo en Noord-Limburg voor logistieke bouwlocaties, bedrijfsterreinen en grensregio. Praesidion Security regelt intake, toegang en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Venlo",
+    "kicker": "Noord-Limburg en logistieke corridors",
+    "hero": "Venlo is sterk verbonden met logistiek, grensverkeer en bedrijventerreinen. Op bouwplaatsen betekent dat veel voertuigen, leveringen en onbekende kentekens. Beveiliging moet daarom praktisch zijn: wie mag naar binnen, wat wordt geregistreerd en welke goederen of zones krijgen prioriteit buiten werktijd.",
+    "localContext": "De regio Venlo ligt bij de Duitse grens en aan belangrijke verbindingen zoals A67, A73, spoor en logistieke knooppunten. Voor bouwbeveiliging maakt dit vooral voertuigcontrole, logistieke planning en zicht op waardevolle bouwmaterialen belangrijk.",
+    "risks": [
+      "Veel vracht- en bestelverkeer waardoor ongeautoriseerde toegang minder snel opvalt.",
+      "Opslag van installatiemateriaal, dockonderdelen, kabels of bouwstoffen op grote kavels.",
+      "Ruime terreinen met meerdere inritten, tijdelijke rijplaten en veranderende routing.",
+      "Grensligging waarbij snelle verplaatsing van gestolen goederen een aandachtspunt kan zijn.",
+      "Nachtelijke of vroege leveringen die buiten reguliere bouwplaatsbezetting vallen."
+    ],
+    "approach": "Voor Venlo richten we beveiliging in rond logistieke beheersbaarheid. De poortinstructie koppelt toegang aan planning of toestemming, rondes volgen kavelranden en opslagzones, en afwijkingen worden zo vastgelegd dat de uitvoerder snel ziet welke actie nodig is.",
+    "deliverables": [
+      "Kenteken-, leveranciers- of bezoekersregistratie volgens afgesproken werkwijze.",
+      "Rondekaart voor kavels, docks, opslag, brandstof, hekwerk en bouwketen.",
+      "Instructie voor vroege leveringen en toegang buiten werktijd.",
+      "Incidentregistratie bij braakschade, open poort, ontbrekend materiaal of alarmmelding.",
+      "Evaluatie van toegangspunten na wijziging van bouwlogistiek."
+    ],
+    "process": [
+      "Logistieke stromen en toegangsmomenten in kaart brengen.",
+      "Afspreken welke voertuigen direct door mogen en welke verificatie vragen.",
+      "Kritieke goederen en opslaglocaties prioriteren.",
+      "Ronde- en rapportagetijden koppelen aan leveringsritme.",
+      "Bij grote kavels periodiek controleren of hekwerk en poorten nog logisch liggen."
+    ],
+    "areaServed": ["Venlo", "Noord-Limburg", "Tegelen", "Blerick", "Horst aan de Maas", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Waarom vraagt een logistieke bouwlocatie om aparte instructies?",
+        "answer": "Door de hoeveelheid voertuigen is aanwezigheid alleen onvoldoende. Registratie, verificatie en duidelijke afleverregels beperken verwarring aan de poort."
+      },
+      {
+        "question": "Kan bouwplaatsbeveiliging worden gecombineerd met camera-opvolging?",
+        "answer": "Ja, als de locatie daarvoor is ingericht. Fysieke inzet kan dan worden gekoppeld aan meldingen, rondes of afgesproken alarmopvolging."
+      },
+      {
+        "question": "Welke gegevens zijn nodig voor een logistieke bouwlocatie in Venlo?",
+        "answer": "Onder meer terreinindeling, vervoersstromen, leveringsvensters, toegangspunten, opslagzones, werktijden, waardevolle goederen en de bestaande afsluiting bepalen het inzetvoorstel."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-weert", "camera-en-fysieke-beveiliging-bouw", "toegangscontrole-bouwplaats"]
+  },
+  {
+    "slug": "bouwplaatsbeveiliging-weert",
+    "kind": "regional",
+    "canonicalIntent": "bouwplaatsbeveiliging weert midden limburg",
+    "title": "Bouwplaatsbeveiliging Weert | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwplaatsbeveiliging in Weert voor bouwterreinen aan stadsrand, bedrijventerrein en regionale verbindingen. Praktische intake, rondes, toegangscontrole en rapportage.",
+    "h1": "Bouwplaatsbeveiliging Weert",
+    "kicker": "Weert en westelijk Midden-Limburg",
+    "hero": "Weert ligt aan de westzijde van Limburg, met verbindingen richting Brabant, België en Midden-Limburg. Bouwterreinen liggen hier niet altijd midden in stedelijke drukte; juist stadsranden, bedrijventerreinen en regionale routes vragen om zichtbare controle en goede afsluiting buiten werktijd.",
+    "localContext": "Weert heeft een regionale centrumfunctie en ligt nabij A2, spoor en de grens met Noord-Brabant en België. Voor bouwbeveiliging betekent dit dat terreinen aan uitvalswegen, bedrijventerreinen of open randen anders moeten worden beoordeeld dan compacte centrumlocaties.",
+    "risks": [
+      "Bouwterreinen aan stadsrand of bedrijventerrein met minder toezicht buiten werktijd.",
+      "Open zicht op machines, containers of bouwstoffen vanaf doorgaande wegen.",
+      "Tijdelijke opslag op ruime kavels waar afstand tussen objecten groot is.",
+      "Weekendrisico bij locaties die doordeweeks druk zijn maar daarna leeg staan.",
+      "Meerdere regionale aanrijroutes waardoor onbekend verkeer moeilijk te duiden is."
+    ],
+    "approach": "Voor Weert richten we ons op preventieve zichtbaarheid, slimme rondepunten en heldere afsluitcontrole. De instructie maakt concreet welke poorten dicht moeten zijn, welke goederen extra risico lopen, hoe verlichting en hekwerk worden beoordeeld en wanneer de opdrachtgever wordt gebeld.",
+    "deliverables": [
+      "Afsluitcheck voor poorten, hekwerk, containers, keten en machines.",
+      "Rondepunten voor zichtbare goederen, brandstof, kabels en tijdelijke installaties.",
+      "Weekend- of nachtinstructie bij terreinen met lage sociale controle.",
+      "Rapportage van kwetsbare plekken met concrete vervolgactie.",
+      "Advies over combinatie van fysieke rondes en cameradetectie waar passend."
+    ],
+    "process": [
+      "Ligging, zichtlijnen en bereikbaarheid buiten werktijd beoordelen.",
+      "Waardevolle goederen en machines rangschikken naar risico.",
+      "Rondefrequentie en rapportagevorm kiezen op basis van bouwfase.",
+      "Startcontrole uitvoeren op afsluiting en sleutelafspraken.",
+      "Na incident of bijna-incident het rondeplan aanpassen."
+    ],
+    "areaServed": ["Weert", "Nederweert", "Leudal", "Cranendonck", "Midden-Limburg", "Limburg"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Wanneer is nachtbewaking in Weert logisch?",
+        "answer": "Vooral bij terreinen met lage sociale controle, zichtbare waardevolle goederen of een fase waarin veel materiaal tijdelijk buiten ligt."
+      },
+      {
+        "question": "Is alleen hekwerk genoeg?",
+        "answer": "Hekwerk is een basismaatregel, maar zonder afsluitcontrole, verlichting, opslagdiscipline en opvolging blijft het effect beperkt."
+      },
+      {
+        "question": "Hoe wordt de inzetvorm voor een bouwplaats in Weert bepaald?",
+        "answer": "De terreinindeling, bouwfase, werktijden, waardevolle goederen en bestaande maatregelen bepalen of rondes, nachtbewaking, toegang of een combinatie passend is."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwplaatsbeveiliging-venlo", "nachtbewaking-bouwplaats", "diefstalpreventie-bouwplaats"]
+  },
+  {
+    "slug": "tijdelijke-bouwbeveiliging",
+    "kind": "intent",
+    "canonicalIntent": "tijdelijke bouwbeveiliging",
+    "title": "Tijdelijke bouwbeveiliging | Bouwbeveiliging Nederland",
+    "metaDescription": "Tijdelijke bouwbeveiliging voor korte bouwfasen, calamiteiten, opleverdruk en extra risico buiten werktijd. Praesidion Security maakt een concreet inzetplan.",
+    "h1": "Tijdelijke bouwbeveiliging",
+    "kicker": "Flexibele inzet per bouwfase",
+    "hero": "Tijdelijke bouwbeveiliging is bedoeld voor periodes waarin het risico tijdelijk hoger is dan normaal: start bouw, levering van kostbare materialen, afbouw, vakantieperiode, calamiteit of een weekend met open terrein. De inzet moet snel te begrijpen zijn en na afloop net zo makkelijk worden afgebouwd.",
+    "localContext": "Tijdelijke bouwbeveiliging is niet aan één stad gekoppeld. Praesidion Security beoordeelt per locatie of personele inzet, rondes, camera-opvolging of een combinatie daarvan passend is. Bouwfase, werktijden, afsluiting, waardevolle leveringen en de gewenste einddatum bepalen samen hoe de maatregel wordt ingericht en weer afgebouwd.",
+    "risks": [
+      "Ad-hoc inzet zonder duidelijke instructie, waardoor beveiligers alleen aanwezig zijn maar weinig kunnen sturen.",
+      "Te laat opschalen bij leveringen, stormschade, open hekwerk of verhoogde diefstaldreiging.",
+      "Onduidelijke einddatum waardoor tijdelijke maatregelen onnodig doorlopen.",
+      "Geen overdracht tussen dagploeg, nachtbewaking en uitvoerder.",
+      "Geen evaluatie na tijdelijke inzet, waardoor hetzelfde probleem terugkomt."
+    ],
+    "approach": "We beperken tijdelijke beveiliging tot wat nodig en uitlegbaar is. De intake bepaalt de aanleiding, duur, taken, meldroute en afbouwmoment. Zo ontstaat een tijdelijke maatregel met duidelijke start, controlepunten en evaluatie in plaats van een open opdracht zonder doel.",
+    "deliverables": [
+      "Korte risico-intake met aanleiding, duur en prioriteiten.",
+      "Tijdelijk inzetplan met taken, tijden en eindmoment.",
+      "Dag- of nachtrapportage met bijzonderheden en advies voor vervolg.",
+      "Escalatieafspraken bij schade, diefstal, alarm of onbevoegde toegang.",
+      "Afbouwadvies zodra risico of bouwfase verandert."
+    ],
+    "process": [
+      "Aanleiding scherp maken: incident, planning, levering of kwetsbare fase.",
+      "Minimale effectieve inzet bepalen.",
+      "Startinstructie delen met beveiliging en uitvoerder.",
+      "Tijdens inzet rapportage controleren op actiepunten.",
+      "Eindmoment vastleggen en eventuele structurele maatregel adviseren."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Hoe tijdelijk is tijdelijke bouwbeveiliging?",
+        "answer": "Dat kan één nacht, een weekend, enkele weken of een specifieke bouwfase zijn. Belangrijk is dat het doel en eindmoment vooraf worden benoemd."
+      },
+      {
+        "question": "Is tijdelijke inzet hetzelfde als spoedinzet?",
+        "answer": "Niet altijd. Spoed kan tijdelijk zijn, maar tijdelijke beveiliging kan ook vooraf gepland worden rond leveringen, afbouw of vakantie."
+      },
+      {
+        "question": "Hoe snel kan tijdelijke bouwbeveiliging worden ingepland?",
+        "answer": "Dat hangt af van locatie, taken, gewenste tijden, instructie en beschikbaarheid. Na de intake volgt een concreet voorstel met een haalbaar startmoment."
+      }
+    ],
+    "relatedSlugs": ["bouwplaatsbeveiliging-limburg", "bouwterrein-beveiligen", "nachtbewaking-bouwplaats", "camera-en-fysieke-beveiliging-bouw"]
+  },
+  {
+    "slug": "bouwterrein-beveiligen",
+    "kind": "intent",
+    "canonicalIntent": "bouwterrein beveiligen",
+    "title": "Bouwterrein beveiligen | Bouwbeveiliging Nederland",
+    "metaDescription": "Bouwterrein beveiligen met heldere terreinindeling, toegangscontrole, rondes, afsluitcontrole en rapportage. Praesidion Security maakt risico's praktisch beheersbaar.",
+    "h1": "Bouwterrein beveiligen",
+    "kicker": "Van open terrein naar beheersbare bouwplaats",
+    "hero": "Een bouwterrein beveiligen begint niet bij een beveiliger aan de poort, maar bij overzicht: waar liggen waardevolle goederen, wie mag wanneer naar binnen, welke randen zijn kwetsbaar en wat gebeurt er bij afwijkingen? Pas daarna kies je de juiste mix van fysieke inzet, techniek en werkafspraken.",
+    "localContext": "Een bouwterrein kan variëren van een compacte binnenstedelijke kavel tot een ruim bedrijventerrein. De aanpak begint steeds bij grenzen, toegang, opslag, werktijden, overdracht en de concrete bouwfase. Ook verlichting, hekwerk, leveringsroutes, tijdelijke doorgangen en de aanwezigheid van onderaannemers bepalen welke combinatie van maatregelen uitvoerbaar is.",
+    "risks": [
+      "Open hekwerk, tijdelijke doorgangen of onduidelijke terreingrenzen.",
+      "Geen onderscheid tussen bezoekers, personeel, leveranciers en onderaannemers.",
+      "Materiaal verspreid over het terrein zonder prioriteit in rondes.",
+      "Geen vaste afsluitcheck na werktijd.",
+      "Incidenten die wel worden gezien maar niet opvolgbaar worden vastgelegd."
+    ],
+    "approach": "We maken het terrein leesbaar. De aanpak brengt toegangspunten, opslag, machines, keten, verlichting, camera's en risicomomenten samen in een praktische instructie. Daarna wordt bepaald of portier, surveillance, nachtbewaking of camera-opvolging de juiste maatregel is.",
+    "deliverables": [
+      "Terreincheck met kwetsbare randen en toegangspunten.",
+      "Prioriteitenlijst voor te beveiligen goederen en zones.",
+      "Afsluit- en openingsprocedure.",
+      "Bezoekers- en leveranciersafspraken.",
+      "Rapportageformat met actiepunten voor de uitvoerder."
+    ],
+    "process": [
+      "Plattegrond, foto's of schouw gebruiken om het terrein te begrijpen.",
+      "Risico's koppelen aan bouwfase en tijdstip.",
+      "Maatregelen kiezen die uitvoerbaar zijn voor beveiliging en bouwteam.",
+      "Controlepunten in een vaste ronde of poortinstructie zetten.",
+      "Periodiek bijwerken wanneer hekwerk, opslag of routing verandert."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Wat is de eerste stap bij een bouwterrein beveiligen?",
+        "answer": "Begin met de terreingrenzen, toegangspunten en waardevolle goederen. Zonder dat overzicht is elke maatregel minder gericht."
+      },
+      {
+        "question": "Moet er altijd een beveiliger op locatie zijn?",
+        "answer": "Nee. Soms volstaan betere afsluiting, rondes of camera-opvolging. Bij hoge waarde, veel toegang of eerdere incidenten kan fysieke aanwezigheid wel logisch zijn."
+      },
+      {
+        "question": "Waarom is rapportage onderdeel van terreinbeveiliging?",
+        "answer": "Rapportage maakt zichtbaar wat is gecontroleerd, welke afwijkingen bestaan en welke bouwkundige of organisatorische actie nodig is."
+      }
+    ],
+    "relatedSlugs": ["tijdelijke-bouwbeveiliging", "toegangscontrole-bouwplaats", "diefstalpreventie-bouwplaats", "bouwplaatsbeveiliging-limburg"]
+  },
+  {
+    "slug": "diefstalpreventie-bouwplaats",
+    "kind": "intent",
+    "canonicalIntent": "diefstalpreventie bouwplaats",
+    "title": "Diefstalpreventie bouwplaats | Bouwbeveiliging Nederland",
+    "metaDescription": "Diefstalpreventie op de bouwplaats voor materieel, kabels, gereedschap, brandstof en installatiedelen. Praktische maatregelen, rondes en rapportage.",
+    "h1": "Diefstalpreventie bouwplaats",
+    "kicker": "Voorkomen dat gelegenheid schade wordt",
+    "hero": "Diefstalpreventie op een bouwplaats draait om het verkleinen van gelegenheid. Waardevolle goederen moeten minder zichtbaar, minder bereikbaar en sneller controleerbaar zijn. Beveiliging helpt door discipline in opslag, afsluiting, toegang en opvolging te brengen.",
+    "localContext": "Diefstalpreventie is niet aan één regio gebonden. Een stadsrand, bedrijventerrein, logistieke corridor of binnenstad brengt andere zichtlijnen, toegangen en vluchtroutes mee. De intake vertaalt die omgeving samen met bouwfase, leveringen en opslag naar uitvoerbare maatregelen.",
+    "risks": [
+      "Kabels, koper, gereedschap, brandstof en klein materieel blijven zichtbaar liggen.",
+      "Containers en keten worden afgesloten maar niet gecontroleerd op braaksporen.",
+      "Leveringen komen binnen voordat opslag of toezicht is geregeld.",
+      "Onbekende personen mengen zich met personeel of leveranciers.",
+      "Na een incident wordt de werkwijze niet aangepast."
+    ],
+    "approach": "We behandelen diefstalpreventie als combinatie van bouwlogistiek en beveiliging. Waardevolle goederen krijgen een opslagplek, toegang wordt beperkt, rondes richten zich op risicopunten en incidenten worden concreet beschreven zodat vervolgmaatregelen niet blijven hangen.",
+    "deliverables": [
+      "Risicolijst voor goederen, machines en installatiedelen.",
+      "Opslag- en afsluitadvies voor containers, keten en depots.",
+      "Ronde-instructie gericht op braaksporen, hekwerk, brandstof en kabelwerk.",
+      "Toegangsafspraak voor leveranciers en onderaannemers.",
+      "Incidentrapportage met preventieve vervolgactie."
+    ],
+    "process": [
+      "Waardevolle goederen en diefstalgevoelige momenten benoemen.",
+      "Opslag en leverplanning afstemmen op toezicht.",
+      "Rondepunten kiezen op basis van gelegenheid en opbrengst voor dader.",
+      "Afwijkingen direct delen met uitvoerder of contactpersoon.",
+      "Na incident evalueren welke maatregel tekort schoot."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Welke goederen zijn vaak diefstalgevoelig op bouwplaatsen?",
+        "answer": "Denk aan kabels, koper, gereedschap, brandstof, accu's, klein materieel en installatiedelen. De exacte prioriteit verschilt per fase."
+      },
+      {
+        "question": "Is camerabewaking genoeg voor diefstalpreventie?",
+        "answer": "Niet altijd. Camera's helpen vooral als detectie, opvolging, verlichting, opslag en toegang ook goed zijn geregeld."
+      },
+      {
+        "question": "Kan preventie tijdelijk worden verhoogd?",
+        "answer": "Ja. Rond leveringen, afbouw, vakanties of na incidenten kan tijdelijke extra controle zinvol zijn."
+      }
+    ],
+    "relatedSlugs": ["bouwterrein-beveiligen", "nachtbewaking-bouwplaats", "camera-en-fysieke-beveiliging-bouw", "bouwplaatsbeveiliging-weert"]
+  },
+  {
+    "slug": "toegangscontrole-bouwplaats",
+    "kind": "intent",
+    "canonicalIntent": "toegangscontrole bouwplaats",
+    "title": "Toegangscontrole bouwplaats | Bouwbeveiliging Nederland",
+    "metaDescription": "Toegangscontrole op de bouwplaats met registratie, poortinstructies, leveranciersafspraken en rapportage. Praesidion Security maakt toegang controleerbaar.",
+    "h1": "Toegangscontrole bouwplaats",
+    "kicker": "Wie mag wanneer het terrein op",
+    "hero": "Toegangscontrole op een bouwplaats voorkomt dat onbekende toegang normaal wordt. Het gaat om meer dan een naam opschrijven: de poort moet weten wie verwacht wordt, welke regels gelden, wat buiten werktijd mag en wanneer er moet worden geëscaleerd.",
+    "localContext": "Deze pagina behandelt toegangscontrole als bouwintentie. In regionale aanvragen kan de invulling verschillen door binnenstedelijke drukte, logistieke kavels, industrieomgeving of open terreinen. De kern blijft dat toegang pas beheersbaar is wanneer toestemming, registratie, mandaat en escalatie vooraf duidelijk zijn.",
+    "risks": [
+      "Leveranciers, bezoekers en onderaannemers gebruiken dezelfde ingang zonder verificatie.",
+      "Buiten werktijd is onduidelijk wie toestemming mag geven.",
+      "Registratie gebeurt wel, maar wordt niet gebruikt voor controle of incidentonderzoek.",
+      "PBM-, parkeer- of veiligheidsafspraken zijn niet gekoppeld aan toegang.",
+      "De poort wijkt af van instructies onder druk van planning of haast."
+    ],
+    "approach": "We maken toegangscontrole concreet per doelgroep. Personeel, bezoekers, leveranciers, transporteurs en onbekende melders krijgen elk een eenvoudige beslisregel. De beveiliger registreert volgens afspraak en escaleert bij afwijking, zonder zelf bouwkundige toestemming te improviseren.",
+    "deliverables": [
+      "Poortinstructie met toegestane toegangscategorieën.",
+      "Registratieproces voor bezoekers, leveranciers en buitenwerktijdse toegang.",
+      "Contactlijst voor toestemming, escalatie en incidentmelding.",
+      "Dagrapportage met toegangsaantallen en afwijkingen indien gewenst.",
+      "Advies over fysieke inrichting van poort, wachtruimte en looproute."
+    ],
+    "process": [
+      "Doelgroepen en toegangstijden bepalen.",
+      "Verificatiemethode kiezen: planning, contactpersoon, pas, lijst of combinatie.",
+      "Mandaat aan de poort schriftelijk maken.",
+      "Afwijkingen registreren en terugkoppelen.",
+      "Instructie bijwerken als bouwfase of logistiek verandert."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Wat moet in een poortinstructie staan?",
+        "answer": "Wie toegang krijgt, hoe toestemming wordt gecontroleerd, welke regels bij aankomst gelden, wie mag afwijken en hoe incidenten worden gemeld."
+      },
+      {
+        "question": "Kan toegangscontrole tijdelijk worden ingezet?",
+        "answer": "Ja. Dat kan rond piekleveringen, start bouw, open dagen, afbouw of periodes met verhoogd risico."
+      },
+      {
+        "question": "Doet de beveiliger ook veiligheidskeuringen?",
+        "answer": "Alleen als dat vooraf is afgesproken en binnen de opdracht past. Toegang bewaken is iets anders dan bouwveiligheid certificeren."
+      }
+    ],
+    "relatedSlugs": ["bouwterrein-beveiligen", "bouwplaatsbeveiliging-sittard-geleen", "bouwplaatsbeveiliging-venlo", "tijdelijke-bouwbeveiliging"]
+  },
+  {
+    "slug": "nachtbewaking-bouwplaats",
+    "kind": "intent",
+    "canonicalIntent": "nachtbewaking bouwplaats",
+    "title": "Nachtbewaking bouwplaats | Bouwbeveiliging Nederland",
+    "metaDescription": "Nachtbewaking voor bouwplaatsen met rondes, afsluitcontrole, signalering van afwijkingen en rapportage. Praesidion Security stemt inzet af op risico en bouwfase.",
+    "h1": "Nachtbewaking bouwplaats",
+    "kicker": "Controle wanneer het terrein leeg is",
+    "hero": "Nachtbewaking op een bouwplaats is vooral waardevol wanneer het terrein leeg, donker of kwetsbaar is. De taak is niet alleen aanwezig zijn, maar gericht controleren: poorten, hekwerk, opslag, machines, keten, verlichting, alarmmeldingen en sporen van betreding.",
+    "localContext": "Nachtbeveiliging kan per bouwlocatie anders worden ingericht. Een binnenstedelijke renovatie vraagt andere rondes en meldlijnen dan een ruim bedrijventerrein of watergebonden werkvak. Elke aanvraag krijgt daarom een aparte planning en beschikbaarheidscontrole.",
+    "risks": [
+      "Open poorten, beschadigd hekwerk of onbeheerde doorgangen blijven uren onopgemerkt.",
+      "Diefstal of vernieling vindt plaats nadat de dagploeg is vertrokken.",
+      "Alarmmeldingen worden niet gekoppeld aan fysieke controle.",
+      "Rondes zijn voorspelbaar en missen kwetsbare zones.",
+      "De nachtrapportage bevat te weinig detail voor vervolgactie."
+    ],
+    "approach": "We ontwerpen nachtbewaking vanuit risico en bewijsbaarheid. Rondepunten worden gekozen op waarde en kwetsbaarheid, niet op gemak. De rapportage laat zien wat is gecontroleerd, wat afweek en welke actie nodig is bij start van de volgende werkdag.",
+    "deliverables": [
+      "Nachtinstructie met rondepunten, tijden en prioriteiten.",
+      "Afsluitcontrole voor poorten, keten, containers, machines en elektra.",
+      "Alarm- en escalatieprocedure met contactpersonen.",
+      "Nachtrapportage met bijzonderheden en actiepunten.",
+      "Advies over verlichting, opslag en rondevariatie."
+    ],
+    "process": [
+      "Kwetsbare nachtelijke zones vastleggen.",
+      "Rondefrequentie bepalen op basis van waarde, zicht en incidenthistorie.",
+      "Escalatie en bevoegdheden vooraf afspreken.",
+      "Rondes uitvoeren en afwijkingen direct registreren.",
+      "Overdracht naar dagploeg of uitvoerder verzorgen."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Wanneer is nachtbewaking zinvol?",
+        "answer": "Bij waardevolle goederen, open of afgelegen terreinen, eerdere incidenten, afbouwfase, lange weekenden of wanneer alarmopvolging alleen onvoldoende is."
+      },
+      {
+        "question": "Zijn vaste rondetijden verstandig?",
+        "answer": "Niet altijd. Rondevariatie kan helpen voorspelbaarheid te beperken, zolang rapportage en controlepunten duidelijk blijven."
+      },
+      {
+        "question": "Wordt 24/7 inzet standaard beloofd?",
+        "answer": "Nee. De benodigde uren en beschikbaarheid worden per aanvraag bepaald."
+      }
+    ],
+    "relatedSlugs": ["tijdelijke-bouwbeveiliging", "diefstalpreventie-bouwplaats", "bouwplaatsbeveiliging-roermond", "bouwplaatsbeveiliging-weert"]
+  },
+  {
+    "slug": "camera-en-fysieke-beveiliging-bouw",
+    "kind": "intent",
+    "canonicalIntent": "camera en fysieke beveiliging bouw",
+    "title": "Camera en fysieke beveiliging bouw | Bouwbeveiliging Nederland",
+    "metaDescription": "Camera en fysieke beveiliging voor bouwplaatsen combineren: detectie, opvolging, rondes, toegangscontrole en rapportage in één praktisch beveiligingsplan.",
+    "h1": "Camera en fysieke beveiliging bouw",
+    "kicker": "Techniek en mens op elkaar afgestemd",
+    "hero": "Camera's zien veel, maar lossen niet alles op. Fysieke beveiliging kan controleren, aanspreken, afsluiten, rapporteren en opvolgen. De combinatie werkt pas goed wanneer duidelijk is welke melding tot welke actie leidt en wie verantwoordelijk is voor techniek, terrein en opvolging.",
+    "localContext": "Regionale factoren zoals logistieke kavels, binnenstedelijke bouw of open waterwerken bepalen welke detectie en fysieke inzet logisch is. Het beveiligingsplan legt daarom camerazones, fysieke rondes, verificatie, techniekbeheer en opvolging praktisch vast.",
+    "risks": [
+      "Camera's detecteren beweging maar er is geen duidelijke opvolgactie.",
+      "Beveiligers lopen rondes zonder inzicht in camerazones of alarmhistorie.",
+      "Blinde hoeken ontstaan door bouwfase, steigers, containers of verplaatste hekken.",
+      "Meldingen worden te vaak vals positief, waardoor aandacht verslapt.",
+      "Verantwoordelijkheid tussen installateur, meldkamer, beveiliger en opdrachtgever is onduidelijk."
+    ],
+    "approach": "We verbinden techniek en fysieke taken in één instructie. Camerazones, alarmmeldingen, rondepunten, toegang en escalatie worden op elkaar afgestemd. Zo ontstaat geen stapeling van maatregelen, maar een werkend proces voor detectie, verificatie en opvolging.",
+    "deliverables": [
+      "Overzicht van camerazones, blinde hoeken en fysieke rondepunten.",
+      "Meldingsprotocol voor verificatie, opvolging en escalatie.",
+      "Taakverdeling tussen opdrachtgever, techniekpartner, meldkamer en beveiliging.",
+      "Rapportage van meldingen, opvolging en geconstateerde afwijkingen.",
+      "Advies voor aanpassing bij gewijzigde bouwfase of terreininrichting."
+    ],
+    "process": [
+      "Bestaande camera's, verlichting en meldroute inventariseren.",
+      "Bepalen welke meldingen fysieke opvolging vragen.",
+      "Rondepunten afstemmen op blinde hoeken en waardevolle zones.",
+      "Escalatie bij echte incidenten en valse meldingen vastleggen.",
+      "Periodiek controleren of camerabeeld en bouwfase nog overeenkomen."
+    ],
+    "areaServed": ["Limburg", "Nederland"],
+    "updatedAt": "2026-07-10",
+    "faqs": [
+      {
+        "question": "Vervangen camera's fysieke beveiliging?",
+        "answer": "Soms verminderen camera's de benodigde fysieke uren, maar bij toegang, aanspreken, afsluiten en incidentopvolging blijft menselijke inzet vaak nodig."
+      },
+      {
+        "question": "Wie handelt camerameldingen af?",
+        "answer": "Dat wordt vooraf vastgelegd. Afhankelijk van de inrichting kan dit via meldkamer, opdrachtgever of fysieke beveiliging lopen."
+      },
+      {
+        "question": "Wanneer moet het plan worden aangepast?",
+        "answer": "Bij verplaatst hekwerk, nieuwe steigers, andere opslag, afbouwfase, extra leveringen of veel valse meldingen."
+      }
+    ],
+    "relatedSlugs": ["toegangscontrole-bouwplaats", "diefstalpreventie-bouwplaats", "tijdelijke-bouwbeveiliging", "bouwplaatsbeveiliging-venlo"]
+  }
+]

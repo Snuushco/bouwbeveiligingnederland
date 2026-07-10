@@ -1,15 +1,22 @@
 # bouwbeveiligingnederland.nl
 
-Specialistische beveiligingssite van Praesidion Security.
+Bouwbeveiliging Nederland beheert bouwbeveiligingsintenties. Praesidion Security B.V. is de uitvoerende brede beveiligingsorganisatie via https://www.praesidion.eu/.
+
+Limburg-pilot zonder fictieve klant-, project-, garantie- of responstijdclaims:
 - Bouwplaatsbeveiliging Limburg: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-limburg/
 - Bouwplaatsbeveiliging Maastricht: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-maastricht/
-- Bouwplaatsbeveiliging Venlo: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-venlo/
-- Bouwplaatsbeveiliging Roermond: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-roermond/
-- Bouwplaatsbeveiliging Sittard-Geleen: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-sittard-geleen/
 - Bouwplaatsbeveiliging Heerlen: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-heerlen/
+- Bouwplaatsbeveiliging Sittard-Geleen: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-sittard-geleen/
+- Bouwplaatsbeveiliging Roermond: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-roermond/
+- Bouwplaatsbeveiliging Venlo: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-venlo/
+- Bouwplaatsbeveiliging Weert: https://bouwbeveiligingnederland.nl/bouwplaatsbeveiliging-weert/
+
+Eigen bouwintenties:
 - Tijdelijke bouwbeveiliging: https://bouwbeveiligingnederland.nl/tijdelijke-bouwbeveiliging/
 - Bouwterrein beveiligen: https://bouwbeveiligingnederland.nl/bouwterrein-beveiligen/
 - Diefstalpreventie bouwplaats: https://bouwbeveiligingnederland.nl/diefstalpreventie-bouwplaats/
 - Toegangscontrole bouwplaats: https://bouwbeveiligingnederland.nl/toegangscontrole-bouwplaats/
 - Nachtbewaking bouwplaats: https://bouwbeveiligingnederland.nl/nachtbewaking-bouwplaats/
 - Camera en fysieke beveiliging bouw: https://bouwbeveiligingnederland.nl/camera-en-fysieke-beveiliging-bouw/
+
+Oude /regio routes voor Maastricht, Heerlen, Sittard, Geleen, Roermond en Venlo verwijzen permanent naar de nieuwe canonicals. Niet-Limburgroutes worden niet als actuele dekking gepubliceerd.

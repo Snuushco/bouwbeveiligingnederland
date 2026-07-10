@@ -7,19 +7,19 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://bouwbeveiligingnederland.nl"),
   title: {
-    default: "Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging",
+    default: "Bouwbeveiliging Nederland | Bouwplaatsbeveiliging in Limburg",
     template: "%s | Bouwbeveiliging Nederland",
   },
   description:
-    "Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+    "Bouwbeveiliging Nederland biedt bouwplaatsbeveiliging in Limburg met risico-intake, toegangscontrole, rondes, nachtbewaking en heldere rapportage door Praesidion Security B.V.",
   openGraph: {
     type: "website",
     locale: "nl_NL",
     url: "https://bouwbeveiligingnederland.nl",
     siteName: "Bouwbeveiliging Nederland",
-    title: "Bouwbeveiliging Nederland | Specialist in Bouwplaatsbeveiliging",
+    title: "Bouwbeveiliging Nederland | Bouwplaatsbeveiliging in Limburg",
     description:
-      "Bouwbeveiliging Nederland - Specialist in bouwplaatsbeveiliging in Limburg en heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+      "Bouwbeveiliging Nederland biedt bouwplaatsbeveiliging in Limburg met risico-intake, toegangscontrole, rondes, nachtbewaking en heldere rapportage door Praesidion Security B.V.",
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.ico" },
@@ -37,7 +37,7 @@ export default function RootLayout({
     "@type": "LocalBusiness",
     name: "Bouwbeveiliging Nederland",
     description:
-      "Specialist in bouwplaatsbeveiliging in heel Nederland. Gediplomeerde beveiligers, camerasystemen, surveillance en toegangscontrole.",
+      "Bouwbeveiliging Nederland biedt informatie over bouwplaatsbeveiliging. Praesidion Security B.V. verzorgt de operationele uitvoering na intake.",
     url: "https://bouwbeveiligingnederland.nl",
     telephone: "+31462402401",
     email: "bouw@praesidion.nl",

@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/'],
+        disallow: ['/api/', '/regio/eindhoven', '/regio/amsterdam', '/regio/rotterdam'],
       },
     ],
     sitemap: 'https://bouwbeveiligingnederland.nl/sitemap.xml',

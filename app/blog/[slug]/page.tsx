@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
+    alternates: { canonical: `https://bouwbeveiligingnederland.nl/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.description,

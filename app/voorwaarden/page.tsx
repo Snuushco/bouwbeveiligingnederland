@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/voorwaarden" },
+};
 export default function VoorwaardenPage() {
   return (
     <div className="bg-navy-950">

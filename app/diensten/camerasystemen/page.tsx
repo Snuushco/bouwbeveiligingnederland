@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/diensten/camerasystemen" },
   title: "Camerasystemen & Lichtmasten",
   description:
     "Camera- en lichtmasten voor bouwplaatsbeveiliging met remote monitoring en alarmopvolging.",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/diensten/bouwplaatsbeveiliging" },
   title: "Bouwplaatsbeveiliging",
   description:
     "Professionele bouwplaatsbeveiliging door gediplomeerde beveiligers. 24/7 bewaking, toegangscontrole en materieelbescherming.",

@@ -3,6 +3,7 @@ import { blogPosts } from "../lib/blog-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/blog" },
   title: "Blog",
   description:
     "Actuele artikelen over bouwplaatsbeveiliging, risico’s, regelgeving en trends in de beveiligingssector.",

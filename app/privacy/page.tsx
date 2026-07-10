@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/privacy" },
+};
 export default function PrivacyPage() {
   return (
     <div className="bg-navy-950">

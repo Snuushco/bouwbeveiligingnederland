@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://bouwbeveiligingnederland.nl/diensten/surveillance" },
   title: "Mobiele surveillance & alarmopvolging",
   description:
     "Onvoorspelbare controlerondes en snelle alarmopvolging voor bouwplaatsen in heel Nederland.",

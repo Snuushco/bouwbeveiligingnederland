@@ -74,7 +74,7 @@ export default function IntakeForm() {
           </svg>
         </div>
         <h3 className="text-xl font-bold text-white mb-2">Aanvraag ontvangen!</h3>
-        <p className="text-gray-400">We nemen binnen 2 uur contact met u op.</p>
+        <p className="text-gray-400">We nemen zo snel mogelijk contact met u op.</p>
         <button
           onClick={() => setSubmitted(false)}
           className="mt-6 text-orange-400 hover:text-orange-300 text-sm font-medium transition-colors"
@@ -156,6 +156,7 @@ export default function IntakeForm() {
           </label>
           <select id="dienst" name="dienst" value={formData.dienst} onChange={handleChange} required className={inputClasses}>
             <option value="">Selecteer een dienst</option>
+            <option value="bouwplaats-risicoscan">Bouwplaats-risicoscan</option>
             <option value="bouwplaatsbeveiliging">Bouwplaatsbeveiliging</option>
             <option value="portiersdiensten">Portiersdiensten</option>
             <option value="camera-lichtmasten">Camera- en Lichtmasten</option>

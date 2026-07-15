@@ -205,6 +205,46 @@ export default async function SeoLandingPage({ params }: Props) {
         </div>
       </section>
 
+      {page.slug === "bouwplaatsbeveiliging-venlo" && (
+        <section className="border-b border-orange-200 bg-orange-50 py-14">
+          <div className="mx-auto grid max-w-6xl gap-8 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-8">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.16em] text-orange-700">
+                Afgebakende eerste stap
+              </p>
+              <h2 className="mt-3 text-3xl font-black text-slate-950">
+                Start met een bouwplaats-risicoscan
+              </h2>
+              <p className="mt-4 leading-7 text-slate-700">
+                Breng vóór de start of bij een fasewissel eerst de belangrijkste
+                beveiligingskeuzes voor één locatie in beeld. De scan is geen
+                certificering of verzekeringsinspectie.
+              </p>
+            </div>
+
+            <div className="border border-orange-200 bg-white p-6 shadow-sm">
+              <h3 className="text-xl font-black text-slate-950">Vaste scope voor de intake</h3>
+              <ul className="mt-5 grid gap-3 text-slate-700 sm:grid-cols-2">
+                <li className="border-l-4 border-orange-500 pl-3">Locatieschouw en controle van toegangspunten</li>
+                <li className="border-l-4 border-orange-500 pl-3">Prioriteitenlijst voor de eerste 30 dagen</li>
+                <li className="border-l-4 border-orange-500 pl-3">Advies over rondes, toegang en cameradekking</li>
+                <li className="border-l-4 border-orange-500 pl-3">Kort rapport plus vervolgoverleg</li>
+              </ul>
+              <p className="mt-5 text-sm leading-6 text-slate-600">
+                Deel de projectlocatie en gewenste startdatum. Daarna ontvangt u
+                de passende scope en vaste prijs voor uw locatie.
+              </p>
+              <Link
+                href="/#contact"
+                className="mt-6 inline-flex rounded-lg bg-orange-500 px-5 py-3 font-semibold text-white transition-colors hover:bg-orange-600"
+              >
+                Vraag de risicoscan aan
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-2">

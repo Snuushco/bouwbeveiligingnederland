@@ -11,6 +11,109 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ip-camera-bouwplaats-veilige-beheerafspraken',
+    title: 'IP-camera’s op de bouwplaats: zes veilige beheerafspraken',
+    description: 'AIVD/MIVD-advies vertaald naar praktische afspraken voor tijdelijke IP-camera’s op bouwplaatsen: netwerktoegang, accounts, projectwijzigingen en alarmopvolging.',
+    date: '2026-07-15',
+    readTime: '7 min',
+    category: 'Camerasystemen',
+    content: `
+## Tijdelijke camera, blijvende verantwoordelijkheid
+
+IP-camera’s op een bouwplaats worden vaak tijdelijk geplaatst, verplaatst en door meerdere partijen gebruikt. Juist daardoor kan onduidelijk worden wie verantwoordelijk is voor configuratie, updates, accounts, storingen en opvolging. Een actueel advies van AIVD en MIVD geeft een concrete aanleiding om die beheerketen opnieuw te controleren.
+
+De diensten waarschuwden op 10 juli 2026 voor onvoldoende beveiligde IP-camera’s die rechtstreeks via internet bereikbaar zijn. Hun handelingsperspectief noemt onder meer het beperken van directe internettoegang, het uitschakelen van UPnP en het vermijden van portforwarding. Dat betekent niet dat ieder camerasysteem op een bouwplaats onveilig is. Het betekent wel dat tijdelijke inzet geen reden mag zijn om beheerafspraken tijdelijk te laten.
+
+## Waarom een bouwplaats extra afstemming vraagt
+
+Een bouwplaats verandert voortdurend. Camera- en lichtmasten verhuizen mee met de projectfase, stroom- en netwerkvoorzieningen worden aangepast, onderaannemers komen en gaan en waardevolle zones verschuiven. Tegelijk kunnen opdrachtgever, hoofdaannemer, installateur, meldkamer en beveiligingsbedrijf ieder een deel van de keten beheren.
+
+Als verantwoordelijkheden niet vooraf zijn verdeeld, ontstaat een praktisch risico: een beveiliger ziet dat beeld ontbreekt, maar weet niet wie herstel aanstuurt; een installateur wijzigt de verbinding, maar de meldkamer weet niet dat een camera tijdelijk buiten gebruik is; of een oud leveranciersaccount blijft actief nadat de inzet is gewijzigd.
+
+De oplossing begint niet bij een productclaim, maar bij zes controleerbare werkafspraken.
+
+## 1. Benoem één eigenaar van het camerasysteem
+
+Leg per project vast wie eindverantwoordelijk is voor configuratie, updates, leverancierscontact en besluitvorming bij storingen. Noteer ook wie waarneemt bij vakantie, ziekte of personeelswissel. De eigenaar hoeft niet alle werkzaamheden zelf uit te voeren, maar moet wel kunnen aantonen wie welke taak heeft.
+
+## 2. Laat netwerktoegang bewust beoordelen
+
+Laat de verantwoordelijke IT- en installatiepartijen vaststellen of directe internettoegang nodig is en hoe die wordt beperkt. Neem het AIVD/MIVD-advies over UPnP en portforwarding mee in die beoordeling. Maak geen generieke wijziging zonder te controleren hoe meldkamer, remote monitoring en onderhoud zijn ingericht.
+
+## 3. Beheer accounts per rol en projectfase
+
+Maak duidelijk wie livebeeld, opnamen en beheerinstellingen mag gebruiken. Werk waar mogelijk met persoonlijke accounts en rechten die passen bij de taak. Trek toegang in zodra een medewerker, onderaannemer of leverancier niet meer bij het project betrokken is.
+
+Praktische controlevragen:
+
+- Is bekend welke accounts actief zijn en bij welke organisatie ze horen?
+- Wie keurt nieuwe toegang goed?
+- Wanneer worden tijdelijke rechten opnieuw beoordeeld?
+- Hoe wordt een vertrekkende leverancier of medewerker uit alle relevante systemen verwijderd?
+
+## 4. Koppel cameradekking aan de bouwfase
+
+Een camera die in de ruwbouwfase goed stond, kan tijdens afbouw of oplevering een andere functie krijgen. Controleer na verplaatsing van hekwerk, containers, opslag, bouwwegen of stroomvoorziening of cameradekking en detectiezones nog aansluiten op het actuele terrein.
+
+Leg bij elke relevante wijziging vast:
+
+- welke camera of mast is verplaatst;
+- welke zone tijdelijk minder zichtbaar is;
+- wie configuratie en beeld controleert;
+- wanneer de nieuwe situatie is geaccepteerd;
+- welke tijdelijke fysieke maatregel geldt totdat alles werkt.
+
+## 5. Spreek storing en alarmopvolging samen af
+
+Een technische storing is ook een operationele wijziging. Spreek daarom af wie een offline camera of afwijkende melding ontvangt, wie herstel coördineert en wanneer extra surveillance, een aangepaste ronde of een tijdelijke post nodig is. Zet die afspraak in de bouwplaatsinstructie én de dienstoverdracht.
+
+Een melding is pas bruikbaar als ook duidelijk is wie handelt, binnen welk mandaat en hoe de opvolging wordt gerapporteerd. Vermijd algemene responstijd- of preventiegaranties: de passende opvolging hangt af van locatie, tijdstip, bereikbaarheid en de afgesproken beveiligingsinzet.
+
+## 6. Test de hele keten periodiek
+
+Controleer niet alleen of er beeld op een scherm staat. Test ook of meldingen aankomen, contactpersonen bereikbaar zijn, de beveiliger de juiste locatie-instructie heeft en een storing aantoonbaar wordt afgesloten. Herhaal de test na een relevante terreinwijziging of wijziging van leverancier, netwerk of meldkamerproces.
+
+## Verdeel technische en operationele taken
+
+**Opdrachtgever en uitvoerder** bepalen welke zones en projectfasen beveiligd moeten worden en wie beslissingen mag nemen.
+
+**Installateur en IT** beoordelen technische configuratie, netwerktoegang, updates, accounts en herstel.
+
+**Meldkamer en beveiliging** vertalen meldingen en uitval naar verificatie, fysieke opvolging, rapportage en overdracht.
+
+**Projectleiding** bewaakt dat wijzigingen in terrein, planning en leveranciers ook in de beveiligingsafspraken terugkomen.
+
+Deze verdeling is een praktisch vertrekpunt en geen cybersecurity-, privacy- of compliancegarantie. De concrete eisen hangen af van systeem, locatie, gebruik en betrokken partijen. Laat technische, privacy- en juridische onderdelen daarom afzonderlijk beoordelen.
+
+## Officiële bronnen
+
+- <a href="https://www.aivd.nl/actueel/nieuws/2026/07/10/nederland-doelwit-van-russische-spionageoperatie-via-ip-cameras">AIVD, 10 juli 2026: Nederland doelwit van Russische spionageoperatie via IP-camera’s</a> — officiële primaire bron over de beschreven dreiging rond internetbereikbare IP-camera’s.
+- <a href="https://www.aivd.nl/documenten/2026/07/10/cyberadvies-russische-statelijke-actoren-compromitteren-ip-cameras-in-europa-voor-militaire-doeleinden">AIVD/MIVD, 10 juli 2026: cyberadvies over gecompromitteerde IP-camera’s in Europa</a> — officieel handelingsperspectief met technische aandachtspunten voor inrichting en beheer.
+
+## Veelgestelde vragen
+
+### Moet een IP-camera op een bouwplaats rechtstreeks via internet bereikbaar zijn?
+
+Niet standaard. AIVD en MIVD adviseren directe internettoegang te beperken. Laat de gekozen inrichting door de verantwoordelijke IT- en installatiepartijen beoordelen, mede in relatie tot meldkamer en onderhoud.
+
+### Wie beheert camera-accounts tijdens een bouwproject?
+
+Leg dat expliciet vast. Benoem wie accounts uitgeeft en intrekt, wie beheerinstellingen mag wijzigen en wie het periodieke overzicht controleert.
+
+### Wat gebeurt er als een cameramast wordt verplaatst?
+
+Controleer opnieuw de dekking, detectiezones, verbinding, meldingen en opvolgingsinstructie. Leg tijdelijke blinde zones en aanvullende fysieke controles vast totdat de nieuwe situatie is getest.
+
+### Garandeert deze checklist dat een camerasysteem veilig is?
+
+Nee. De checklist helpt eigenaarschap en opvolging te structureren. Een concrete technische en privacybeoordeling van systeem, netwerk en gebruik blijft nodig.
+
+---
+
+**Wilt u cameratoezicht en fysieke opvolging als één werkbare bouwplaatsketen bespreken?** Neem contact op via **bouw@praesidion.nl** of bel **046 240 2401** voor een locatiespecifieke intake zonder generieke veiligheids- of responstijdgaranties.
+`
+  },
+  {
     slug: 'bouwplaatsbeveiliging-planning-overdracht-instructies',
     title: 'Bouwplaatsbeveiliging zonder ruis: planning, overdracht en duidelijke instructies',
     description: 'Wat sectorontwikkelingen rond roosters en operationele druk betekenen voor bouwplaatsbeveiliging: korte instructies, fase-overdracht en rapportage die tot actie leidt.',

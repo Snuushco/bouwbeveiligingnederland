@@ -19,4 +19,7 @@ Eigen bouwintenties:
 - Nachtbewaking bouwplaats: https://bouwbeveiligingnederland.nl/nachtbewaking-bouwplaats/
 - Camera en fysieke beveiliging bouw: https://bouwbeveiligingnederland.nl/camera-en-fysieke-beveiliging-bouw/
 
+Actueel:
+- IP-camera’s op de bouwplaats: zes veilige beheerafspraken: https://bouwbeveiligingnederland.nl/blog/ip-camera-bouwplaats-veilige-beheerafspraken/ — Praktische afspraken voor netwerktoegang, accounts, projectwijzigingen, storingen en alarmopvolging naar aanleiding van AIVD/MIVD-advies van 10 juli 2026.
+
 Oude /regio routes voor Maastricht, Heerlen, Sittard, Geleen, Roermond en Venlo verwijzen permanent naar de nieuwe canonicals. Niet-Limburgroutes worden niet als actuele dekking gepubliceerd.

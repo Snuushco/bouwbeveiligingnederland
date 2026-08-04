@@ -23,6 +23,13 @@ const boundaries = [
   "Uitvoering start alleen na een afzonderlijke opdracht en operationele haalbaarheidscontrole.",
 ];
 
+const fitChecks = [
+  "Er is één concrete bouwlocatie in Limburg met een komende sluitings-, vakantie- of faseoverdracht.",
+  "De projectverantwoordelijke kan toegang geven en de huidige maatregelen toelichten.",
+  "Er blijven materialen, machines of installaties achter waarvoor toegang, opslag of opvolging moet worden beoordeeld.",
+  "De vraag is eerst een onafhankelijk locatiebeeld; directe inzet of installatie valt buiten deze scan.",
+];
+
 export default function BouwvakRisicoscanReviewPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
@@ -104,6 +111,40 @@ export default function BouwvakRisicoscanReviewPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-16 sm:px-6">
+        <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.16em] text-orange-600">Past deze scan?</p>
+            <h2 className="mt-3 text-3xl font-black">Vier checks vóór een aanvraag</h2>
+            <p className="mt-4 max-w-3xl leading-7 text-slate-700">
+              De vaste scope is bedoeld om snel tot een bruikbaar locatiebesluit te komen. Als één
+              van deze punten niet geldt, is eerst een maatwerkintake nodig.
+            </p>
+            <ul className="mt-7 grid gap-3">
+              {fitChecks.map((item) => (
+                <li key={item} className="flex gap-3 border border-slate-200 bg-white p-4 shadow-sm">
+                  <span aria-hidden="true" className="font-black text-orange-600">✓</span>
+                  <span className="leading-7 text-slate-700">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <aside className="border-2 border-orange-500 bg-orange-50 p-7">
+            <p className="text-sm font-bold uppercase tracking-[0.16em] text-orange-700">Acceptatie vóór start</p>
+            <h2 className="mt-3 text-2xl font-black">Geen automatische boeking</h2>
+            <p className="mt-4 leading-7 text-slate-700">
+              Praesidion bevestigt eerst locatie, bereikbaarheid, scope en capaciteit. De scan start
+              pas na een afzonderlijke opdrachtbevestiging en aantoonbare betaling via de
+              goedgekeurde zakelijke route.
+            </p>
+            <p className="mt-4 text-sm leading-6 text-slate-600">
+              Een intake, reactie of gedeelde betaalroute is nog geen opdracht of betaalbewijs.
+            </p>
+          </aside>
         </div>
       </section>
 

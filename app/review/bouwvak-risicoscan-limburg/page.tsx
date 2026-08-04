@@ -27,7 +27,7 @@ const fitChecks = [
   "Er is één concrete bouwlocatie in Limburg met een komende sluitings-, vakantie- of faseoverdracht.",
   "De projectverantwoordelijke kan toegang geven en de huidige maatregelen toelichten.",
   "Er blijven materialen, machines of installaties achter waarvoor toegang, opslag of opvolging moet worden beoordeeld.",
-  "De vraag is eerst een onafhankelijk locatiebeeld; directe inzet of installatie valt buiten deze scan.",
+  "De vraag is eerst een afzonderlijk locatiebeeld; directe inzet of installatie valt buiten deze scan.",
 ];
 
 export default function BouwvakRisicoscanReviewPage() {

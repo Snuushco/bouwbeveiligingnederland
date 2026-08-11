@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bouwvak Risicoscan Limburg | Reviewconcept",
+  title: "Bouwfase Risicoscan Limburg | Reviewconcept",
   description:
-    "Reviewconcept voor een vaste bouwplaats-risicoscan rond de bouwvak: locatiebezoek, actieplan en uitvoeringsvoorstel.",
+    "Reviewconcept voor een vaste bouwplaats-risicoscan bij stilstand, herstart of faseoverdracht: locatiebezoek, actieplan en uitvoeringsvoorstel.",
   robots: { index: false, follow: false, noarchive: true },
 };
 
@@ -24,9 +24,9 @@ const boundaries = [
 ];
 
 const fitChecks = [
-  "Er is één concrete bouwlocatie in Limburg met een komende sluitings-, vakantie- of faseoverdracht.",
+  "Er is één concrete bouwlocatie in Limburg met een komende stilstand, herstart of faseoverdracht.",
   "De projectverantwoordelijke kan toegang geven en de huidige maatregelen toelichten.",
-  "Er blijven materialen, machines of installaties achter waarvoor toegang, opslag of opvolging moet worden beoordeeld.",
+  "Er blijven materialen, machines of installaties achter, of er komen nieuwe waarden binnen, waarvoor toegang, opslag of opvolging moet worden beoordeeld.",
   "De vraag is eerst een afzonderlijk locatiebeeld; directe inzet of installatie valt buiten deze scan.",
 ];
 
@@ -39,15 +39,15 @@ export default function BouwvakRisicoscanReviewPage() {
             Reviewconcept · niet indexeren · nog niet boekbaar
           </p>
           <p className="mt-8 text-sm font-bold uppercase tracking-[0.18em] text-orange-300">
-            Bouwvak Risicoscan Limburg
+            Bouwfase Risicoscan Limburg
           </p>
           <h1 className="mt-4 max-w-4xl text-4xl font-black leading-tight sm:text-6xl">
-            Leg kwetsbare bouwfasen vóór stilstand praktisch vast.
+            Leg risico’s bij stilstand, herstart of faseoverdracht praktisch vast.
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-200">
-            Een vaste locatiecheck voor aannemers en projectverantwoordelijken die rond de
-            bouwvak extra materiaal op locatie hebben, met minder bezetting werken of een
-            overdracht tussen bouwfasen voorbereiden.
+            Een vaste locatiecheck voor aannemers en projectverantwoordelijken die na een
+            rustige periode herstarten, nieuwe materialen ontvangen of een overdracht tussen
+            bouwfasen voorbereiden.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="border border-white/15 bg-white/5 p-5">

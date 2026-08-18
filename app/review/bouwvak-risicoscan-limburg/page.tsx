@@ -9,11 +9,18 @@ export const metadata: Metadata = {
 };
 
 const deliverables = [
-  "Voorbespreking van 30 minuten over projectfase, planning en waardevolle materialen.",
+  "Voorbespreking van 30 minuten over projectfase, planning, levermomenten en waardevolle materialen.",
   "Locatieronde van maximaal 90 minuten op één bouwplaats in Limburg.",
   "Controle van toegangspunten, opslag, verlichting, sluitronde en escalatieafspraken.",
-  "Beknopt actieplan met de tien belangrijkste maatregelen, geordend op urgentie.",
+  "Beknopt top-10 actieplan: per maatregel de urgentie, eerstvolgende actie en verantwoordelijke rol.",
   "Bespreking van het actieplan en een apart voorstel voor eventuele uitvoering.",
+];
+
+const preparationItems = [
+  "Actuele bouwfase en geplande start, herstart of overdracht.",
+  "Leveringen en materialen met verhoogde waarde in de komende veertien dagen.",
+  "Toegangspunten, sleutel- of pasbeheer en afspraken buiten werktijd.",
+  "Bestaande camera-, licht-, hekwerk-, sluitronde- en escalatiemaatregelen.",
 ];
 
 const boundaries = [
@@ -110,6 +117,28 @@ export default function BouwvakRisicoscanReviewPage() {
                 <p className="mt-3 leading-7 text-slate-700">{copy}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-slate-200 bg-white px-4 py-14 sm:px-6">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-bold uppercase tracking-[0.16em] text-orange-600">Voorbereiding zonder rapportenbundel</p>
+          <div className="mt-5 grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <h2 className="text-3xl font-black">Vier punten die de locatieronde versnellen</h2>
+              <p className="mt-4 leading-7 text-slate-700">
+                Een mondelinge toelichting en beschikbare projectinformatie volstaan. Deel geen
+                persoonsgegevens of beveiligingscodes via het openbare intakeformulier.
+              </p>
+            </div>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {preparationItems.map((item) => (
+                <li key={item} className="border border-slate-200 bg-slate-50 p-4 leading-7 text-slate-700">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

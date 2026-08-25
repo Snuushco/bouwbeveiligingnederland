@@ -37,6 +37,12 @@ const fitChecks = [
   "De vraag is eerst een afzonderlijk locatiebeeld; directe inzet of installatie valt buiten deze scan.",
 ];
 
+const fixedFeeValue = [
+  "Een vooraf begrensde locatieronde en een concreet top-10 actieplan voor de afgesproken vaste prijs.",
+  "Acties blijven bruikbaar wanneer u de uitvoering zelf organiseert of bij een andere partij onderbrengt.",
+  "Geen verplichte vervolgafname van beveiligers, surveillance, camera-opvolging of installaties.",
+];
+
 export default function BouwvakRisicoscanReviewPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
@@ -136,6 +142,29 @@ export default function BouwvakRisicoscanReviewPage() {
               {preparationItems.map((item) => (
                 <li key={item} className="border border-slate-200 bg-slate-50 p-4 leading-7 text-slate-700">
                   {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-slate-200 bg-white px-4 py-14 sm:px-6">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-bold uppercase tracking-[0.16em] text-orange-600">Waarde van de vaste scan</p>
+          <div className="mt-5 grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <h2 className="text-3xl font-black">Een betaald locatiebeeld zonder verplichte vervolgafname</h2>
+              <p className="mt-4 leading-7 text-slate-700">
+                De scan levert een afzonderlijk besluitdocument op. Een eventueel uitvoeringsvoorstel
+                volgt pas op verzoek en staat los van de scanopdracht.
+              </p>
+            </div>
+            <ul className="grid gap-3">
+              {fixedFeeValue.map((item) => (
+                <li key={item} className="flex gap-3 border border-slate-200 bg-slate-50 p-4">
+                  <span aria-hidden="true" className="font-black text-orange-600">✓</span>
+                  <span className="leading-7 text-slate-700">{item}</span>
                 </li>
               ))}
             </ul>

@@ -43,6 +43,21 @@ const fixedFeeValue = [
   "Geen verplichte vervolgafname van beveiligers, surveillance, camera-opvolging of installaties.",
 ];
 
+const decisionMoments = [
+  [
+    "Vóór start of herstart",
+    "Toets toegang, tijdelijke verkeersstromen, nieuwe leveringen en afspraken voor de eerste avond of het eerste weekend.",
+  ],
+  [
+    "Bij faseoverdracht",
+    "Leg vast welke hekken, sleutels, zones, materialen en escalatieafspraken veranderen tussen uitvoerende partijen.",
+  ],
+  [
+    "Vóór stilstand",
+    "Bepaal wat achterblijft, wie sluit en controleert, en welke afwijking direct opvolging nodig heeft.",
+  ],
+];
+
 export default function BouwvakRisicoscanReviewPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
@@ -122,6 +137,24 @@ export default function BouwvakRisicoscanReviewPage() {
                 <h2 className="mt-3 text-xl font-black">{title}</h2>
                 <p className="mt-3 leading-7 text-slate-700">{copy}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-slate-200 bg-white px-4 py-14 sm:px-6">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-bold uppercase tracking-[0.16em] text-orange-600">Kies het juiste scanmoment</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-black">Maak de fasewissel concreet vóór de situatie verandert</h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-700">
+            De scan is het bruikbaarst wanneer de eerstvolgende wijziging in toegang, levering of bezetting al bekend is.
+          </p>
+          <div className="mt-7 grid gap-4 md:grid-cols-3">
+            {decisionMoments.map(([title, copy]) => (
+              <article key={title} className="border border-slate-200 bg-slate-50 p-5">
+                <h3 className="text-xl font-black">{title}</h3>
+                <p className="mt-3 leading-7 text-slate-700">{copy}</p>
+              </article>
             ))}
           </div>
         </div>
